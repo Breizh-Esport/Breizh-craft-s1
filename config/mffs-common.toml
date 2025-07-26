@@ -31,7 +31,7 @@
 [coercion_deriver]
 	#FE to convert into 1 Fortron
 	#Range: > 1
-	feCostPerFortron = 400
+	feCostPerFortron = 40
 	#FE to subtract when converting Fortron to FE
 	#Range: > 0
 	fortronToFeLoss = 1
