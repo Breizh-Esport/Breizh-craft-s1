@@ -1,0 +1,973 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "advanced_storage"
+	group: "4CB4EEA3591AD759"
+	icon: "refinedstorage:creative_controller"
+	id: "000000000000011B"
+	images: [
+		{
+			height: 6.5d
+			image: "litv3:textures/misc/storage2.png"
+			rotation: 0.0d
+			width: 11.504424778761063d
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.0d
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.0d
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			height: 1.7d
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			color: 0
+			height: 2.0d
+			image: "kubejs:item/icon_rocket"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			height: 4.0d
+			image: "refinedstorage:block/controller/cutouts/cyan"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			height: 1.7d
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: 5.5d
+			y: -3.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "0000000000000279"
+			rewards: [{
+				id: "6FE5924C9B3A8048"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000027A"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			title: "Fer Enrichi au Quartz"
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			description: ["Bienvenue dans la silicon valley. "]
+			disable_toast: true
+			id: "000000000000027B"
+			rewards: [{
+				id: "0B4609C808248F8A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000027C"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			title: "Silicone"
+			x: 7.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"000000000000027B"
+				"0000000000000279"
+				"0000000000000289"
+			]
+			description: [
+				"Le Controller est le coeur de votre système Refined Storag. Un seul Controller est nécessaire par réseau et c'est le point par lequel vous allimentez le système en énergie."
+				"Il peut être coloré via un clic droit avec un colorant ou en pla_ant le controller avec un colorant dans un établi. On peut faire la même chose avec de nombreuses machines de ce mod (Regardez JEU pour connaitre toutes les variations)."
+			]
+			id: "000000000000027D"
+			rewards: [
+				{
+					id: "5D1F091A15CB0F05"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E683881810FAB84"
+					table_id: 2581585967323693493L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000027E"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Controleur"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["000000000000027D"]
+			description: [
+				"La Grid vous permet d'accéder à votre l'inventaire de stockage de votre réseau. Ici vous pouvez voir quels objets et liquides sont stockés dans votre système."
+				"La fonctionnalité de recherche fonctione comme avec JEI."
+			]
+			id: "000000000000027F"
+			rewards: [{
+				id: "02CB50CB5A49A1FC"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000280"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			title: "Grille"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["000000000000027F"]
+			description: ["La Crafting Grid fonctionne comme la grille standard mais vous permet également de fabriquer à partir des objets dans votre réseau. Pas besoin d'avoir les objets dans votre inventaire, ils sont directement pris dans votre réseau lorsque vous l'utilisez avec JEI."]
+			id: "0000000000000281"
+			rewards: [{
+				id: "6E5A186D1C452992"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000282"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			title: "Grille de fabrication"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			description: ["Le Processor binding est la colle derrière tout les processeurs de Refined Storage."]
+			id: "0000000000000283"
+			rewards: [{
+				id: "3BB9AD2C3AAF3633"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000284"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			title: "Liant à processeur"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000283"]
+			description: ["Le processeur le plus basique, l'intel pentium de votre grand mère."]
+			id: "0000000000000285"
+			rewards: [{
+				id: "441F3F29E3C69F7B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0000000000000286"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "4F0D462C463CB0A0"
+					item: "refinedstorage:raw_basic_processor"
+					type: "item"
+				}
+			]
+			title: "Processeur basique"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0000000000000283"]
+			description: ["Un processeur moyen... un i5 en gros."]
+			id: "0000000000000287"
+			rewards: [{
+				id: "59B4EF3075887C36"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0000000000000288"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "3187B2540452408C"
+					item: "refinedstorage:raw_improved_processor"
+					type: "item"
+				}
+			]
+			title: "Processeur amélioré"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0000000000000283"]
+			description: ["Le processeur le plus avancé que vous pouvez faire, un bon i9."]
+			id: "0000000000000289"
+			rewards: [{
+				id: "518895761EE90009"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "000000000000028A"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+				{
+					id: "607EB6EFF17B9E2F"
+					item: "refinedstorage:raw_advanced_processor"
+					type: "item"
+				}
+			]
+			title: "Processeur avancé"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00000000000002C4"]
+			description: ["Un disque de stockage pouvant contenir 4000 objets."]
+			id: "000000000000028B"
+			rewards: [{
+				id: "03B7F41AFF2B5D04"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000028C"
+				item: "refinedstorage:4k_storage_disk"
+				type: "item"
+			}]
+			title: "Disque de Stockage 4K"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000002C4"]
+			description: ["Un disque de stockage pouvant contenir 16,000 objets."]
+			id: "000000000000028F"
+			rewards: [{
+				id: "2307FB4919F4DC5F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000290"
+				item: "refinedstorage:16k_storage_disk"
+				type: "item"
+			}]
+			title: "Disque de Stockage 16K"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00000000000002C4"]
+			description: ["Un disque de stockage pouvant contenir 256.000 mB (256 sceaux) de liquide."]
+			id: "0000000000000291"
+			rewards: [{
+				id: "098E4445E45FDAA7"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000292"
+				item: "refinedstorage:256k_fluid_storage_disk"
+				type: "item"
+			}]
+			title: "Disque de Stockage de Fluides 256K"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000002C4"]
+			description: ["Un disque de stockage pouvant contenir  1.024.000 mB (1024 sceaux) de liquide."]
+			id: "0000000000000293"
+			rewards: [{
+				id: "6B131949BC1C1C45"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000294"
+				item: "refinedstorage:1024k_fluid_storage_disk"
+				type: "item"
+			}]
+			title: "Disque de Stockage de Fluides 1024K"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00000000000002C4"]
+			description: ["Un disque de stockage pouvant contenir  4.096.000 mB (4096 sceaux) de liquide. Le plus grand disque de stockage de liquide disponible."]
+			id: "0000000000000295"
+			rewards: [{
+				id: "3410B23275F39C0F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000296"
+				item: "refinedstorage:4096k_fluid_storage_disk"
+				type: "item"
+			}]
+			title: "Disque de Stockage de Fluides 4096K"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000002C4"]
+			description: ["Un disque de stockage pouvant contenir 64000 objets. Le plus grand disque disponible."]
+			id: "0000000000000297"
+			rewards: [{
+				id: "6D9D0F24F10DF84D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000298"
+				item: "refinedstorage:64k_storage_disk"
+				type: "item"
+			}]
+			title: "Disque de Stockage 64K"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["000000000000027D"]
+			description: ["Les Cables permettent de relier les différentes parties de votre réseau. Ils ne sont pas toujours nécessaires, les machines placés les unes à côtés des autres sont naturellement reliés."]
+			id: "0000000000000299"
+			rewards: [{
+				id: "474F3572E8571BA4"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000029A"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000299"]
+			description: ["L'Exporter exporte les objets et fluides DEPUIS votre réseau et les INSERT dans la machine ou l'inventaire auquel il est connecté."]
+			id: "000000000000029B"
+			rewards: [{
+				id: "53A3EC42E4549749"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000029C"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			title: "Exporteur"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000299"]
+			description: ["L'Importer importe les objets et les fluides DANS votre réseau A PARTIR d'un inventaire ou d'une machine."]
+			id: "000000000000029D"
+			rewards: [{
+				id: "55CD3D50FE425F47"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000029E"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			title: "Importeur"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000299"]
+			description: ["L'External Storage peut relier les inventaires externes au réseau (comme un coffre par exemple)."]
+			id: "000000000000029F"
+			rewards: [{
+				id: "75F2871664E6EB86"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002A0"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			title: "Stockage externes"
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000299"]
+			description: ["Le Storage Monitor montre la quantité actuelle d'un objet ou d'un liquide dans votre stockage. L'objet est défini avec un shift clic-droit sur le bloc."]
+			id: "00000000000002A1"
+			rewards: [{
+				id: "629BD452886A7276"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002A2"
+				item: "refinedstorage:storage_monitor"
+				type: "item"
+			}]
+			title: "Moniteur de stockage"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["000000000000027F"]
+			description: [
+				"Une grille portalbe qui peut être utilisée pour accéder à votre stockage en dehors de votre réseau. Peut être placée et utilisée (shift clic-droit pour la placer) ou utilisée directement depuis votre inventaire."
+				"Doit être rechargée dans un bloc de recharge."
+			]
+			id: "00000000000002A3"
+			rewards: [{
+				id: "6A15BF1179882677"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002A4"
+				item: {
+					Count: 1
+					id: "refinedstorage:portable_grid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Grille portable"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["000000000000027F"]
+			description: ["La Fluid Grid permet de consulter les liquides présents dans votre réseau, ainsi que d'en ajouter ou d'en retirer. Si vous avez un sceau dans votre inventaire, lorsque vous cliquez sur un liquide il sera rempli, sinon la grille essayera de trouver un sceau dans votre réseau."]
+			id: "00000000000002A5"
+			rewards: [{
+				id: "12F5528A0E1595D1"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002A6"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			title: "Grille de liquides"
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["000000000000027F"]
+			description: [
+				"La Pattern Grid permet la création de patterns utilisés dans les crafters. Vous aurrez besoin de charger des Blank Patterns pour l'utiliser."
+				"En plaçant les objets utilisés dans une recettes dans la grille de frabrication, et en appuyant sur la flèche à droite, avec un un pattern vide chargé, cela défini le pattern de cette recette. "
+			]
+			id: "00000000000002A7"
+			rewards: [{
+				id: "1ED5FA7477474B6F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002A8"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			title: "Grille de patternes"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00000000000002AB"]
+			description: ["Le Crafter Manager montre tout les patterns chargés dans un réseau."]
+			id: "00000000000002A9"
+			rewards: [{
+				id: "6DBF3121E8F80BFB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002AA"
+				item: "refinedstorage:crafter_manager"
+				type: "item"
+			}]
+			title: "Gestionnaire de fabricateur"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00000000000002A7"]
+			description: ["Le Crafter peut concevoir des recettes avec des patterns. Une fois qu'un pattern est chargé, la recette de l'objet s'affiche comme étant \"commandable\" dans les grilles."]
+			id: "00000000000002AB"
+			rewards: [{
+				id: "6EB4FBA8F792C03D"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "00000000000002AC"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			title: "Fabricateur"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00000000000002A7"]
+			description: ["Un pattern vide utilisé dans la Pattern Grid."]
+			id: "00000000000002AD"
+			rewards: [{
+				id: "4E1179D4A978030B"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002AE"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["00000000000002C4"]
+			description: ["Une Security Card peut être reliée à un jouer avec un clic-droit en ayant la carte en main."]
+			id: "00000000000002AF"
+			rewards: [{
+				id: "4CEA95CC7A4A4657"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002B0"
+				item: "refinedstorage:security_card"
+				type: "item"
+			}]
+			title: "Carte d'accès"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00000000000002AF"]
+			description: ["En inserant une Security Card dans le Security Manager, les permissions d'un joueur peuvent être définie pour un réseau. Une Security Card non reliée donnera des permissions pour toutes les personnes n'ayant pas de permissions précises."]
+			id: "00000000000002B1"
+			rewards: [{
+				id: "208C3E56C3DC55C2"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002B2"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
+			title: "Gestionnaire de sécurité"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00000000000002A1"]
+			description: ["Cet objet basique permet de créer toutes les autres cartes d'amélioration. Toutes cartes d'améloiration augmente la consommation électrique de l'appareil."]
+			id: "00000000000002B3"
+			rewards: [{
+				id: "692B0641BB121A94"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002B4"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			title: "Amélioration"
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00000000000002B3"]
+			description: ["La Stack Upgrade permet de bouger les objets stak par stack au lieu de se faire un par un."]
+			id: "00000000000002B5"
+			rewards: [{
+				id: "486613692D1B9841"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002B6"
+				item: "refinedstorage:stack_upgrade"
+				type: "item"
+			}]
+			title: "Amélioration de stack"
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000002B3"]
+			description: ["La Speed Upgrade augmente la vitesse de l'appareil dans lequel elle est insérée."]
+			id: "00000000000002B7"
+			rewards: [{
+				id: "08287DADC56C22C8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002B8"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			title: "Amélioration de vitesse"
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["000000000000027F"]
+			description: ["Le Wireless Transmitter est utilisé pour router sans fil les objets dans un réseau. Il peut être utilisé pour accéder sans fil à un réseau et connecter des parties d'un réseau sans fil. Il a une portée de base de 16 blocs mais peut être amélioré."]
+			id: "00000000000002B9"
+			rewards: [{
+				id: "67D4B8B361DBF9E8"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002BA"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			title: "Transmetteur sans fils"
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["00000000000002B9"]
+			description: ["A range upgrade for the Wireless Transmitter. Will increase power draw."]
+			id: "00000000000002BB"
+			rewards: [{
+				id: "5FE3259CADA5D481"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002BC"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["00000000000002B9"]
+			description: ["Une version sans fils de la grille de fluides pour accéder à votre réseau lors de vos déplacements. Doit être rechargé pour fonctionner et doit être à portée d'un wireless transmitter."]
+			id: "00000000000002BD"
+			rewards: [{
+				id: "460620291A39FCAB"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002BE"
+				item: "refinedstorage:wireless_fluid_grid"
+				type: "item"
+			}]
+			title: "Grille de fluide sans fils"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00000000000002B9"]
+			description: ["Une version sans fils de la Crafting Grid pour continuer à fabriquer lors de vos déplacements. Doit être rechargé pour fonctionner et doit être à portée d'un wireless transmitter."]
+			id: "00000000000002BF"
+			rewards: [{
+				id: "2A51231FE8FABABA"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6F09D73990CE4212"
+				item: "refinedstorage:wireless_crafting_monitor"
+				type: "item"
+			}]
+			title: "Grille de fabrication sans fils"
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00000000000002B9"]
+			description: ["Permet la connection sans fils à un réseau. Le chunk du Controller du système doit resté chargé pour fonctionner."]
+			id: "00000000000002C1"
+			rewards: [{
+				id: "650D1D34F47041CC"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "00000000000002C2"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+				{
+					id: "00000000000002C3"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+				{
+					id: "6CB6BD05B5FCB911"
+					item: "refinedstorage:network_card"
+					type: "item"
+				}
+			]
+			title: "Transmetteur et recepteur réseau"
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["000000000000027D"]
+			description: ["Le Disk Drive est un stockage où les disques sont connectés pour permettre de stocker les objets numériquement dans votre réseau."]
+			id: "00000000000002C4"
+			rewards: [{
+				id: "01DDAB34F94CF727"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000002C5"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			title: "Lecteur de disques"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000299"]
+			description: ["Le Detector émet un signal de redstone lorsqu'un type d'objet ou un liquide atteint une certain quantitée dans votre réseau. Les quantitées de liquides sont en mB."]
+			id: "0000000000001156"
+			rewards: [{
+				id: "5966A5A818416625"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000001157"
+				item: "refinedstorage:detector"
+				type: "item"
+			}]
+			title: "Détecteur"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000299"]
+			description: [
+				"Un constructor peut placer des blocs dans le monde à partir de votre réseau. Il peut aussi lâcher des objets dans le monde."
+				"Une Stack Upgrade lui fera lâcher des stacks d'objets."
+			]
+			id: "0000000000001158"
+			rewards: [{
+				id: "7698AA1FF61D1233"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000001159"
+				item: "refinedstorage:constructor"
+				type: "item"
+			}]
+			title: "Constructeur"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000299"]
+			description: ["Le Destructor casse les objets et les places dans le réseau. Il peut aussi ramasser les objets en face de lui."]
+			id: "000000000000115A"
+			rewards: [{
+				id: "4EA35E8B0EFC8528"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000115B"
+				item: "refinedstorage:destructor"
+				type: "item"
+			}]
+			title: "Destructeur"
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000002B3"]
+			description: ["La Crafting Upgrade permet de planifier des tâches de fabrication alors que la machine est occupée."]
+			id: "000000000000115E"
+			rewards: [{
+				id: "617D8AC08D329922"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000115F"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			title: "Amélioration de fabrication"
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000002B3"]
+			description: ["La Regulator Upgrade peut être insérée dans un Exporter pour permettre de conserver des objets en stock dans le réseau."]
+			id: "0000000000001160"
+			rewards: [{
+				id: "1A2042901251325D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000001161"
+				item: "refinedstorage:regulator_upgrade"
+				type: "item"
+			}]
+			title: "Amélioration de régulation"
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000002B3"]
+			description: ["La Fortune Upgrade (qui est disponible en 3 niveaux) donne des niveaux de fortune au Destructor."]
+			id: "0000000000001162"
+			rewards: [{
+				id: "74B42AFC6F7F2A05"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000001163"
+				item: "refinedstorage:fortune_1_upgrade"
+				type: "item"
+			}]
+			title: "Amélioration fortune"
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000002B3"]
+			description: ["La Silk Touch Upgrade donne au Destructor l'enchantement toucher de soie."]
+			id: "0000000000001164"
+			rewards: [{
+				id: "345B63AE98CBD62B"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000001165"
+				item: "refinedstorage:silk_touch_upgrade"
+				type: "item"
+			}]
+			title: "Amélioration de toucher de soie"
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1B715D36C517F53F"
+				"00000000000002AB"
+			]
+			description: [""]
+			id: "1A325E400F4896F4"
+			rewards: [
+				{
+					id: "3CD15B8853A7937F"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "43C8CB7FC6AA5BC5"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "gear_important"
+			size: 1.5d
+			subtitle: "&2To the Moon chapter unlocked&r"
+			tasks: [{
+				id: "515F3F7395E2E5B8"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "Etabli de l'ESA"
+			x: 2.0d
+			y: 6.5d
+		}
+	]
+	title: "5. &9Stockage avancé&r"
+}

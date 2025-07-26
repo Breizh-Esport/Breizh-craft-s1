@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "ad_astra:iron_plates"
+    },
+    "|": {
+      "item": "immersiveengineering:stick_iron"
+    },
+    "T": {
+      "item": "pneumaticcraft:small_tank"
+    },
+    "C": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    }
+  },
+  "pattern": [
+    " | ",
+    "CTC",
+    "###"
+  ],
+  "result": {
+    "item": "ad_astra:gas_tank"
+  },
+  "show_notification": true
+}

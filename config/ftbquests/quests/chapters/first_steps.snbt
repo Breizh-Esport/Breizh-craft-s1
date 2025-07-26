@@ -1,0 +1,1143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "first_steps"
+	group: "4CB4EEA3591AD759"
+	icon: {
+		Count: 1
+		id: "natprog:flint_hatchet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0000000000000002"
+	images: [
+		{
+			alpha: 150
+			height: 2.0d
+			image: "kubejs:item/icon_pick"
+			rotation: -90.0d
+			width: 2.0d
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			alpha: 150
+			height: 2.0d
+			image: "kubejs:item/icon_cooking"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			alpha: 150
+			height: 2.0d
+			image: "kubejs:item/icon_fight"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			alpha: 150
+			height: 2.0d
+			image: "kubejs:item/icon_furnace"
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			alpha: 200
+			height: 1.8929088277858175d
+			image: "litv3:textures/misc/first_steps.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 16.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"- Les &2Leaves&r (feuilles) peuvent être cassés sans outils pour récupérer des sticks (batons) (C'est une fonctionnalité vanilla mais qui va être très utile pour le début)."
+				""
+				"- Les &7Sticks&r (batons) peuvent aussi être ramassés au sol depuis des tas de branches en faisant clic droit dessus."
+				""
+				"- Le &8Flint&r (silex) s'obtient en ramassant les Pebbles de n'importe quel type au sol. En tenant un Pebble dans chaque main (placer un pebble dans l'emplacement de bouclier dans l'inventaire) et en maintenant clic droit, cela va frapper les pierres entre elle pour essayer de fabriquer un &8Flint&r."
+				""
+				"Une &4Flint Hatchet&r vous permet de récupérer vos premiers blocs de bois pour fabriquer la crafting table (établi)."
+				""
+				"Pour fabriquer des planches, placez la &4Hatchet&r dans la fenêtre de craft de l'inventaire avec un &n&cStripped Log&r&r (bûche écorcée). Les &n&cStripped Log&r&r son fabriqués en faisant clique droit avec la &4Hatchet&r sur du bois dans le monde."
+			]
+			id: "0000000000000003"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000000465"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1509B27B0D265017"
+					item: "minecraft:apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000000004"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3948140C66C9D713"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:pebbles"
+						}
+					}
+					title: "Any #forge:pebbles"
+					type: "item"
+				}
+				{
+					id: "704796FEC7176415"
+					item: {
+						Count: 1
+						id: "natprog:flint_hatchet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Couper du bois"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CC1163904415114"]
+			description: ["Ce four est une première étape mais il ne permet pas encore de faire fondre des métaux."]
+			id: "000000000000002C"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000000144"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "0000000000000145"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000002D"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Le four"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000003"]
+			description: [
+				"La &4Crafting Table&r (établi) permettra de faire beaucoup de recettes complexe."
+				""
+				"Vous pouvez ajouter une recette en favoris. Pour cela passez la souris sur un objet dans l'inventaire ou dans le menu JEI (la liste des objets à droite de l'inventaire) et appuyez sur A. Vous verrez apparaitre à gauche de l'inventaire la liste des recettes en favoris."
+				""
+				"Vous pouvez essayer avec votre hache car il vous en faudra quelques unes !"
+			]
+			icon: "minecraft:crafting_table"
+			id: "0000000000000030"
+			rewards: [
+				{
+					id: "51F6F6898F97953E"
+					item: "minecraft:oak_door"
+					type: "item"
+				}
+				{
+					id: "219013C5EF18E375"
+					item: "workshop_for_handsome_adventurer:simple_table_oak"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000000031"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "01A0EC70DF9C5087"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Any #minecraft:planks"
+					type: "item"
+				}
+			]
+			title: "L'établi"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C2DCA3DA97C5C3B"]
+			id: "0000000000000042"
+			rewards: [{
+				id: "1220E6B66311E4B5"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 135L
+					id: "18DFC57A68AA1F75"
+					item: "kubejs:fireclay_brick"
+					type: "item"
+				}
+				{
+					count: 162L
+					id: "414CC8B50ED01470"
+					item: "minecraft:brick"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "14992362672090CB"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+			]
+			title: "Cuisson des briques"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00000000000014E2"]
+			description: ["Il va vous en falloir beaucoup..."]
+			id: "0000000000000045"
+			rewards: [
+				{
+					id: "0000000000000175"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "790C7F39DA62040E"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000046"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Enfin du fer"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000045"]
+			description: ["C'est ici que tout commence vraiment."]
+			id: "0000000000000056"
+			rewards: [
+				{
+					id: "0000000000000060"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+				{
+					id: "000000000000014A"
+					item: "minecraft:item_frame"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000057"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Les choses sérieuses"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000056"]
+			description: ["Ca sert à plein de trucs !"]
+			id: "0000000000000058"
+			rewards: [
+				{
+					id: "130AA973B7F65BE4"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "44248AFA28F6F539"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000000059"
+					item: "immersiveengineering:plate_iron"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "27EF64B3ECA99B4A"
+					item: "immersiveengineering:plate_copper"
+					type: "item"
+				}
+			]
+			title: "Des plaques"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000000000000058"
+				"0000000000000042"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Faites un cube de 3x3x3 avec les Coke Brick puis faites un clic droit avec l'Engineer's Hammer pour faire un Coke Oven. Si vous n'êtes pas sur de ce que vous devez faire, lisez la note en haut à droite de cette quête."
+				""
+				"En plaçant du coal (charbon) dans le four vous obtiendrez du creosote oil."
+			]
+			icon: "immersiveengineering:cokebrick"
+			id: "000000000000005C"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "419E679787369FF8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				count: 27L
+				id: "000000000000005D"
+				item: "immersiveengineering:cokebrick"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Le Coke Oven"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000058"]
+			description: [
+				"Pour minuer des minerais dans la Deepslate (ardoise des abîmes) il vous faudra une pioche du niveau du &bdiamant&r."
+				""
+				"Il y a plusieurs options :"
+				""
+				"&41)&r trouver du diamant en minant au niveau de la pierre en dessous de la couche 15. Il est assez rare à ce niveau là donc il faudra probablement faire &oun peu&r de minage optimisé."
+				""
+				"&12)&r &aaméliorer&r une pioche de Tetra avec minage tier 5."
+				""
+				"&53)&r &cfaire exploser&r le &bminerais de diamant&r dans la &8deepslate&r"
+				""
+				"&94)&r trouver des geodes de Tetra (ça ressemble à de la &8deepslate&r mais avec un effet brillant comme le fait l'or) et la casser pour obtenir des &bdiamants&r ou des &3pristine diamond&r (qui se cassent en 3 diamants normaux)"
+				""
+				"&a5)&r aléatoirement via le sifter de &6Minecolonies&r (pas recommandé pour les premiers diamants)"
+				""
+				"&e6)&r aléatoirement dans les &5récompenses&r de donjons / structures"
+				""
+				"&47)&r en échangeant avec les &2villageois&r"
+				""
+				"&68)&r rarement en cassant une urn trouvable dans les grottes"
+			]
+			id: "0000000000000061"
+			rewards: [
+				{
+					id: "3DE96CFFE8E2EA95"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "0BDD06869D24A943"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "0000000000000062"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Mon précieux"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000058"]
+			description: ["On peut transporter plein de liquides avec ça !"]
+			id: "0000000000000073"
+			rewards: [{
+				id: "0000000000000182"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000074"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B1C0A1EAC1237B7"]
+			description: ["Le Blast Furnace va vous permettre de transformer les minerais en lingot."]
+			id: "00000000000014E2"
+			rewards: [
+				{
+					id: "55DAD9DEE7622F48"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5D063ACA12612495"
+					item: "workshop_for_handsome_adventurer:workstation_placer_oak"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00000000000014E3"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "Le Blast Furnace"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000002C"]
+			description: ["Le Smoker vous aidera à ne pas mourir de faim avant que vous puissiez faire votre première usine ! Il permet de faire cuire deux fois plus vite la nourriture par rapport à un four standard."]
+			id: "0B02FF3BDA40F2B5"
+			rewards: [{
+				id: "05E63EB345FAC638"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3F8E1A69149BFE0D"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27C56F118D65355C"]
+			description: ["Découvrez comment faire vos propres outils personnalisés ! Les marteaux et beaucoup d'autres outils peuvent être fait avec différents matériaux. Cliquez sur le marteau au dessus pour le découvrir."]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:pickaxe_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "071AD0BAC595B983"
+			rewards: [{
+				count: 3
+				id: "15573AA358FF0EDF"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&o&aDécouvrez la suite dans l'onglet \"Outils modulaires\"&r&r"
+			tasks: [{
+				id: "2BE3F591A35A4350"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "0e2bd288-18f9-4af3-8f1a-e6bab2b2f600"
+					}
+				}
+				type: "item"
+			}]
+			title: "Apprenti forgeron"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000030"]
+			description: ["Une scie basique qui permettra de fabriquer des planches de manière plus efficace par rapport à la hache."]
+			id: "442FCE18B8D9F365"
+			rewards: [{
+				id: "5B5FFEE1018EC7BD"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69DD1171584971EB"
+				item: {
+					Count: 1
+					id: "natprog:flint_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Scie-lex"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27C56F118D65355C"]
+			description: ["Une arme basique pour vous aider à vous protéger."]
+			id: "552DDC6A333AC9F3"
+			rewards: [
+				{
+					id: "4FD34DC7A670357F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "161CFAB452D98849"
+					item: "pneumaticcraft:bandage"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&o&aDécouvrez la suite dans l'onget \"Au combat !\"&r&r"
+			tasks: [{
+				id: "1936E9FF5F52B88F"
+				item: {
+					Count: 1
+					id: "kubejs:flint_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "S'armer"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27C56F118D65355C"]
+			description: [
+				"Le soin ne fonctionne pas comme dans Minecraft Vanilla. La nourriture offre une régénération lente."
+				""
+				"Les &4Healing Flasks&r sont des potions rechargeables qui soignent instentanément les dégats et peuvent contenir de une à sept charges en fonction de leur tier."
+				""
+				"Clic droit sur un &6campfire&r (feu de camp) ou un &6Flame Shrine&r permet de les recharger."
+				""
+				"Il y a trois tiers de Healing Flask qui peuvent être obtenus en améliorant la précédente avec des Flask Shards et d'autres matériaux."
+				""
+				"Les Flask Shards sont fabriqués avec de la Blaze Powder (poudre de Blaze) et des Amethyst Shards (éclat d'améthyste)."
+			]
+			id: "7516E82D481861D5"
+			rewards: [
+				{
+					count: 3
+					id: "01BB6F7812BEFFC0"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "615A3E5865B9304D"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "4F973F0AF4C6A21B"
+					item: {
+						Count: 1
+						id: "healingflasks:healing_flask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35488D6041DF0B4F"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Se soigner"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&9&n                                                  &r&9               "
+				"C'est la fin du premier chapitre de quêtes."
+				""
+				"Retournez dans l'onglet \"Aperçu de la progression\" pour voir les prochaines étapes !"
+				"&9&n                                                  &r&9               "
+			]
+			icon: "kubejs:help"
+			id: "5C1938D7658FA976"
+			rewards: [{
+				id: "341C4A08B6CD0E78"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "circle"
+			subtitle: "&9Final goals of quest chapter are completed!&r"
+			tasks: [{
+				id: "62AB0127CFA9C0E6"
+				title: "Progression Overview"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000073"]
+			description: [
+				"Pour continuer vous aurez besoin du Blast Furnace, qui nécessite des matériaux obtenu dans le Nether."
+				""
+				"Il est recommandé que vous ayez au moins une armure en fer et de quoi vous soigner avant d'entrer dans le Nether."
+			]
+			id: "2FF56076D4BCD060"
+			rewards: [
+				{
+					id: "5262493AB308D82C"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "181FF263A0C27780"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79A73D24957B4264"
+					item: "pneumaticcraft:bandage"
+					type: "item"
+				}
+			]
+			shape: "square_important"
+			size: 1.5d
+			subtitle: "Construire, allumer et rentrer dans le portail du Nether"
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "4AC95E4367435D7D"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000005C"]
+			dependency_requirement: "one_started"
+			description: ["Beaucoup d'options d'ingénierie s'ouvre à vous."]
+			id: "7EC97FF3249B658C"
+			rewards: [{
+				id: "35CA99CD7E191089"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			shape: "gear_important"
+			size: 1.5d
+			subtitle: "Mettre en place le multiblock du Coke Oven"
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "10489B302707C111"
+					type: "advancement"
+				}
+				{
+					id: "1ED4CC0E7C8B9121"
+					item: "immersiveengineering:creosote_bucket"
+					type: "item"
+				}
+			]
+			title: "Industrialisation"
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000073"]
+			id: "17D40C31AE0D09FD"
+			rewards: [{
+				id: "3B6B3E9660146B55"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&o&aDécouvrez la suite dans l'onglet \"Vivre pour manger\"&r&r"
+			tasks: [{
+				id: "1065A94C58810536"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "From pouler to gourmet"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7516E82D481861D5"
+				"09588577ED14C64E"
+			]
+			description: ["Même un simple four nécessite plus de matériaux."]
+			id: "2CC1163904415114"
+			rewards: [{
+				id: "5C1CA408C27BB527"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 5L
+					id: "6765A8969158DE8F"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3A2C2C18062F5AE6"
+					item: "kubejs:clay_brick_unfired"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6E3B7209EB853EAC"
+					item: "kubejs:clay_brick"
+					type: "item"
+				}
+			]
+			title: "Préparer le four"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59CA822E9EFB571D"]
+			description: ["Lancez la cuisson de cet alliage dans un four..."]
+			id: "0B1C0A1EAC1237B7"
+			rewards: [{
+				id: "52D70F9E3DB60F47"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13D169708FE444A0"
+				item: "kubejs:primitive_ingot"
+				type: "item"
+			}]
+			title: "Lingot primitif"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000002C"]
+			description: ["Mélangez ces matériaux enssemble pour le fondre en une sorte d'alliage primitif."]
+			id: "59CA822E9EFB571D"
+			rewards: [{
+				id: "25D02CCD43127368"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 5L
+					id: "7870CD35560C3ADB"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "278C660DFE1ADBDC"
+					item: "kubejs:clay_dust"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "66810860759D5533"
+					item: "railcraft:charcoal_dust"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "65F64A06E50954D9"
+					item: "kubejs:primitive_blend"
+					type: "item"
+				}
+			]
+			title: "Alliage primitif"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54FD7DBCB9A1D11A"]
+			id: "6C2DCA3DA97C5C3B"
+			rewards: [{
+				id: "40385A5CA3B57E4F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 270L
+					id: "0BB3DB18150A3821"
+					item: "kubejs:fireclay_brick_dust"
+					type: "item"
+				}
+				{
+					count: 135L
+					id: "4A722711AFA8AC3D"
+					item: "kubejs:fireclay_brick_unfired"
+					type: "item"
+				}
+			]
+			title: "Mouler les briques"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000000000000002C"]
+			description: ["La prochaine étape sera le Coke Oven. Commencez à praparer les matériaux car il va vous falloir beaucoup."]
+			id: "54FD7DBCB9A1D11A"
+			rewards: [{
+				id: "3F5BF7C1F9351EA5"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 90L
+					id: "375A697E7C6F7CE4"
+					item: "kubejs:clay_dust"
+					type: "item"
+				}
+				{
+					count: 90L
+					id: "7F28E87B50E843CB"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 90L
+					id: "0D259FC116C41AA1"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			title: "Opération côtière"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"La progression au début à volontairement été rendue plus &bdifficile&r pour renforcer un sentiment &6d'accomplissement&r et de &2satisfaction&r, même pour les petites étapes, &otel que la construction de votre premier four&r, et jusqu'à ce que vous arriviez à envoyer votre première fusée sur la lune."
+				""
+				"En plus de ralentir le début du jeu, d'autres recettes plus tard ont étés ajustés dans le but d'assurer une courbe de progression plus lisse et maintenir ce sentiment d'accomplissement tout au long de ce modpack."
+				""
+				"Cela devrais vous encourager a mettre en place des stratégies, trouver des solutions aux problèmes et permettre d'apprécier la découverte progressive des possibilitées."
+			]
+			icon: "kubejs:help"
+			id: "7EC6A23D14C2256F"
+			rewards: [{
+				id: "00345009008D75C2"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1186B49DD489C66C"
+				type: "checkmark"
+			}]
+			title: "Un début complexe"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000030"]
+			description: [
+				"Les &5Knives&r sont un hybride entre un outil et une arme. En tant qu'arme, le couteau tape plus vite qu'une épée mais fait moins de dégats."
+				""
+				"Les &5Knives&r permette de collecter des ressources sur les plantes et les animaux."
+				""
+				"- Tuer un animal avec donne la garantie d'obtenir son butin secondaire (plumes, cuir)."
+				"- Couper des plantes (herbes hautes, blé, riz), à une chance de donner du &2Straw&r."
+				""
+				"Quand utilisé avec une &2Cutting Board&r, le couteau permet d'obtenir des portions d'un ingrédient, essentiellement pour cuisiner."
+			]
+			id: "5D67117EDB491237"
+			rewards: [
+				{
+					id: "352DF36DF4EEB77E"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "06543027F38EAEDF"
+					item: "pneumaticcraft:bandage"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "70DAFABDF47104FF"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "203C95DFEA1DFBC9"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+			]
+			title: "...et mon couteau"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D67117EDB491237"]
+			description: [
+				"Pas très durable, mais c'est un début."
+				""
+				"N'essayez pas de faire des outils en bois, ils ne sont pas assez solides pour en faire quoi que ce soit."
+				"N'essayez pas non plus de faire des outils en pierre, ils ne sont pas assez affutés pour être utilisés. "
+				""
+				"La prochaine étape sera les outils en fer. En attendant les outils en silex sont la meilleure option à votre disposition."
+			]
+			id: "27C56F118D65355C"
+			rewards: [
+				{
+					id: "224029738F910BF3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "1A54237DBB706946"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E8FCB12ECD0BE42"
+				item: {
+					Count: 1
+					id: "kubejs:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Première pioche"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000030"]
+			description: [
+				"Pour fabriquer les briques nécessaires au four, il faudra fabriquer un moule pour les tenir en place."
+				"Pour cela vous aurez besoin d'une Cutting Board et de placer une planche dessus. Un clic avec le couteau en main permettra d'y découper un moule pour faire les briques."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:wooden_form"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "09588577ED14C64E"
+			rewards: [{
+				id: "73E774A7F96B08A3"
+				item: "pneumaticcraft:bandage"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0D649B4D1F662963"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "0B0C35BED94EC2BB"
+					item: {
+						Count: 1
+						id: "kubejs:wooden_form"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Moule a briques"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["000000000000002C"]
+			description: [
+				"Les capsules &5Capsules&r permettent d'enregistrer une région contenant des blocs ou des machines, puis de les déployer ou les ranger à volonté."
+				""
+				"Pour des besoins plus larges vous aurez besoin d'un block &nCapture Base&r. Vous pourrez enregistrer toute la zone au dessus de lui. Placez le en dessous de ce que vous voulez enregistrer ou placez le dans un espace vide et constuisez au dessus."
+				""
+				"En suite vous devrez fabriquer au moins une capsule vide."
+				""
+				"- Clic droit : Active la capsule"
+				"- Clic droit une fois activé : Lance la capsule"
+				"Une fois que le contenu à été enregistré la capsule peut être déployée ou récupérée à vonlonté."
+				""
+				"&6&nLa récompense est une maison de départ construite pour vous par Dreams.&r&r &6Vous pouvez choisir celle que vous voulez, vous en aurez d'autres plus tard pour compléter votre collection et même construire toute votre base à partir de ces maisons.&r&r Vous pouvez voir un aperçu dans l'onglet &lEchange de pièces&r."
+			]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					color: 8096694
+					size: 5
+					state: 0
+				}
+			}
+			id: "70FB0B0C962F4EC5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00C7550B2C95FA98"
+				table_id: 2581585967323693493L
+				type: "choice"
+			}]
+			subtitle: "(probablement) votre première maison !"
+			tasks: [{
+				id: "3CD15C202256F4B3"
+				title: "Base in a capsule"
+				type: "checkmark"
+			}]
+			title: "Une maison dans une capsule"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000058"]
+			id: "6C05D8CFDC755EE2"
+			rewards: [{
+				id: "6CCD369FBA70A833"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C382E510BEF2A25"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			title: "Stockage amélioré"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000061"]
+			description: ["Vous permet d'accomplir différentes tâches pour obtenir des récompenses!"]
+			id: "08B1C3783DFE5936"
+			rewards: [{
+				id: "550D150DCB86D615"
+				item: "kubejs:coin_task"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F8BE61045D26E5C"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			title: "Des quêtes dans des quêtes"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["000000000000005C"]
+			description: [
+				"Ce modpack utilise l'addon &eJEI Multiblock&r pour afficher comment constuire les machines d'&9Immersive Engineering&r."
+				""
+				"Appuyez sur '&4U&r' en passant la souris sur l'&1Engineer's Hammer&r et rendez-vous dans l'onglet &bMultiblock with Hammer&r' en haut de la &efenêtre JEI&r."
+			]
+			icon: "kubejs:help"
+			id: "40E4121029ACB63F"
+			rewards: [{
+				id: "73C6D8926772B639"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4691A6E7B95DCB5D"
+				title: "JEI Multiblocks"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+	]
+	title: "1. &aPremiers pas&r"
+}

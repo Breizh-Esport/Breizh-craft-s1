@@ -1,0 +1,1005 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "progression_stages"
+	group: ""
+	id: "2325EECA78B4E0AC"
+	images: [
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/arrow_collapsed.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			alpha: 180
+			height: 10.1d
+			image: "litv3:textures/misc/questinfo.png"
+			rotation: 0.0d
+			width: 8.414401076716016d
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			height: 6.309616888193901d
+			image: "litv3:textures/misc/po_chapter.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 23.0d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependency: "49250D827A91E3CE"
+			height: 2.0d
+			image: "simplehats:item/hats/fireworks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.5d
+			y: 3.0d
+		}
+		{
+			dependency: "49250D827A91E3CE"
+			height: 2.0d
+			image: "simplehats:item/hats/fireworks"
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.0d
+			y: 2.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 1.5d
+			x: 19.0d
+			y: 3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [
+		{
+			id: "3F8940D2B061D25D"
+			linked_quest: "00000000000001F2"
+			shape: "rsquare"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "020BE2769CD5F179"
+			linked_quest: "000000000000020C"
+			shape: "rsquare"
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "6F12A346E8BCFB68"
+			linked_quest: "0000000000000215"
+			shape: "rsquare"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			id: "174F58413C0B7DB7"
+			linked_quest: "00000000000000FD"
+			shape: "rsquare"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "5A9BE3694221AC66"
+			linked_quest: "68B37999BD32FC7F"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "14C825735FBEDFC1"
+			linked_quest: "000000000000073D"
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			id: "41F5062856C7F8F9"
+			linked_quest: "0000000000000616"
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			id: "5868E8ABD1A48AAE"
+			linked_quest: "44B83B138A53750A"
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			id: "7A948A858D426948"
+			linked_quest: "61982D9CF281C3A7"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			id: "596DECD877D972CA"
+			linked_quest: "0AA12A4B058DBD57"
+			shape: "gear_important"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			id: "0CD10F6C475E137A"
+			linked_quest: "0000000000000614"
+			shape: "gear"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "212C056C5B4A394C"
+			linked_quest: "0000000000000111"
+			x: -3.0d
+			y: 5.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["14805121DFEA232D"]
+			description: [
+				"&9&n                                                  &r&9               "
+				"Atteindre Venus et débloquer les 3 types de lingots planetaires."
+				"&9&n                                                  &r&9               "
+			]
+			id: "13BDB1E18E02B0DC"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"6\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "6317889534CFDD27"
+				team_reward: false
+				title: "Succesfully completed chapter #6"
+				type: "command"
+			}]
+			shape: "octagon_important"
+			size: 1.5d
+			subtitle: "&9Fin du Chapitre 6"
+			tasks: [{
+				id: "1ECB9C3390DD9456"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			title: "&l&5Chapitre 6: Vers l'infini...&r&r"
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09232DA6E5C38BCC"]
+			description: ["Le plastique est un composant important qui vous permettra de crafter des PCB (qui est un élément essentiel pour les prochains chapitres) et qui sera beaucoup utilisé dans les machines du Chapitre 4."]
+			id: "24395DB256750BB4"
+			tasks: [{
+				id: "32F728AECFA16F56"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0000000000000267"
+				"1E62591C6F6B2026"
+			]
+			description: [
+				"&9&n                                                  &r&9               "
+				"1. Mise en place complète de l'&2Arc Furnace&r d'Immersive Engineering"
+				""
+				"(optionnel) 2. Mettre en place toutes les machines Multiblock. Ca aidera beaucoup."
+				"&9&n                                                  &r&9               "
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "1C77714D1B19358C"
+			rewards: [{
+				auto: "disabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"2\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "5B7F3C016DA15D2B"
+				team_reward: false
+				title: "Succesfully completed chapter #2"
+				type: "command"
+			}]
+			shape: "octagon_important"
+			size: 1.5d
+			subtitle: "&9Fin du Chapitre 2"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "2C5834EAE91072E5"
+				type: "advancement"
+			}]
+			title: "&l&5Chapitre 2: Industrialisation&r&r"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"306498BB38C07326"
+				"0000000000000618"
+			]
+			description: [
+				"&9&n                                                  &r&9               "
+				""
+				"1. Contruire une &2Advanced Machine Frame&r. Il vous faudra visiter la Lune et Mars pour ça."
+				""
+				""
+				"&9&n                                                  &r&9               "
+			]
+			id: "1AD0B0DF343D2B63"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"4\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "670882E33F1E3DA6"
+				team_reward: false
+				title: "Succesfully completed chapter #4"
+				type: "command"
+			}]
+			shape: "octagon_important"
+			size: 1.5d
+			subtitle: "&9Fin du Chapitre 4"
+			tasks: [{
+				id: "050609842FCBE1D1"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			title: "&l&5Chapitre 4: Industrie florissante&r&r"
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7EC97FF3249B658C"
+				"2FF56076D4BCD060"
+			]
+			description: [
+				"&9&n                                                  &r&9      "
+				"1. Contruire le &2Coke Oven&r d'Immersive engineering"
+				""
+				"2. Se rendre dans le &2Nether&r et survivre (optionnel)"
+				"&9&n                                                  &r&9               "
+			]
+			disable_toast: true
+			id: "7BC86210B47B4D0E"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"1\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "71C02B902653F6FC"
+				team_reward: false
+				title: "Succesfully completed chapter #1"
+				type: "command"
+			}]
+			shape: "octagon_important"
+			size: 1.5d
+			subtitle: "&9Fin du Chapitre 1&r"
+			tasks: [
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "414976D7BC58D03B"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "6EBC87C1FF093AF8"
+					type: "advancement"
+				}
+			]
+			title: "&l&6Chapitre 1: Premiers pas&r&r"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C77714D1B19358C"]
+			description: [
+				"&9&n                                                  &r&9               "
+				"Dans ce chapitre vous allez :"
+				"- Découvrir la gestion de l'air, de la pression et de la température."
+				"- Apprendre à raffiner différents liquides à partir du Crude Oil"
+				"- Raffiner du Crude oil en Plastic Sheets"
+				"- Assembler la Pressure Chamber (multiblock) "
+				"- Programmer des drones pour travailler à votre place"
+				"&9&n                                                  &r&9               "
+			]
+			id: "09232DA6E5C38BCC"
+			shape: "gear_important"
+			subtitle: "&9Début du Chapitre 3"
+			tasks: [{
+				id: "7F3E19E7512464E3"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "&l&6Chapitre 3: Systèmes pnumatique&r&r"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7BC86210B47B4D0E"]
+			description: [
+				"&9&n                                                  &r&9               "
+				"Dans ce chapitre vous devrez :"
+				"- Faire du steel (acier). Beaucoup de steel;"
+				"- Mettre en place votre première production d'électricité."
+				"- Mettre en place des machines multiblock"
+				"- Découvrir une solution de transfert des objets et des fluides"
+				"&9&n                                                  &r&9               "
+			]
+			icon: "immersiveengineering:windmill"
+			id: "1E62591C6F6B2026"
+			shape: "gear_important"
+			subtitle: "&9Début du Chapitre 2"
+			tasks: [
+				{
+					count: 27L
+					id: "4DCB98362D4E7F9B"
+					item: { Count: 27, id: "immersiveengineering:blastbrick" }
+					type: "item"
+				}
+				{
+					advancement: "immersiveengineering:main/mb_cokeoven"
+					criterion: ""
+					id: "4136746EE5A25BC1"
+					type: "advancement"
+				}
+			]
+			title: "&l&6Chapitre 2: Industrialisation&r&r"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0AA12A4B058DBD57"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "5A48B91C5F55DF95"
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					id: "255C2690BCC41060"
+					type: "dimension"
+				}
+				{
+					id: "7B5901979C758FD7"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Fusée Tier 1 vers la Lune"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A48B91C5F55DF95"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
+			id: "306498BB38C07326"
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					id: "457D7CE93AC4189C"
+					type: "dimension"
+				}
+				{
+					id: "447BCB1BB819AD32"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_2_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Fusée Tier 2 vers Mars"
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09232DA6E5C38BCC"]
+			description: ["La Pressure Chamber est une structure multiblock utilisée pour compresser divers matériaux. Principalement utilisé pour créer du Compressed Iron sans perte."]
+			id: "78FCA6C8B358FAA5"
+			tasks: [{
+				id: "7607130AEB05FFCC"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F7A84F3D7495BF7"]
+			description: [
+				"&oVous pouvez mettre en place un système Refined Storage basique juste après le chapitre 3 (Si vous avez les ressources et l'électricité nécessaire). L'objectif final de ce chapitre est de pouvoir accéder aux objets à distance (ce qui sera accéssible plus tard) et avoir des auto crafters (fabrication automatique).&r"
+				"&9&n                                                  &r&9               "
+				"Dans ce chapitre vous apprendrez comment :"
+				"- Numériser des objets sur des disques"
+				"- Mettre en place de l'autocraft (fabrication automatique)"
+				"&9&n                                                  &r&9               "
+			]
+			id: "0320C7A266333D96"
+			shape: "gear_important"
+			subtitle: "&9Début du Chapitre 5"
+			tasks: [
+				{
+					id: "4B0A2B17C029EA00"
+					item: "refinedstorage:raw_basic_processor"
+					type: "item"
+				}
+				{
+					id: "1DB7981D4F8960C9"
+					item: "refinedstorage:raw_improved_processor"
+					type: "item"
+				}
+				{
+					id: "3C171BC8590B187D"
+					item: "refinedstorage:raw_advanced_processor"
+					type: "item"
+				}
+				{
+					id: "53D19CED3CD8DB7E"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+				{
+					id: "0A8AE84D89EB4DE6"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "522F87B37247F0C8"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "6E6A0B31CDDCEA3F"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			title: "&l&6Chapitre 5: Stockage avancé&r&r"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1B715D36C517F53F"
+				"09232DA6E5C38BCC"
+			]
+			description: [
+				"&9&n                                                  &r&9               "
+				"1. Constuire l'&2Assembly Line&r."
+				""
+				"2. Fabriquer les &2Processors&r nécessaire aux chapitres suivants."
+				"&9&n                                                  &r&9               "
+				"&oVous pouvez mettre en place un système Refined Storage basique juste après ce chapitre (Si vous avez les ressources et l'électricité nécessaire. L'objectif final du Chapitre 5 est de pouvoir accéder aux objets à distance (ce sera accessible plus tard) et avoir des auto crafters (fabrication automatique).&r"
+			]
+			id: "4F7A84F3D7495BF7"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"3\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "7E2331F0476A92B6"
+				team_reward: false
+				title: "Succesfully completed chapter #3"
+				type: "command"
+			}]
+			shape: "octagon_important"
+			size: 1.5d
+			subtitle: "&9Fin du Chapitre 3"
+			tasks: [
+				{
+					id: "47D0BA539BBA93CB"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+				{
+					id: "0375D647633FCACC"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "0E8E8AF178367AD1"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "6453E8FF97BDCDA8"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "0112C773909B5284"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "7C7B0ACC8C378BC2"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "4D7C630EFA7A22C0"
+					item: "pneumaticcraft:assembly_program_laser"
+					type: "item"
+				}
+			]
+			title: "&l&5Chapitre 3: Systèmes pneumatique&r&r"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1AD0B0DF343D2B63"
+				"00000000000002C1"
+				"00000000000002AB"
+				"00000000000002BF"
+			]
+			description: [
+				"&oVous pouvez mettre en place un système Refined Storage basique juste après le chapitre 3 (Si vous avez les ressources et l'électricité nécessaire). L'objectif final de ce chapitre est de pouvoir accéder aux objets à distance (ce qui sera accéssible plus tard) et avoir des auto crafters (fabrication automatique).&r"
+				"&9&n                                                  &r&9               "
+				"1. Fabriquer un &2Wireless Transmitter&r, une &2Wireless Crafting Grid&r, un &2Network Transmitter&r / &2Receiver&r et un &2Crafter&r"
+				"&9&n                                                  &r&9               "
+			]
+			id: "183DD9A6BFEF8793"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"5\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "433943AC7B4FA675"
+				team_reward: false
+				title: "Succesfully completed chapter #5"
+				type: "command"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&9Fin du Chapitre 5"
+			tasks: [{
+				id: "2183BEDC5AE85774"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "&l&5Chapitre 5: Stockage avancé&r&r"
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1AD0B0DF343D2B63"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "14805121DFEA232D"
+			tasks: [
+				{
+					id: "11BCDEC507A79493"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_3_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					dimension: "ad_astra:venus"
+					id: "10D36703F53992B8"
+					type: "dimension"
+				}
+			]
+			title: "Fusée Tier 3 vers Venus"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7BC86210B47B4D0E"]
+			description: ["Combatre des monstres pour obtenir des récompenses !"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "459D4491417CFF60"
+			shape: "diamond"
+			subtitle: "&o&aQuêtes secondaires&r&r"
+			tasks: [{
+				id: "3A11EB5952A45ED4"
+				type: "checkmark"
+			}]
+			title: "Au combat !"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BC86210B47B4D0E"]
+			icon: "farmersdelight:cooking_pot"
+			id: "6379AD920DAEA817"
+			shape: "diamond"
+			subtitle: "&o&aQuête secondaire&r&r"
+			tasks: [{
+				id: "3DD60B95F48AD8FE"
+				type: "checkmark"
+			}]
+			title: "Vivre pour manger"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7BC86210B47B4D0E"]
+			description: [
+				"Tetra est un mod qui permet la création d'outils modulaires plus avancés que les outils de base."
+				""
+				"Tetra vous permet de faire évoluer vos outils de base de plein de manières différentes pour obtenir des bonus."
+				"Lorsque vous aurez besoin d'outils plus avancés vous devrez explorer pour récupérer des objets de forge dans des donjons construits par une ancienne civilisation des biomes froids."
+			]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:pickaxe_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7ADD93502DFD8AC7"
+			shape: "diamond"
+			subtitle: "&o&aQuête secondaire&r&r"
+			tasks: [{
+				id: "1F41A6DEA56D9C08"
+				type: "checkmark"
+			}]
+			title: "Outils modulaires"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7BC86210B47B4D0E"]
+			description: ["Découvrir toutes les options de stockage"]
+			icon: "minecraft:chest"
+			id: "3D60D774E87C36EF"
+			shape: "diamond"
+			subtitle: "&o&aQuêtes secondaire&r&r"
+			tasks: [{
+				id: "64841CC07B417C83"
+				title: "Regular Storage"
+				type: "checkmark"
+			}]
+			title: "Stockage"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000000FD"]
+			description: ["Modular Force Field Systems est un mod qui apporte des champs de force, des machines avancées et des solutions de défense à Minecraft. Que vous soyez inquiet que votre base puisse être détruite par une explosion nucléaire ou que vous souhaitiez protéger vos secrets, MFFS est la solution."]
+			icon: "mffs:projector"
+			id: "213A546E7B77569E"
+			shape: "gear"
+			subtitle: "&o&aQuête secondaire&r&r"
+			tasks: [{
+				id: "684E1420F9A45861"
+				title: "Force Fields"
+				type: "checkmark"
+			}]
+			title: "Champs de force"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"&9&n                                                  &r&9               "
+				"Ce pack est divisé en plusieurs étapes de progression, mais &laucun&r contenu nécessite d'avoir atteint une étape avant d'être disponible."
+				""
+				"Ce livre de quête vous servira de rappel sur la progression et montrera une route globale à suivre."
+				""
+				"Vous pouvez trouver les étapes générales de la progression dans ce chapitre."
+				"&9&n                                                  &r&9               "
+			]
+			icon: "kubejs:help"
+			id: "5F067B108AFE2BD1"
+			shape: "circle"
+			tasks: [{
+				id: "2F2751E474AF9E53"
+				type: "checkmark"
+			}]
+			title: "Quêtes d'information"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Vous pouvez commencer les Chapitres 4, 5 et 6 dans le Chapitre 3."
+				"&9&n                                                  &r&9               "
+				"- Pour finir le &6Chapitre 4&r vous aurez besoin de &eDesh&r(trouvable sur la Lune) et d'&5Ostrum&r(trouvable sur Mars) ingots du &6Chapitre 6&r;"
+				""
+				"- Pour finir le &6Chapitre 5&r vous aurez besoin d'Advanced Machine Frame du &6Chapitre 4&r et de &eDesh&r et d'&5Ostrum&r ingots du &6Chapter 6&r;"
+				""
+				"- Pour finir le &6Chapitre 6&r vous aurez besoin d'Advanced Machine Frame du &6Chapitre 4&r(mais rien du Chapitre 5);"
+				"&9&n                                                  &r&9               "
+				"Tout ça en prenant en compte les autres prérequis."
+				""
+				"Tout ça peut être un peu déroutant, mais c'est pour ça que j'ai créé cet aperçu de la progression."
+			]
+			icon: "kubejs:help"
+			id: "647E148A640721A1"
+			shape: "circle"
+			size: 0.5d
+			subtitle: "&oNe soyez pas perdu car les chapitre 4, 5 et 6 s'entrecoupent.&r"
+			tasks: [{
+				id: "53CD2D6CD8C58C6B"
+				type: "checkmark"
+			}]
+			title: "Intersections de la progression"
+			x: 2.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["13BDB1E18E02B0DC"]
+			description: [
+				"&7&oDes recettes longues alimenté par FE et des structures multiblock pour générer de l'énergie&r&r"
+				""
+				"&9&n                                                  &r&9               "
+				"Ce chapitre est dédié à la création de générateurs d'électricité multiblock"
+				"&9&n                                                  &r&9               "
+			]
+			id: "439905073E1F6EFD"
+			shape: "gear_important"
+			subtitle: "&9Début du Chapitre 7"
+			tasks: [{
+				id: "69A4AC758DD98784"
+				item: "extendedcrafting:flux_crafter"
+				type: "item"
+			}]
+			title: "&l&6Chapitre 7: Energie avancée&r&r"
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "611CA2D9605471C4"
+			tasks: [
+				{
+					id: "3C4288FE4F22462F"
+					item: "advgenerators:turbine_tier1"
+					type: "item"
+				}
+				{
+					id: "422DED8913A6A3F8"
+					item: "advgenerators:power_capacitor_tier1"
+					type: "item"
+				}
+			]
+			title: "Retours aux sources"
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B885C6C01F6C7DC"]
+			description: [
+				"&9&n                                                  &r&9               "
+				""
+				"Atteindre la solution de génération d'électricité la plus performante : obtenir le plus haut niveau de la Turbine et du Capacitor."
+				""
+				"&9&n                                                  &r&9               "
+			]
+			id: "49250D827A91E3CE"
+			rewards: [{
+				auto: "enabled"
+				command: "/tellraw @a [\"\",{\"text\":\"@p\",\"bold\":true,\"color\":\"blue\"},{\"text\":\" Has Completed Chapter \"},{\"text\":\"7\",\"color\":\"green\"},{\"text\":\"!\"}]"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "kubejs:mark"
+				id: "32B83ACBA68A7ABC"
+				team_reward: false
+				title: "Succesfully completed chapter #7"
+				type: "command"
+			}]
+			shape: "octagon_important"
+			size: 1.5d
+			subtitle: "&9Fin du Chapitre 7"
+			tasks: [
+				{
+					id: "22917DA6A9FE0CE3"
+					item: "advgenerators:turbine_tier5"
+					type: "item"
+				}
+				{
+					id: "73FF1F4EA6347331"
+					item: "advgenerators:power_capacitor_tier3"
+					type: "item"
+				}
+			]
+			title: "La fin?"
+			x: 23.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "5E3FFD9A6FE8864F"
+			tasks: [{
+				id: "492DDE3CD90DCDCB"
+				item: "advgenerators:fuel_turbine_controller"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "091A10004D86921F"
+			tasks: [{
+				id: "4FAFF30FF0A49B94"
+				item: "advgenerators:syngas_controller"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "6F7C15C35DFBEBB1"
+			tasks: [{
+				id: "17863050D4A7DD33"
+				item: "advgenerators:exchanger_controller"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			id: "2DE771542823E4BC"
+			tasks: [{
+				id: "54F4EE36C807BC34"
+				item: "advgenerators:steam_turbine_controller"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["439905073E1F6EFD"]
+			description: [
+				"Un alliage de pointe fait à partir d'&5extraterrestrial metals&r qui combine des éléments ou des composites trouvés dans les corps célestes, comme les météorites et autres corps spatiaux"
+				""
+				"Cet alliage possède des propriétés uniques due à la nature &5exotique&r des métaux la constituant, offrant de potentiels avantages dans divers applications."
+				""
+				"Les caractéristiques d'un tel alliage peuvent inclure une force remarquable, résistance au feu, conductivité et d'autres attributs spéciaux provenant des propriétés rares et particulières de ces &5métaux extraterrestres&r."
+			]
+			id: "0B885C6C01F6C7DC"
+			tasks: [{
+				id: "0926CC43901B7E64"
+				item: "kubejs:advancedmixedmetalalloy"
+				type: "item"
+			}]
+			title: "&bAdvanced Mixed Metal Alloy&r"
+			x: 21.0d
+			y: 3.5d
+		}
+	]
+	subtitle: ["Overview"]
+	title: "&n&f⭐ Apperçu de la progression&r&r"
+}

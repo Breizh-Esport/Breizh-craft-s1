@@ -1,0 +1,1123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_gadgets"
+	group: "42BDFAE1D8AA1BD0"
+	icon: {
+		Count: 1
+		id: "buildinggadgets2:gadget_copy_paste"
+		tag: { }
+	}
+	id: "148142477D94DBB2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Ces outils vont vous aider à construire des structures."
+				""
+				"Vérifiez vos raccourcis pour vous assurez que vous avez accès à toutes les touches nécessaires pour que ces outils fonctionnent. C'est la partie la plus importante."
+				""
+				"*Jetez un coup d'oeil au Template Manager si vous voulez exporter des copies dans et en dehors du jeu.*"
+			]
+			icon: "buildinggadgets2:template_manager"
+			id: "00000000000015D0"
+			rewards: [{
+				id: "0B80F0497108AD19"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00000000000015D1"
+				title: "Building Gadgets"
+				type: "checkmark"
+			}]
+			title: "Outils de construction"
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00000000000015D0"]
+			description: [
+				"Le Building Gadget est un outil vous aidant à réaliser des formes basiques pour accélérer la construction."
+				""
+				"Shift clic droit défini le type de bloc qui sera utilisé par l'outil. La forme à construire peut être changée via le menu des paramètres."
+			]
+			id: "00000000000015C8"
+			rewards: [{
+				id: "29EE1C58B6FC0532"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A301D8416401FCF"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			title: "Outil de construction"
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000015D0"]
+			description: [
+				"Le Copy Paste Gadget vous permet de copier une zone et de la coller à l'identique à un autre endroit, tant que vous avez les blocs dans votre inventaire."
+				"Clic droit sur un bloc défini le premier coin de la zone. Puis shift clic droit pour définir le coin opposé. En suite changez le mode de l'outil via le menu des paramètres, et clic droit pour coller la zone, toujours si vous avez les blocs."
+			]
+			id: "00000000000015CA"
+			rewards: [{
+				id: "5C9CD5548816244F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F73323C4CBEFC70"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_copy_paste"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Copier coller"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000015D0"]
+			description: [
+				"Le Destruction Gadget vide une large zone. "
+				"*LES BLOCS SERONT DETRUITS, VOUS NE LES RECUPEREREZ PAS*"
+			]
+			id: "00000000000015CE"
+			rewards: [{
+				id: "7093E6B5D462ED53"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "548081A7E0F2B9DF"
+				item: "buildinggadgets2:gadget_destruction"
+				type: "item"
+			}]
+			title: "Outil de destruction"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000015D0"]
+			description: [
+				"L'Exchange Gadget remplace les blocs par d'autres."
+				""
+				"Shift clic droit sur un bloc pour le définir comme type de bloc que vous voulez utiliser comme remplacement. Puis en ayant les blocs dans votre inventaire vous pouvez remplacer d'autres blocs suivant un certains nombres de patterns."
+			]
+			id: "00000000000015CC"
+			rewards: [{
+				id: "159C7ED24E63A8D8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "065C80DC975C49E5"
+				item: "buildinggadgets2:gadget_exchanging"
+				type: "item"
+			}]
+			title: "Outil d'échange"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			description: ["Permet de faire tourner les blocs placés dans le monde."]
+			id: "685B1BCA8B0F49D2"
+			rewards: [{
+				id: "49714FCECB268D9F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "213C1AB0435A3564"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Clé à molettte"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			description: ["Les Ropes peuvent être escaladées comme une échelle. Celles de Supplementaries peuvent également être traversés."]
+			id: "0A9964481C4795E6"
+			rewards: [{
+				id: "42C472C575DABE68"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5238B45455B4BD8E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:ropes"
+					}
+				}
+				title: "Any #supplementaries:ropes"
+				type: "item"
+			}]
+			title: "Corde"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			description: ["Les Bamboo spikes sont des pièges utiles pour protéger votre base des monstres. Ils peuvent êre enduits avec des effets de potion !"]
+			id: "53C3ED6F7249424E"
+			rewards: [{
+				id: "14F277372E532C77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "08F5A815500B0372"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bamboo_spikes"
+				}
+				type: "item"
+			}]
+			title: "Pics de bambou"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			description: ["Les Cranks servent à obtenir le niveau de redstone excact dont vous avez besoin."]
+			id: "576E37A04D699593"
+			rewards: [{
+				id: "33B3871752DF3216"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A1A3F181EBDA173"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:crank"
+				}
+				type: "item"
+			}]
+			title: "Une manivelle"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: ["Ce bloc engrenage transmet la redstone verticalement !"]
+			id: "57114F4515F106CE"
+			rewards: [{
+				id: "3A430BC4DDFFD469"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63A9040490A4F42D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cog_block"
+				}
+				type: "item"
+			}]
+			title: "DE LA REDSTONE VERTICALE ?!?"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			description: ["Stocke les liquides et capture les petits monstres."]
+			id: "7EFBB9A760690892"
+			rewards: [{
+				id: "66556F8F7F4B6CD0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Jar jar"
+			tasks: [{
+				id: "672CD462B12A618E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:jar"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7EFBB9A760690892"]
+			description: ["Capture les petits monstres comme les poulets."]
+			id: "5A2297A4C2BB4A7B"
+			rewards: [{
+				id: "4B32183C7CD48C3C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "310209E691066890"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cage"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Téléporte les animaux de companie proche à vous. Utile pour vous sortir d'une situation délicate."]
+			id: "74256E8E141D9EF7"
+			rewards: [{
+				id: "509FE6C98099608F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FF1F19B6821D661"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["656E18F286DDF200"]
+			description: ["Emet un signal de redstone lorsqu'un clé est utilisé dessus. La clé peut être renommée pour qu'uniquement cette clée pluisse être utilisée."]
+			id: "5174D7892CC4EC9C"
+			rewards: [{
+				id: "4FAA12FC40B4C292"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A1B1FBCFAC41FE6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:lock_block"
+				}
+				type: "item"
+			}]
+			title: "Verrou"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			description: ["used to unlock lock blocks. You can put it in any curios slot."]
+			id: "656E18F286DDF200"
+			rewards: [{
+				id: "5273C994CDACA1E4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4249B6E1C43FD2C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:key"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: ["Vous pouvez définir un message qu'il va répetter. Parfait pour créer du chaos."]
+			id: "2FC282739157D6DB"
+			rewards: [{
+				id: "5C63BED908716F27"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A7E7AE3DDCC6D56"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:speaker_block"
+				}
+				type: "item"
+			}]
+			title: "Haut parleur"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			description: ["Peut placer des blocs à distance !"]
+			id: "44018815222E8CA9"
+			rewards: [
+				{
+					id: "36A359779ED19C3F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					id: "726568AA20A12772"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:porkchop"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Objectivement le meilleur objet du jeu."
+			tasks: [{
+				id: "6179061DE2FEE6BC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Lance pierre"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			description: ["Tourne les blocs et les monstres qui sont dessus."]
+			id: "6C27B8ECBE98B97A"
+			rewards: [{
+				id: "15BB4EA3ECCB72BA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "797AE75BADF88032"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:turn_table"
+				}
+				type: "item"
+			}]
+			title: "Plaque tournante"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			description: ["Vous envoie en l'air quand il est alimenté ou si vous atterissez dessus d'une hauteur."]
+			id: "33871879DC31D806"
+			rewards: [{
+				id: "5CFD1317C880D124"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66E7DA28B84ED6F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:spring_launcher"
+				}
+				type: "item"
+			}]
+			title: "Propulseur à ressorts"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["656E18F286DDF200"]
+			description: ["Ces portes solides peuvent être fermés à clé et peuvent être ouvertes à la main."]
+			id: "1A01E6EA78F32D04"
+			rewards: [{
+				id: "3BA7B020E58B021D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6F7ABF88AF32ECD6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_door"
+					}
+					type: "item"
+				}
+				{
+					id: "4B6B668B60B39E45"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			title: "Porte en netherite"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			description: ["Ces portes peuvent être ouvert à la main mais PAS avec un signal de redstone."]
+			id: "68339B382A047B89"
+			rewards: [{
+				id: "66EC406DC268927F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "36DC7505AA92B3D8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_door"
+					}
+					type: "item"
+				}
+				{
+					id: "570D99BDE6FDF0C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			title: "Porte en or"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Emet de la lumière en fonction du signal de redstone."]
+			id: "589AAF1FD992CE82"
+			rewards: [{
+				id: "143E8E1DACB3909C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0112A5D6B124D755"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:redstone_illuminator"
+				}
+				type: "item"
+			}]
+			title: "Eclairage redstone"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04FC98FCA731C4A9"]
+			description: ["Peut être placé au dessus de batons pour céer un mât de drapeau. Clic droit sur le mat permet de lever de drapeau, maintenez shift pour le baisser."]
+			id: "2031C7013AC15F55"
+			rewards: [{
+				id: "372CE5DD6B7F7920"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2490DAF5ACB32916"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flag_white"
+				}
+				type: "item"
+			}]
+			title: "Drapeaux"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			description: ["Certains objets peuvent être placés dans le monde comme des blocs, comme par exemple les batons ou les batons de blaze. Tapez \"Placeable\" dans le JEI pour en voir la liste."]
+			id: "04FC98FCA731C4A9"
+			rewards: [{
+				id: "60EC8D83220928B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7475B3400A33F530"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:book"
+				}
+				type: "item"
+			}]
+			title: "Objets plaçables"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			description: ["Créé avec une houe sur du gravier."]
+			id: "10756B8268EF9D31"
+			rewards: [{
+				id: "55F5A596C4EF4053"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "784291CBD06E6041"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:raked_gravel"
+				}
+				type: "item"
+			}]
+			title: "Gravier ratissé"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["347C4ABF9BCB62A2"]
+			description: ["Les Safes sont des sortes de shulker box plus dures à casser et qui peuvent uniquement être ouvertes par le joueur qui les à placés."]
+			id: "77BE21B5DAA11294"
+			rewards: [{
+				id: "442560F716CC0480"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0398D2D60687CD25"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:safe"
+				}
+				type: "item"
+			}]
+			title: "Coffre fort"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			description: ["Une sorte de shulker box de début de partie qui peut contenir 5 objets. Vous serez ralenti si vous en transportez trop."]
+			disable_toast: true
+			id: "347C4ABF9BCB62A2"
+			rewards: [{
+				id: "28B44301A475480A"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "66388320D6EF886E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:sack"
+				}
+				type: "item"
+			}]
+			title: "Un sac"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			description: ["Throwable Explosive that only breaks grass, torches and other weak blocks. Aim at a mob's feet to send them flying!"]
+			id: "1B166861840A1636"
+			rewards: [{
+				id: "4F58824193EAB4B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7360B900F1ABD942"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bomb"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B166861840A1636"]
+			description: [
+				"Une version plus rare de la bombe qui peut uniquement être trouvée en butin ou par un marchand spécial."
+				"Plus puissante que la bombe et met le feu aux monstres."
+			]
+			id: "6945746FAEFCA3CE"
+			rewards: [{
+				id: "020D7B0D493F43F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D76A5D34E9B507A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bomb_blue"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			description: ["Le \"ventilateur\" de ce modpack, le Bellows souffle les monstres vers l'avant lorsqu'il est alimenté."]
+			id: "5EE6C136B7D19495"
+			rewards: [{
+				id: "37BEE23A03674B0F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DA5B1A64D98FDA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bellows"
+				}
+				type: "item"
+			}]
+			title: "Soufflet"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Le Rich Soil et un type de terre amélioré, plus fertile et durable aux éléments."
+				""
+				"Le Rich Soil ne peut pas être directement fabriqué. Vous devez d'abbord faire de l'Organic Compost et le placer dans le monde pour attendre qu'il se décompose."
+				""
+				"L'Organic Compost se décompose plus facilement au soleil et avec l'humidité d'une source d'eau proche, mais ne s'hydrate pas comme de la terre labourée. Il peut aussi être accéléré en plaçant des activateurs à proximité, dans une zone de 3x3x3 autour de lui."
+				""
+				"Actuellemnt les blocs suivants se comportent comme des activateurs :"
+				"- Les champignons rouge et marrons"
+				"- Le podzol et le mycelium"
+				"- D'autres blocs d'Organic Compost"
+				"- Du Rich Soil, normal ou tilled"
+			]
+			id: "56D3BC7D09F900CA"
+			rewards: [{
+				id: "67C73D9923F25E36"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D4707A71CD44077"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			title: "Composte organique"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Absorbe complètement des dégâts de chute."]
+			id: "22E1A465FAF7EAA2"
+			rewards: [{
+				id: "35BDA875078347EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E02EF01A2AC0E72"
+				item: "farmersdelight:safety_net"
+				type: "item"
+			}]
+			title: "Fillet de sécurité"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56D3BC7D09F900CA"]
+			description: [
+				"Lorsque n'importe quelle plante pouvant pousser est placée sur du Rich SOil, sa pousse et accélérée aléatoirement, de la même manière que la Bone Meal (poussière d'os)."
+				""
+				"Le Rich Soil peut être labouré avec houe en Rich Farmalnd. Le Rich Farmland est immunisé aux piétinnements et n'est pas détruit par les melons et les citrouilles, mais nécessite d'être hydraté pour accélérer les plantations."
+				""
+				"Les champignons plantés sur du Rich Soil, sous suffisemment d'obscuritée, vont éventuellement grandir en une colonie de champignon qui va produire 2 à 5 champignon au fil du temps, et les lâchant une fois récolté."
+			]
+			id: "1729A82B2351DE53"
+			rewards: [{
+				id: "10C4FDAB183CAF6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5229C5BEC0FE4C1B"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Accumule doucement du temps lorsqu'elle est dans l'inventaire du joueur."
+				""
+				"Elle peut être utilisée sur une machine pour l'accélérer, utilisant une partie du temps stocké dedans."
+			]
+			id: "0389F576299659F8"
+			tasks: [{
+				id: "2AC42696F7106DFC"
+				item: {
+					Count: 1
+					id: "gag:time_sand_pouch"
+					tag: {
+						grains: 940
+					}
+				}
+				type: "item"
+			}]
+			title: "Bourse temporelle"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			description: ["Téléporte le joueur en dehors des caves et des bâtiments vers le point le plus proche à la surface."]
+			id: "00431565719265B2"
+			tasks: [{
+				id: "77C05BB804BCB99F"
+				item: {
+					Count: 1
+					id: "gag:escape_rope"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Corde de sortie"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			description: ["Téléporte un joueur à son point d'apparition personnel, ou, si c'est activé, le point d'apparition du monde."]
+			id: "715D18176966A2AB"
+			subtitle: "Retour à Orgrimmar"
+			tasks: [{
+				id: "27C8E9B24414C7D2"
+				item: {
+					Count: 1
+					id: "gag:hearthstone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Pierre de foyer"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Cette pierre de foyer à canalisée l'énergie de la foudre lorsqu'elle l'a frapée, et vous pouvez maintenant l'utiliser pour vous téléporter à un emplacement que vous avez sauvegardé (en l'utilisant avec un shift clic)."
+				""
+				"&oNotez que si vous souhaitez réinitialiser la pierre plus tard, vous devrez faire en sorte qu'elle se fasse frapper par la foudre à nouveau.&r"
+			]
+			id: "2288B868715D98F6"
+			subtitle: "Retour à Hurlevent"
+			tasks: [{
+				id: "16AEC5A540C5AB66"
+				item: {
+					Count: 1
+					id: "gag:energized_hearthstone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Pierre de foyer énergisée"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			description: ["When applied, gives the player an effect that stops nearby hostile mobs from spawning."]
+			id: "5193BFAEEDB811FA"
+			tasks: [{
+				id: "0B244FF532FD79C4"
+				item: "gag:sacred_salt"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Lorsqu'il est appliqué sur le joueur, donne un effet qui empèche les monstres hostile proche d'apparaitre."
+				""
+				"&9Cet effet dure un peu plus longtemps que le sel et fonctionne dans une plus grande zone.&r"
+			]
+			id: "08F44B6EB3C3AE79"
+			tasks: [{
+				id: "3F46B8DC65D203FC"
+				item: "gag:sacred_salve"
+				type: "item"
+			}]
+			title: "Onguent sacré"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Lorsqu'il est appliqué sur le joueur, donne un effet qui empèche les monstres hostile proche d'apparaitre."
+				""
+				"&9Cet effet dure beaucoup plus longtemps que le sel et l'onguent mais fonctionne dans une zone plus petite.&r"
+			]
+			id: "76EA6976B5571C95"
+			tasks: [{
+				id: "5EF06E1EA95ECF6F"
+				item: "gag:sacred_balm"
+				type: "item"
+			}]
+			title: "Baume sacré"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			description: ["Un explosif qui fonctionne uniqument sous l'eau et qui fait des dégâts accru aux poissons. Parfait si vous n'aimez pas pêcher."]
+			id: "1CEB1F86943ED8CE"
+			tasks: [{
+				id: "64EAE82075A81239"
+				item: "gag:fishing_dynamite"
+				type: "item"
+			}]
+			title: "Pêche à la dynamite"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "59711E6C58C9CD71"
+			tasks: [{
+				id: "61A99838C5A7FCE4"
+				item: "quark:chute"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "0757D0300BBAB5A5"
+			rewards: [{
+				id: "512A30F0DD2F74CA"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Permet de faire des ponts lorsqu'il est alimenté par de la redstone"
+			tasks: [{
+				id: "0F7F5C4278C3D13A"
+				item: "bridge_maker:bridge_maker"
+				type: "item"
+			}]
+			title: "Faiseur de pont"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "37BBB41DA13E365D"
+			rewards: [{
+				id: "68D99B05CBE3CCB4"
+				item: "logicchips:chip"
+				type: "item"
+			}]
+			subtitle: "Créé une porte logique sur un bloc "
+			tasks: [{
+				id: "62C0B436762EC7C5"
+				item: "logicchips:gate_frame"
+				type: "item"
+			}]
+			title: "Porte logique"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Des jeux peuvent être trouvés dans les stuctures suivantes :"
+				""
+				"- Monster Room"
+				"- Stronghold"
+				"- End City"
+				"- Woodland Mansion"
+				"- Buired Treasure"
+				"- Bastion"
+				"- Ruined Portal"
+				"- Ancient City"
+				"- Mineshaft"
+				"- Jungle Pyramid"
+				"- Desert Pyramid"
+				""
+				"Si une &6Abeille,&r un &aSlime&r ou une &eGrenouille&r sont tués par un squelette, ils ont 100% de chances de faire tomber leur jeu respectifs."
+				""
+				"Pour jouer aux jeux avec la console de jeu vous devrez avoir les jeux dans votre inventiare. Clic droit pour jouer à la console et ouvrir le menu. Choisissez votre jeu avec Z et S, lancez le jeu avec Espace ou Entrer et commencez à jouer avec les contrôles classiques, Z, Q, S, D, Espace, Entrer, A pour quitter la partie et R pour réinitialiser."
+			]
+			id: "62CF0174A4D08AC9"
+			rewards: [{
+				id: "3D77B85CC056C157"
+				item: "gamediscs:game_disc_pong"
+				type: "item"
+			}]
+			subtitle: "While your colonists work..."
+			tasks: [{
+				id: "62F4A4B974BE451D"
+				item: {
+					Count: 1
+					id: "gamediscs:gaming_console"
+					tag: {
+						"gamediscs:FlappyBirdGame;dreamsx": 3
+						"gamediscs:FroggieGame;dreamsx": 13
+						"gamediscs:SlimeGame;dreamsx": 2
+						"gamediscs:TntSweeperGame;dreamsx": 38
+					}
+				}
+				type: "item"
+			}]
+			title: "Console portable"
+			x: 9.5d
+			y: 2.5d
+		}
+	]
+	title: "&2Objets utile&r"
+}

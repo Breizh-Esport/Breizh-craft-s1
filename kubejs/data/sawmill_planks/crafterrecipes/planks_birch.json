@@ -1,0 +1,11 @@
+{
+  "type": "recipe",
+    "crafter": "sawmill_sawmill_planks",
+    "inputs": [
+      {
+        "item": "minecraft:birch_log"
+      }
+    ],
+    "result": "minecraft:birch_planks",
+    "count": 4
+}

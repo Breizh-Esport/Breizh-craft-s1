@@ -1,0 +1,1283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "gardening"
+	group: "4EAE0C42246DB468"
+	icon: {
+		Count: 1
+		id: "meadow:watering_can"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5C9540CBF5DC8FBC"
+	images: [
+		{
+			height: 1.0d
+			image: "vinery:item/red_grape"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/apple"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "brewery:item/beer_barley"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/hatch"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/control"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/valve"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/band"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"Small"
+				"LxWxH: 3x3x4"
+				"Radius: 7"
+				"Footprint: 17x17"
+				"Farm Blocks: 36"
+				"Farm Land: 168"
+			]
+			image: "litv3:textures/misc/multifarm-small.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.0d
+			y: 15.5d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"Medium"
+				"LxWxH: 3x4x4"
+				"Radius: 9"
+				"Footprint: 21x22"
+				"Farm Blocks: 48"
+				"Farm Land: 270"
+			]
+			image: "litv3:textures/misc/multifarm-medium.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"Large"
+				"LxWxH: 3x5x4"
+				"Radius: 11"
+				"Footprint: 25x27"
+				"Farm Blocks: 60"
+				"Farm Land: 396"
+			]
+			image: "litv3:textures/misc/multifarm-large.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.5d
+			y: 15.5d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"Very Large"
+				"LxWxH: 5x5x4"
+				"Radius: 11"
+				"Footprint: 27x27"
+				"Farm Blocks: 100"
+				"Farm Land: 440"
+			]
+			image: "litv3:textures/misc/multifarm-verylarge.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			height: 5.0d
+			hover: [
+				"Medium-Large"
+				"LxWxH: 4x4x4"
+				"Radius: 9"
+				"Footprint: 22x22"
+				"Farm Blocks: 64"
+				"Farm Land: 288"
+			]
+			image: "litv3:textures/misc/multifarm-mediumlarge.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/plain"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/band"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "forestry:block/farm/band"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 7.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "34DF0D779CC6BD88"
+			rewards: [{
+				id: "62C3BCB6B216FF3F"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "00A923EF4D620398"
+				item: "fruitfulfun:tangerine_sapling"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "03972AF9C7017F04"
+			rewards: [{
+				id: "1C483751F04F2DFF"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "1E673710F4A1E01D"
+				item: "fruitfulfun:lime_sapling"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "2A0874A3B034AE18"
+			rewards: [
+				{
+					id: "0B296435C7DDEE1F"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 64
+					id: "25070C5C7DAA9AEF"
+					item: "fruitfulfun:citrus_log"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D2F26BE259ED886"
+				item: "fruitfulfun:citron_sapling"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "1F98D39915938AA3"
+			rewards: [
+				{
+					id: "430758E9A8548E02"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "1EA07BC1184953E0"
+					item: "fruitfulfun:honey_pomelo_tea"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "481AAEBB348D5927"
+				item: "fruitfulfun:pomelo_sapling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "6C1FA7FE8CAB9046"
+			rewards: [
+				{
+					id: "79F4B8450C360193"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "72844FA4FB56FCAC"
+					item: "fruitfulfun:lemon_roast_chicken"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01B10149A6820630"
+				item: "fruitfulfun:lemon_sapling"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "00C7D182E7267FB7"
+			rewards: [
+				{
+					id: "2C7710DD7D3F3DD8"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "30E63467C8F9070E"
+					item: "fruitfulfun:donauwelle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "729C86B17B17FCE5"
+				item: "fruitfulfun:orange_sapling"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "49EB5CD1C5125DA0"
+			rewards: [
+				{
+					id: "0EA4873904FE7229"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "50DD846C3E20D604"
+					item: "fruitfulfun:grapefruit_panna_cotta"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3347C8E74C2A9E3C"
+				item: "fruitfulfun:grapefruit_sapling"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "317F73F51E0BB92C"
+			rewards: [
+				{
+					id: "1F5DC58C72F7C860"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "58D679D20789BF0D"
+					item: "fruitfulfun:rice_with_fruits"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78869AB3A02698BA"
+				item: "fruitfulfun:apple_sapling"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "36EADF4DA238BD0E"
+			rewards: [{
+				id: "5C1967AEB2223FEF"
+				type: "xp"
+				xp: 600
+			}]
+			tasks: [{
+				id: "592F0D85DD59A3DB"
+				item: "fruitfulfun:pomegranate_sapling"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "6A264A6C89CC06E3"
+			rewards: [
+				{
+					id: "63D547429E5BBD5E"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "0246C9C051AAA239"
+					item: "fruitfulfun:grapefruit_panna_cotta"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C34451621598F0B"
+				item: "fruitfulfun:cherry_sapling"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["31E91EBF3468F766"]
+			id: "3CAB04DD6E16FABA"
+			rewards: [
+				{
+					id: "7074FFB0CAED0CD6"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 64
+					id: "119A3D2BCC32DFCA"
+					item: "fruitfulfun:redlove_log"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4535E174D0EF6637"
+				item: "fruitfulfun:redlove_sapling"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			description: ["You'll need to find grapevine bushes to gather your first Grapes. If you cant find any a Wandering Winemaker will make visit from time to time maybe offering some seeds. You can get seeds by eating Grapes."]
+			id: "27170A4880A96C2B"
+			rewards: [{
+				count: 64
+				id: "327388411397F641"
+				item: "vinery:dark_cherry_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4251B588A69534C4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vinery:red_grape_seeds"
+							}
+							{
+								Count: 1b
+								id: "vinery:white_grape_seeds"
+							}
+							{
+								Count: 1b
+								id: "vinery:savanna_grape_seeds_red"
+							}
+							{
+								Count: 1b
+								id: "vinery:savanna_grape_seeds_white"
+							}
+							{
+								Count: 1b
+								id: "vinery:taiga_grape_seeds_red"
+							}
+							{
+								Count: 1b
+								id: "vinery:taiga_grape_seeds_white"
+							}
+							{
+								Count: 1b
+								id: "vinery:jungle_grape_seeds_red"
+							}
+							{
+								Count: 1b
+								id: "vinery:jungle_grape_seeds_white"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Grapes"
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27170A4880A96C2B"]
+			description: [
+				"After harvesting your first Grapes can either just eat them or put them into a Pot and crush them by jumping and walking around in it. Then you can extract Grapejuice by using Empty Winebottles. Filled Winebottles can be refined in a Barrel by using extra Ingredients such as Sweetberries, Honey and so on. "
+				""
+				"Different sort of Grapejuice and Ingredients result in different Wine. "
+			]
+			id: "74EFFB87274A7544"
+			rewards: [{
+				id: "5473F2B48CA0686F"
+				item: "vinery:spruce_wine_rack_small"
+				type: "item"
+			}]
+			subtitle: "Craft and place grapevine pot"
+			tasks: [{
+				id: "4D5691BBAD5921DD"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"74EFFB87274A7544"
+				"2C42FABF971D6D67"
+			]
+			description: [
+				"Usage"
+				""
+				"The block works similarly to the already known crafting stations in Minecraft: It has 4 input slots for ingredients (left), one input slot for a wine bottle (middle), and one output slot (right). It also offers a built-in recipe book that displays all available recipes and the ingredients required for them."
+				""
+				"Once you've placed the ingredients needed for the respective recipe into the corresponding input slots, it takes about 12 seconds for the crafting process to complete - the crafted item then appears in the output slot."
+			]
+			id: "1F2007CB1CF49288"
+			rewards: [
+				{
+					id: "1C543134966D1D39"
+					item: "vinery:wine_box"
+					type: "item"
+				}
+				{
+					id: "01E0CABE9FA39290"
+					item: "vinery:spruce_wine_rack_big"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "13AA8209142EE15F"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "5E05FA6A55D0124A"
+					item: "vinery:apple_juice"
+					type: "item"
+				}
+				{
+					id: "33C0363CB7681F81"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "vinery:red_wine"
+						}
+					}
+					title: "Any #vinery:red_wine"
+					type: "item"
+				}
+				{
+					id: "298A5B6385EE3E4E"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "vinery:grapejuice"
+						}
+					}
+					title: "Any #vinery:grapejuice"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			description: [
+				"The Apple Press is a crafting station for making Apple Mash."
+				""
+				"Usage"
+				""
+				"Like the Fermentation Barrel, the Apple Press also resembles the crafting stations in Minecraft. The Apple Press only has 1 input slot for apples (top left) and one output slot (right)."
+				""
+				"Once you've placed the apples into the input slot, it takes a few seconds for the crafting process to complete - the Apple Mash then appears in the output slot."
+				""
+				"&oNote: The Apple Press also acts as a workstation for Winemaker Villagers.&r"
+			]
+			id: "553D6826E76763CD"
+			rewards: [{
+				id: "55DEA322C8354827"
+				item: "vinery:spruce_wine_rack_mid"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C4681520ED2A865"
+				item: "vinery:apple_press"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["553D6826E76763CD"]
+			id: "2C42FABF971D6D67"
+			rewards: [{
+				id: "37C6BB793E1E3734"
+				item: "meadow:bench"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54BFE55717295750"
+				item: "vinery:apple_mash"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			description: [
+				"One of the basic ingredients for beer and whiskey is &ndried corn&r, &nwheat&r, or &nbarley&r. "
+				"To obtain this, you need a &6drying silo&r. Gather the corn, wheat, or barley, open the hatch of the silo with a skillful left-click (you need both hands for this! So make sure they are both empty!) and throw it into the silo. "
+				""
+				"The silo connects in a 2x2 or 3x3 grid and can be extended up to a maximum height of 9. The larger the silo, the greater the capacity and the faster the drying."
+				""
+				"&l&5Hops&r&r Can mostly be found in taiga biomes and all sub-variants. It can also be found in Villages and / or Woodland Mansions."
+				""
+				""
+				"&l&5Corn&r&r Can be found in Villages. If you are having trouble finding Kernels, just throw some Beetroot Seeds on a Stonecutter and enjoy your freshly... cut Kernels."
+				""
+				""
+				"&l&5Barley&r&r Same as Corn. If you are having trouble finding Barley Seeds, just throw some Wheat Seeds on a Stonecutter and enjoy your freshly cut Barley Seeds."
+			]
+			id: "5E22AE20ABD6C52D"
+			rewards: [
+				{
+					id: "58BC8F4745A483B7"
+					item: "brewery:barley"
+					type: "item"
+				}
+				{
+					id: "7B769C1428D1EE6D"
+					item: "brewery:corn"
+					type: "item"
+				}
+				{
+					id: "6EDB4C262862B018"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0D74B7522C6B63FF"
+				item: "brewery:silo_wood"
+				type: "item"
+			}]
+			title: "Drying"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E22AE20ABD6C52D"]
+			description: [
+				"To start the brewing process, you still need more ingredients. "
+				""
+				"In most cases, &5hops&r, &5water&r, and &5coal&r. &oWhat? Coal in beer? &r"
+				""
+				"Throw two sacks of dried wheat and some hops into the brew kettle, fill it with water, and you're almost there. You've probably already noticed that the brew kettle is a bit larger and consists of several parts - now go to the part with the stove and fire it up with the coal. That's it!"
+				""
+				"&lBrewing Process&r"
+				""
+				"The brewing process lasts several seconds and requires your attention. Several small events occur at different parts of the Brewing Station, such as:"
+				""
+				"- The furnace loses heat and requires more coal"
+				"- The brewing kettle overheats; remove some water"
+				"- ... and more to figure out "
+				"{@pagebreak}"
+				"&n&4PAGE 2&r&r"
+				"The brewing station has no GUI and only operates through direct interaction. It is composed of the following blocks:"
+				"- Kettle"
+				"- Oven"
+				"- Timer"
+				"- Whistle"
+				""
+				"The Kettle is the centerpiece: That's where all ingredients are placed. The Oven serves as a fire source and needs coal. The other parts are responsible for the minigame."
+				""
+				"After the correct ingredients have been placed, the kettle is filled with water, and the oven is lit, the minigame begins. It lasts about 45 seconds and during this time various events can occur that require a direct action from you (or your teammates). The brewing process is represented audiovisually."
+				"{@pagebreak}"
+				"&n&4PAGE 3&r&r"
+				"&lOccurring events:&r"
+				""
+				"&6Kettle needs water:&r The Whistle whistles, the water level of the Kettle is low - refill the Kettle with water"
+				"&6Kettle overboils:&r The water level of the Kettle is high, bubbling bubbles rise - remove water with an empty Water Bucket"
+				"&6The Timer ticks:&r Red particles and a ticking sound are emitted - press the button on the Timer"
+				"&6The Oven has too little heat:&r Smoke particles rise, the flame of the Oven is low - add more coal"
+				""
+				"There are different tiers for the brewing station: Wood, Copper, and Netherite. To brew whiskey, you need Copper or Netherite."
+				""
+				"&oNote: The faster you complete the mini-game, the better the beer quality will be. Be cautious when using Wood or Copper Brewing Station, as sometimes it can result in undesirable outcomes!&r"
+			]
+			id: "406AE0D2BED9F06E"
+			rewards: [{
+				id: "02483F239A5F93BE"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "680C6731D212AE89"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			title: "Brewing"
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["406AE0D2BED9F06E"]
+			description: [
+				"Hops can be found in Taigas. "
+				""
+				"To grow hops, you need a somewhat elaborate construction: "
+				"Build two fence posts with a height of three blocks (or more - higher is always better!) and connect them with a rope. Then you can plant the hops at the lowest point of the rope on farmland. "
+				""
+				"Of course, you can also use the ropes for other things: fences, railings - let your creativity run wild! :)"
+			]
+			id: "6E066CA6A2B3F33E"
+			rewards: [{
+				count: 2
+				id: "1788AE6CEF2AC429"
+				item: "brewery:rope"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1862FBF759F67314"
+				item: "brewery:hops_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"As soon as you travel around your world, you'll either find a new type of &2cactus&r or a new type of &4flower&r, depending on the biome you wander through. "
+				""
+				"&2Cactus&r plants can be found in any desert type biome, while &4flower&r plants can be found in any other biome but not in desert type biomes. When you look around for a while, you'll see that &nthere is one type of &2cactus&r and one type of &4flower&r for each type of dye&r. "
+				""
+				"You'll find them every few chunks in small groups sorted by their color. But take care, the cacti might sting! Besides from looking pretty and attracting bees, they serve another useful purpose. Upon breaking one of either a cactus or flower, they'll drop two respective seeds depending on their plant type and color, one plant petal in their respective color and one plant fiber. Harvesting them with a pair of shears or a silk touch enchanted tool will drop the cactus or flower itself instead, for you to plant or pot it as decoration."
+				""
+				"The seeds you just have gotten are pretty straight forward to use, either plant cactus seeds on some sand or plant flower seeds on farmland."
+			]
+			id: "07DCE50A52F9709A"
+			rewards: [{
+				id: "5967C2ECB2971496"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63A067AE51B6744B"
+				item: "floralis:white_cactus_seeds"
+				type: "item"
+			}]
+			title: "Farmable Dyes"
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["406AE0D2BED9F06E"]
+			description: [
+				"&2- Toxic Touch&r"
+				"Applies Poison to all hit entities."
+				""
+				"&d- Renewing Touch&r"
+				"Applies Regeneration to all hit entities."
+				""
+				"&6- Protective Touch&r"
+				"Applies Absorbtion to all hit entities."
+				""
+				"&4- Healing Touch&r"
+				"Heals all hit entities."
+				""
+				"&9- Saturated&r"
+				"Prevents you from getting too hungry too quickly."
+				""
+				"&e- Haley&r"
+				"You can fly. At least for a short period of time."
+				""
+				"&a- Harddrinking&r"
+				"You're immune to alcohol. Sounds like a dream!"
+				""
+				"- &dD&r&ar&r&4u&r&bn&r&ck&r"
+				"You're drunk."
+				""
+				"&0- Blackout&r"
+				"You're totally drunk."
+				""
+				"&3- Pint Charisma&r"
+				"10% discount while trading with villagers."
+				""
+				"&d- Partystarter&r"
+				"Ready to start the Party? Emits Firework Particles when hitting entities - also deals a small amount of damage."
+			]
+			icon: "kubejs:help"
+			id: "1D561BDD95E2614F"
+			rewards: [{
+				id: "2B11EF2D889A49E4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6098B9096FD601D7"
+				title: "Effects"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"&2Fruitful Fun&r adds 11 new fruits to the game. Most of the fruits are not generated in the world. Instead, you must obtain them in other fun ways. "
+				""
+				"If there is no people to harvest the fruits, the tree will stop growing fruit after a while. But with the help of a &ospecial&r goat horn, you can harvest all the nearby fruits at once."
+			]
+			icon: "fruitfulfun:tangerine"
+			id: "31E91EBF3468F766"
+			shape: "octagon"
+			tasks: [{
+				id: "562E0949C38AF25F"
+				type: "checkmark"
+			}]
+			title: "Fruitful Fun 🍊"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"- Oats: A tall crop that can be processed into oatmeal, cookies, and granola."
+				""
+				"- Peanuts: Versatile nuts that can be roasted, turned into nut mash, or grown into a magical vine with treasures atop, if you find the magic peanut."
+				""
+				"- Ghost Peppers: A fiery pepper found in the Nether, can be pickled, or made into chili."
+				""
+				"- Cucumbers: Can be made into salads or transformed into tangy pickles."
+				""
+				"- Gearo Berries: Unique berries discovered in dark oak forests, can be made into flavorful jam."
+			]
+			id: "49A2375E482BC18A"
+			rewards: [{
+				id: "096FEF789D33418F"
+				item: "vintagedelight:meat_pizza"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E8CCC30E6BBD98B"
+					item: "vintagedelight:oat_seeds"
+					type: "item"
+				}
+				{
+					id: "6C78FDC052F2042F"
+					item: "vintagedelight:peanut"
+					type: "item"
+				}
+				{
+					id: "083E6C3BFB7C71C3"
+					item: "vintagedelight:ghost_pepper_seeds"
+					type: "item"
+				}
+				{
+					id: "6E68CF6FF215DEAB"
+					item: "vintagedelight:cucumber_seeds"
+					type: "item"
+				}
+				{
+					id: "5DEBD8A0BAF3AC35"
+					item: "vintagedelight:gearo_berry"
+					type: "item"
+				}
+			]
+			title: "Vintage Delight Crops"
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1625ABA9A3448390"]
+			description: ["Once you have found a hive in the world, you will require a Scoop to collect any bees that may live within. Any other tool will cause the bees to escape, and you will be left honeyless."]
+			id: "68EB26D4EB0D7301"
+			tasks: [{
+				id: "6F53CCFC0EF6263D"
+				item: {
+					Count: 1
+					id: "forestry:scoop"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			id: "1625ABA9A3448390"
+			tasks: [{
+				id: "60AF883E58D9A0A6"
+				item: "forestry:foresters_manual"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			description: [
+				"The &2Multifarm&r is a multiblock automatic farm added by Forestry. It can be configured to support a variety of plants including trees, all vanilla crops, and some modded crops. "
+				""
+				"&2Multifarms&r can be built in &nfive&r different sizes ranging from &n15x15&r to &n27x27&r. "
+				""
+				"The &2Multifarm&r &nmust be supplied&r with &9Water,&r &cRedstone Flux&r (RF) and &6Fertilizer&r to operate. "
+				""
+				"All vanilla blocks used in the &2Multifarm&r - both in the crafting recipes and the actual layout of the farm - can be any of the following blocks:"
+				""
+				"Stone Bricks"
+				"Chiseled Stone Bricks"
+				"Cracked Stone Bricks"
+				"Mossy Stone Bricks"
+				"Smooth Sandstone"
+				"Chiseled Sandstone"
+				"Bricks Bricks"
+				"Nether Brick"
+				"Quartz Blocks"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecolonies:block/farmland_moist"
+				}
+			}
+			id: "6A44970FE395F7D6"
+			rewards: [{
+				count: 8
+				id: "05E45B4EC5DD5FD1"
+				item: "forestry:fertilizer_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1239EA91C71E3003"
+				type: "checkmark"
+			}]
+			title: "Multifarm"
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2EE35C6B430D63E3"]
+			description: [
+				"1. After the size of the &2farm&r has been selected, the required number of &2Farm Blocks&r must be crafted. For example, a small farm will require 36 Farm Blocks."
+				""
+				"2. Using five of the Farm Blocks, craft a &9Farm Valve&r, &4Farm Gearbox&r, &cFarm Control block&r, and two &3Farm Hatches&r."
+				""
+				"3. Place the blocks to create a structure in the dimensions showed on the pictures below. &oFor example, a small farm should be 3 blocks wide, 3 blocks long and 4 blocks high.&r &4Machine blocks&r can be placed anywhere in the structure, but should be placed in a location where they can be accessed by pipes and conduits."
+				""
+				"4. When the &2multiblock&r is correctly assembled, black horizontal bands will appear around the structure as illustrated in the completed structure image."
+				""
+				"5. At least &nfour&r support blocks must now be placed around the &2Multifarm.&r Only Smooth Sandstone, Stone Bricks or Bricks may be used. They may be placed level to any block of the Multifarm, or one block lower. When active, the &2Multifarm&r will place &6Humus&r farmland blocks &lon top&r of these support blocks. The following image illustrates valid levels for farmland."
+				"{image:litv3:textures/misc/q-b-forestry-sideview.png width:80 height:40 align:center}"
+				""
+				"6. Connect a &9water supply&r to the &1Farm Valve&r."
+				""
+				"7. Connect an &4RF power source&r to the &cFarm Gearbox&r."
+				""
+				"8. &oOptionally,&r connect item transport ducts to the &3Farm Hatches&r. They may be used to insert Fertilizer and extract produce."
+				""
+				"9. After the support blocks have been placed, open the &2Multifarm&r GUI by right-clicking anywhere on the multiblock structure."
+			]
+			id: "7E97BBBD306ECFFB"
+			rewards: [{
+				count: 8
+				id: "50AEF016F6095AC0"
+				item: "forestry:fertilizer_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "361E267CD499A751"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "forestry:farm_plain_stone_brick"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_mossy_stone_brick"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_cracked_stone_brick"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_brick"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_cut_sandstone"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_sandstone_chiseled"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_brick_nether"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_brick_chiseled"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_quartz"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_quartz_lines"
+							}
+							{
+								Count: 1b
+								id: "forestry:farm_plain_quartz_chiseled"
+							}
+						]
+					}
+				}
+				title: "All available farm blocks"
+				type: "item"
+			}]
+			title: "Getting started"
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E97BBBD306ECFFB"]
+			description: [
+				"- The &2Multifarm&r GUI displays the current levels of &9Water&r and &eFertilizer&r. If it is lacking these materials or power warning indicators will be displayed."
+				""
+				"- The &nright side&r of the GUI contains two groups of inventory slots. The &nupper group&r are for inputs such as &8Dirt&r and &6Seeds&r and the l&nower group&r is for farmed products."
+				""
+				"- In the centre of the &2Multifarm&r is a slot for a &3Circuit Board&r, which will set the type of farm and type of crops. "
+				"When the circuit board is ready, place it in the slot. The farm should change the icons from trees to however the farm has been configured."
+				""
+				"The &2Multifarm&r will not display any errors if it needs &8Dirt&r, &eseeds,&r &asaplings,&r etc."
+				""
+				"The following image shows a Multifarm configured to automatically grow four types of crops:"
+				""
+				"{image:litv3:textures/misc/q-b-forestry-interface.png width:100 height:60 align:center}"
+				""
+				"Maintenance"
+				"____________________"
+				"&2Multifarms&r periodically turn &6Humus&r or Farmland into &eSand&r and place it in the output inventory. Additionally, &bFertilizer&r is required for the farm to create new &6Humus.&r For this reason, it is recommended that the player make use of item transport ducts to automatically pipe &bFertilizer&r and fresh Dirt into the &3Multifarm.&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/help"
+				}
+			}
+			id: "4FC745A30E457782"
+			rewards: [{
+				count: 8
+				id: "18DD8ECE73867EC0"
+				item: "forestry:fertilizer_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "570E4DE825091F86"
+				type: "checkmark"
+			}]
+			title: "Interface"
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6A44970FE395F7D6"]
+			description: [
+				"&2Multifarms&r can be constructed in &nfive&r different sizes. "
+				""
+				"Each successive size requires more farm blocks, and must be provided with more &6farmland.&r The images below showing the comparative size and layout of each of the farm sizes. Hover over them to see details."
+				""
+				"- &nThe dark area&r in the center is the &2Multifarm.&r "
+				"- &nThe colored areas&r around are the &afarmland.&r "
+				""
+				"Different colors indicate the four configurable regions."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/help"
+				}
+			}
+			id: "2EE35C6B430D63E3"
+			rewards: [{
+				count: 8
+				id: "4AE605452A8FD044"
+				item: "forestry:fertilizer_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "646EA2DBE09DD29E"
+				type: "checkmark"
+			}]
+			title: "Sizes"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4FC745A30E457782"]
+			description: [
+				"In order to change what &2multifarm&r will plant and harvest, its configuration will need to be changed. Newly built farms will default to being an &aArboretum&r which is one of the managed farm types."
+				""
+				"In order to re-configure a farm the player will need a &1Soldering Iron&r, a &bCircuit Board&r (preferably an Intricate Circuit Board so all four sides of the farm can be configured) and one of the &eElectron Tubes&r used to create a specific farm type."
+				""
+				"&nRight-click&r on the farm while holding the &1Soldering Iron&r. Make sure the Type Selection at the top of the GUI is changed to be either \"Managed Farms\" or \"Manual Farms\" and put the &bCircuit Board&r into the top right slot. Choose an &eElectron Tube&r from the tables below and place into the slot which corresponds to the side of the farm to be configured into that farm type."
+				""
+				"Starting from top to bottom the &eElectron Tube&r slots correspond to the (N)orth, (S)outh, (W)est and (E)ast sides of the farm."
+				"{image:litv3:textures/misc/q-b-forestry-farmconfig.png width:200 height:110 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jei:textures/jei/atlas/gui/icons/config_button.png"
+				}
+			}
+			id: "2295386CE62CFC71"
+			rewards: [{
+				count: 8
+				id: "1948D5B49BBA99AF"
+				item: "forestry:fertilizer_compound"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11EF1DB04076D3B2"
+				type: "checkmark"
+			}]
+			title: "Farm configuration"
+			x: 3.0d
+			y: 12.0d
+		}
+	]
+	title: "&2Jardinage&r"
+}

@@ -1,0 +1,2481 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "pneumaticcraft"
+	group: "4CB4EEA3591AD759"
+	icon: "pneumaticcraft:pressure_gauge"
+	id: "65BBD02A54061C8F"
+	images: [
+		{
+			height: 2.0d
+			image: "pneumaticcraft:textures/item/air_canister.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "pneumaticcraft:textures/gui/jei/thermometer.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:textures/particle/lava.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			color: 0
+			height: 2.0d
+			image: "kubejs:item/icon_processor"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "litv3:textures/misc/assembly.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "litv3:textures/misc/pneumatics.png"
+			rotation: 0.0d
+			width: 6.345794392523365d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:block/barrier_open"
+			rotation: 135.0d
+			width: 1.5d
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			height: 1.7d
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: 24.0d
+			y: 5.5d
+		}
+		{
+			height: 1.7d
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: 18.0d
+			y: 1.25d
+		}
+		{
+			height: 4.735949098621421d
+			image: "litv3:textures/misc/pneumatics-info.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 1.7d
+			image: "ftbquests:tasks/input_only"
+			rotation: 135.0d
+			width: 1.7d
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6FD45EF3A2B1B31F"]
+			description: [
+				"PneumaticCraft à son propre système d'énergie basé sur la compression de l'air. Il "
+				"PneumaticCraft has its own power system, based on compressed air. C’est un problème à plusieurs dimensions : les machines et les outils stockent l’air en quantité, mais de nombreuses opérations dépendent de la pression d’air, laquelle est fonction à la fois du volume de la machine et de la quantité d’air emmagasinée."
+				""
+				"La pression est générée par différents compresseurs : le Solid Fuel Compressor (qui brule tout ce qui pourrait bruler dans un four), le Liquid Fuel Compressor (voir plus bas), un compresseur qui utilise la foudre et des compresseurs qui utilisent des FE/EU."
+				""
+				"Une notion de chaleur; certaines machines nécessitent de la chaleur, certains compresseurs produisent de la chaleur qui doit être dissippée."
+				""
+				"Les carburants liquides doivent être rafinés à partir d'Oil ajouté dans le monde par le mod; certains de ces carburants sont de très haute qualitée."
+			]
+			icon: "kubejs:help"
+			id: "302F025D35C7E495"
+			rewards: [{
+				id: "62B56C939ED5E7DD"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Des informations plus détaillées sont dans le livre du mod !"
+			tasks: [{
+				id: "14454134F73390B3"
+				title: "Pneumatics!"
+				type: "checkmark"
+			}]
+			title: "Pneumatique !"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6FD45EF3A2B1B31F"]
+			description: [
+				"Le &9Pressure Tube&r est l'élément essentiel de PneumaticCraft pour transporter l'air entre les compresseurs et les machines."
+				""
+				"&nLes tubes déconnectés feront fuir l'air &r! Par contre les côtés d'un tube peuvent être ouvert ou fermés via un clic droit avec une Pneumatic Wrench. Certaines Wrenches d'autres mods peuvent aussi fonctionner."
+			]
+			id: "4C788FBAAE9CF49C"
+			rewards: [{
+				count: 2
+				id: "3B8DAD465259BC86"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Fabriquez ces tubes pour déplacer l'air pressurisé."
+			tasks: [{
+				id: "119B6AE6CDED5CB0"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			title: "Tube pressurisé"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FD45EF3A2B1B31F"]
+			description: ["Beaucoup de recettes nécessiteront de la Reinforced Stone. Ces blocs sont aussi très utile pour la construction et ont une très grande résistance aux explosions."]
+			id: "754A30B336A3E94C"
+			rewards: [{
+				id: "3DA9048E3E0A51CB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3CA2CDFB8401EA59"
+				item: "pneumaticcraft:reinforced_stone"
+				type: "item"
+			}]
+			title: "Pierre renforcée"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1EB00AC57E572D88"]
+			description: ["La Pressure Chamber est une structure multi-bloc utilisée pour compresser divers matériaux. Du fait de sa grand capacité en air elle peut aussi servir de batterie en quelque sorte."]
+			id: "5BDB321306D9FF76"
+			rewards: [
+				{
+					id: "2B6A60FE2397A8FC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "18DC09B78419CEF3"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3DD93BAE3ED23D73"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "5ABC6FC7C33194CD"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+			]
+			title: "Mur de Chambre Pressurisée"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5BDB321306D9FF76"]
+			description: [
+				"Les règles suivantes s'appliquent pour la construction de la structure :"
+				""
+				"- La structure globale doit faire 3x3x3, 4x4x4 ou 5x5x5 et être creuse."
+				""
+				"- Les agles et les coins doivent être soit des Pressure Chamber Walls ou du Pressure Chamber Glass."
+				""
+				"- Les faces doivent être soit des Pressure Chamber Walls, du Pressure Chamber Glass, des Pressure Chamber Valves ou des Pressure Chamber Interfaces."
+				""
+				"- Au moins une Pressure Chamber Valve est requise."
+				""
+				"- Au moins 2 Pressure Chamber Interfaces sont recommandes (une dirigée vers l'intérieur et une vers l'extérieur)."
+			]
+			id: "73BA97DCC05FA0ED"
+			rewards: [
+				{
+					count: 2
+					id: "3E077998FF476D1E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A0A05E738CBB02B"
+					table_id: 2581585967323693493L
+					type: "choice"
+				}
+			]
+			size: 1.5d
+			subtitle: "Assembler une Pressure Chamber"
+			tasks: [{
+				advancement: "pneumaticcraft:pressure_chamber"
+				criterion: ""
+				id: "35793D297CFA152A"
+				type: "advancement"
+			}]
+			title: "Chambre Pressurisée"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Pour débuter, vous aurez juste besoin de lignots de fer, que vous convertirez en &5Compressed Iron&r, qui sera utilisé dans les recettes tout au long du mod."
+				""
+				"&9&n                                                  &r&9               "
+				"Dans ce chapitre, vous allez :"
+				"- Découvrir l'air, la pression et la température"
+				"- Apprendre à raffiner différents liquides à partir de Crude Oil"
+				"- Raffiner du Crude Oil en Plastic Sheets"
+				"- Assembler une Pressure Chamber multi-bloc"
+				"- Programmer des drones pour travailler à votre place"
+				"&9&n                                                  &r&9               "
+			]
+			id: "6FD45EF3A2B1B31F"
+			rewards: [{
+				id: "2A13908AE13FEFB0"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "04EDCECFB54AF19D"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "Fer compressé"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41DBE31C5FAE9B96"]
+			id: "3C8C4BD3067374D0"
+			rewards: [{
+				id: "03825B619242BBE1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E1BA66A34806209"
+				item: "pneumaticcraft:pneumatic_wrench"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4840A7917559EAE0"]
+			description: [
+				"La Charging Station est une machine permettant de recharger les objets pneumatiques pouvant être chargés (ou déchargés). L'interaction entre la Charging Sation et l'objet est la même qu'entre les tubes et les machines : la différence de pression va s'équilibrer. Ce qui veut dire que vous aurrez besoin que votre Chargin Station soit bien pressurisée pour charger vos objets intégralement."
+				""
+				"La plupart des objets ont une pression maximum de 10 bar. N'ayez crainte pour les explosions, les objets n'explosent pas lorsqu'ils sont surchargés, ils vont simplement s'arrêter de charger au delà de 10 bar. Le Charge Pad peut être camouflé avec un Camouflage Applicator."
+				""
+				"> Charge Pad"
+				"Vous pouvez transformer votre Charging Station en Charge Pad avec une Dispenser Upgrade. Cela lui permet de (dé)pressuriser les objets au sol sur la sation, les objets transportés par un joueur qui marche sur la station et tout type de Drone qui passant directement au dessus de la sation."
+				""
+				"> Gestion des améliorations"
+				"La Charging Station sert également de système de gestion pour les objets pouvant recevoir des améliorations."
+				"Les améloirations sont des objets pouvant être fabriqués et insérés dans des machines ou certains outils pour les améliorer leur fonctionnalité. L'effet précis dépend de chaque amélioration et peut varier d'un dispositif à un autre; tout est documenté dans les interfaces de chaque machine et de la Charging Station pour les outils."
+				""
+				"Pour améliorer un objet, placez le dans la Charging Station comme d'habitude et cliquez sur le bouton avec une flèche vers le haut au dessus de l'emplacement de l'objet. Cela va ouvrir une nouvelle interface où les améliorations peuvent être insérés."
+			]
+			id: "41DBE31C5FAE9B96"
+			rewards: [{
+				count: 64
+				id: "0F7B2CA253DB5B51"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22B5369E1ED10D30"
+				item: "pneumaticcraft:charging_station"
+				type: "item"
+			}]
+			title: "Améliorations et station de recharge"
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4C788FBAAE9CF49C"
+				"754A30B336A3E94C"
+			]
+			description: [
+				"L'&9Air Compressor&r est un simple générateur qui produit de l'air compressé."
+				""
+				"Il brulera n'importe quel carburant solide qu'un four vanilla pourrait accepter, et produit de base 10mL d'air/tick (ce qui peut être amélioré avec des Speed Upgrades). Il n'acceptera pas de &4Lava Bucket&r (sceau de lave) et par conscéquent n'importe quel autre carburant liquide; utilisez un Liquid Compressor pour ça."
+			]
+			id: "1EB00AC57E572D88"
+			rewards: [{
+				count: 16
+				id: "4D60C4C3397D540F"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Fabriquez un Air Compressor."
+			tasks: [{
+				id: "6A536FB0907077C2"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			title: "Compresseur à air"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41DBE31C5FAE9B96"]
+			description: [
+				"La fonction principale du Logistics Configurator et d'aider à configurer un Logistics System. Via un clic droit sur n'importe quel Logistic Frame, vous pourez configurer divers filtres. Shift clic-droit retire la Frame de l'inventaire sur laquelle elle est attachée."
+				""
+				"Le Logistics Configurator peut aussi être utilisé pour retirer (avec un shift clic-droit) d'autres éléments attachables, comme le Transfer Gadget et le Crop Support."
+			]
+			id: "32737F8BBBCF40C7"
+			rewards: [{
+				count: 2
+				id: "6F26F5EE59EE91F6"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79BA7092A94639B8"
+				item: "pneumaticcraft:logistics_configurator"
+				type: "item"
+			}]
+			title: "Configurateur logistique"
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3C8C4BD3067374D0"]
+			description: [
+				"Les Logistics Drones sont un type spécialisé de drones. Il sont un rang bas de drone, puisqu'ils ne sont pas programmables et ne peuvent faire qu'une seule tâche. "
+				""
+				"Comme tout les autres types de Drones, ce drone nécessite de la pression pour fonctionner, et cherchera automatiquement une Charging Station avec une Dispenser Upgrade si il manque d'air."
+				""
+				"Une fois déployé, un Logistics Drone travaillera sur n'importe quel inventaire avec une Logistics Frame dans une zone de 33x33x33 centré sur le bloc sur lequel il a été déployé. Puisque ces drones ont souvent besoin de déplacer des objets, des Speed Upgrades et des Inventory Upgrades sont recommandés pour améliorer leur vitess et leur capacitée d'emport."
+			]
+			id: "67EB564C8FEEC6C4"
+			rewards: [
+				{
+					id: "181BB49C4DD00820"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "19A7975F7F622D9F"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Créez et déployez un Logistics Drone pour déplacer des objets dans votre réseau logistique."
+			tasks: [{
+				id: "40333160B22F6C7C"
+				item: "pneumaticcraft:logistics_drone"
+				type: "item"
+			}]
+			title: "Drone logistique"
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["17761223A9BC14AF"]
+			description: ["L'Advanced Air Compressor est la version de niveau 2 du Air Compressor, avec une pression maximum sans risque de 20 bar. Il peut générer de base jusqu'à 50mL d'air/tick, et peut être amélioré avec des Speed Upgrades. Par contre ce générateur doit être refroidit, car son efficacité baisse lorsque la tempréature monte, jusqu'au point où il ne génère plus rien."]
+			id: "4517E3399982322C"
+			rewards: [{
+				id: "375D27F2137387F9"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "61183A743434A1EC"
+				item: "pneumaticcraft:advanced_air_compressor"
+				type: "item"
+			}]
+			title: "Compresseur avancé"
+			x: 26.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["446C2F8D6B8AD9C5"]
+			description: [
+				"Un Seismic Sensor est un objet de début de jeu utilisé pour rechercher du Oil. Contrairement à la plupart des outils, celui-ci de nécessite pas de pression pour fonctionner. L'utiliser avec clic-droit vous montrez si du Oil peut être trouvé quelque part directement en dessous du bloc sur lequel vous avez cliqué."
+				""
+				"&n> &5Refinery&r&r"
+				"La Refinery est une structure multi-bloc qui utilisé de la chaleur pour rafiner du Oil en divers carburants. Il commence à fonctionner à partir de 100°C. Plus la termpérature est haute et plus le raffinage sera rapide. Les carburants pouvant être produits sont (triés du plus léger au plus lourd) : le LPG (Liquefied Pretroleum Gas), le Gasoline Kerosen, et le Diesel."
+				""
+				"Placez un &5Refinery Controller&r, puis empilez 2 à 4 &5Refinery Outputs&r au dessus ou à côté du Controller. Différentes tailles de structure donne différents rendements; pour 10mB de oil vous aurez :"
+				"- 2 Outputs :&6LPG&r (2mB), &eDiesel&r (4mB)"
+				"- 3 Outputs: &6LPG&r (2mB), Kerosene (3mB), &eDiesel&r (2mB)"
+				"- 4 Outputs: &6LPG&r (2mB), Gasoline (3mB), Kerosene (3mB), &eDiesel&r (2mB)"
+				""
+				"Le carburant le plus léger ira toujours vers le &5Refinery Output&r le plus haut, et le plus lourd vers le bas. Si vous ajoutez plus de Rafinery Outputs sur une pile existante, le multi-bloc réarangera au mieux les liquides existants dans le bon bloc pour que le système continue de fonctionner."
+				""
+				"Tout les liquides produits peuvent être utilisés comme carburant dans un &1Liquid Compressor&r (les carburants les plus légers étant de meilleure qualitée. Par contre il y a 2 autres utilisations importantes :"
+				"- Le &6LPG&r est utilisé pour faire du Liquid Plastic"
+				"- Le &eDiesel&r est utilisé pour faire du Lubricant pour les Speed Upgrades"
+				""
+				"Une &5Thermopneumatic Processing Plant&r sert à ces 2 fabrications."
+			]
+			id: "3DB5BEED97CF4BA4"
+			rewards: [{
+				id: "15EE2B3EF7E4C4D9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Fabriquez un Refinery Controller et 2 à 4 Refinery Outputs."
+			tasks: [
+				{
+					id: "0BCFF0D9A593FCA0"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "754A1695ED340730"
+					item: "pneumaticcraft:refinery_output"
+					type: "item"
+				}
+				{
+					id: "41C8C03DA08CDACA"
+					item: "pneumaticcraft:seismic_sensor"
+					type: "item"
+				}
+			]
+			title: "Contrôleur de raffinerie"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DB5BEED97CF4BA4"]
+			description: ["Le Liquid Compressor est un générateur simple pouvant produire de l'air compressé. Pour celà il brûle du carburant liquide; pour voir quels liquides peuvent être utilisés et leur efficacitée, ouvrez le menu \"Available Fuels\" dans l'interface du Liquid Compressor. Notez que celà inclu également les liquides à haute température comme la lave."]
+			id: "4078FE00BC9E4014"
+			rewards: [{
+				id: "260B6ACC14355D40"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Faites un Liquide Compressor pour créer de la pression plus efficacement."
+			tasks: [{
+				id: "4783B53639988754"
+				item: "pneumaticcraft:liquid_compressor"
+				type: "item"
+			}]
+			title: "Compresseur à liquide"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"73BA97DCC05FA0ED"
+				"4ECA8387C0B80330"
+			]
+			description: ["Un Printed Circuit Boards (PCB) sont des composants important utilisés dans des machines et outils de tier supérieur. Faire des PCB nécessite quelques étapes. Avant tout, faites une Empty PCB dans la Pressure Chamber."]
+			id: "1522D0D97EA3E78D"
+			rewards: [{
+				count: 2
+				id: "1498E18E71A56918"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "685D0C80F23D2549"
+					item: "pneumaticcraft:empty_pcb"
+					type: "item"
+				}
+				{
+					id: "10D269D77440CCF0"
+					item: "pneumaticcraft:uv_light_box"
+					type: "item"
+				}
+			]
+			title: "PCB vide"
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1522D0D97EA3E78D"]
+			description: ["L'Etching Acid est fait dans une Pressure Chamber et est utilisé dans l'Etching Tank. Voyez la page PCB dans le PNC book pour plus d'informations sur la production de PCB."]
+			id: "5E8A0DC28C87528A"
+			rewards: [{
+				id: "34E72C3F08625D14"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0016EF1E5954EEBB"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+				{
+					id: "264E2BACDD8668B2"
+					item: "pneumaticcraft:etching_tank"
+					type: "item"
+				}
+			]
+			title: "Sceau d'acide de gravure"
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E8A0DC28C87528A"]
+			description: [
+				"Une fois que vous avez fait votre Assembly System, vous pouvez l'utiliser pour transformer des Empty PCB directement en Unassembled PCB avec Assembly Program: Laser. Il n'y a pas besoin de l'exposer dans une UV Light Box Ou d'utiliser un Etching Tank dans ce cas."
+				""
+				"L'Assembly System est un moyen pratique et relativement rapide pour produire es Unassembled PCB; par contre avec de l'automatisation et un système de chaufage suffisant, le combo UV Light Box / Etching Tank sera beaucoup plus rapide, surtout si vous devez les produire en masse."
+			]
+			id: "22E9A7D30ABA1E14"
+			rewards: [{
+				id: "7671E0F71BF6237C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3310BE2F3997D3C4"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			title: "PCB désasemblée"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22E9A7D30ABA1E14"]
+			description: ["Le processus de gravure à une chance d'échouer si une Empty PCB n'a pas été exposée à la lumière UV; vous pouvez recycler les Failed PCB dans un Blast Furnace."]
+			id: "2F1F68142FB421C1"
+			rewards: [{
+				count: 2
+				id: "0958D30A7804C0D3"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2256A91B988148C0"
+				item: "pneumaticcraft:failed_pcb"
+				type: "item"
+			}]
+			title: "PCB Ratée"
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22E9A7D30ABA1E14"]
+			description: ["Enfin, vous pouvez ajouter des Capacitor et des Transistor pour finir la Printed Circuit Board."]
+			id: "00F720B457FE7814"
+			rewards: [
+				{
+					count: 2
+					id: "4D5EA8A906969BB0"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "56043D4E4BE2F895"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68A665E6803571A7"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			title: "PCB Complète"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"295FF179F973AF2A"
+				"1EB00AC57E572D88"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Une Thermopneumatic Processing Plant utilise de la pression et / ou de la chaleur pour transformer des matériaux. "
+				""
+				"La Thermopneumatic Processing Plant peut être utiliser pour craquer des carburants lourd produits par une Refinery en des carburants plus léger, avec un rendement de 80%."
+			]
+			id: "13C67521F98B2F2D"
+			rewards: [
+				{
+					count: 2
+					id: "6275B35AAFD22187"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "41C58607495D20D5"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "093AFC55DEBE7388"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Des mots compliqués juste pour se la péter"
+			tasks: [{
+				id: "0A611ECA92A5B070"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			title: "Fabrique Thermopneumatique"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DB5BEED97CF4BA4"]
+			id: "295FF179F973AF2A"
+			rewards: [
+				{
+					count: 2
+					id: "0D0ED1B58B4B2369"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "343F4F2012CFBE49"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "63735319E2B1E935"
+				item: "pneumaticcraft:lpg_bucket"
+				type: "item"
+			}]
+			title: "Sceau de GPL"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E61E6DB14B53B82"]
+			description: [
+				"Les Plastic Sheets sont produites en plaçant un sceau ou un Tank de Molten Plastic dans un inventaire avec un Heat Frame attaché, et en refroidissant le Heat Frame, idéalement en dessous de -80°C (plus c'est froid, mieux c'est)."
+				""
+				"Le Molten Plastic est consommé à partir du sceau ou du Tank, et vous avez une chance d'avoir un second Plastic Sheet pour chaque 1000mB de Molten Plastic consommés."
+			]
+			id: "4ECA8387C0B80330"
+			rewards: [{
+				id: "68E48C00A54563A5"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "41D7701AD28908C6"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			title: "Feuille de plastique"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13C67521F98B2F2D"]
+			id: "7AAB7F9D4E5A7571"
+			rewards: [{
+				id: "463FF66E63DCB6DB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "The Upgrade Matrix is used for the crafting upgrades."
+			tasks: [{
+				id: "7AFD3CBE41E21FB5"
+				item: "pneumaticcraft:upgrade_matrix"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7CDFE3545039DEB4"
+				"13C67521F98B2F2D"
+			]
+			description: ["Lubricant is required for crafting Speed Upgrades. It is created in a Thermopneumatic Processing Plant with Diesel (or Biodiesel) and Redstone."]
+			id: "18ED2341DF958812"
+			rewards: [
+				{
+					count: 2
+					id: "2CB1853704FD6435"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "094BAD15D5918B1D"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "14983020BB8CF3AA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "292D46724DA05E0F"
+				item: "pneumaticcraft:lubricant_bucket"
+				type: "item"
+			}]
+			title: "Sceau de Lubrifiant"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ECA8387C0B80330"]
+			id: "65DDDE462D8D35F2"
+			rewards: [{
+				id: "74206823082BB185"
+				item: "compactxpbottles:x4experiencebottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "303E6B3B00115BBF"
+				item: "pneumaticcraft:sentry_turret"
+				type: "item"
+			}]
+			title: "Tourelle automatique"
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4ECA8387C0B80330"]
+			description: [
+				"La Amadron Tablet est un objet pouvant être utilisé pour commander des objets et des liquides livrés par drone. Pour ce faire, un inventaire doit être sélectionné par un clic-droit avec la tablette pour le lier. Cet inventaire est maintenant utilisé pour prendre des objets comme paiement, et pour recevoir les objets commandés."
+				""
+				"L'interface de la tablette est assez intelligente pour savoir ce que vous pouvez acheter en regardant dans l'inventaire lié. Lorsque vous commandez des ressources, un Drone apparaitra pour collecter les ressources avec lequelles vous payez. Une fois la collecte réalisée, un deuxième Drone vous livrera les ressoures commandés. De cette manière vous pourrez obtenir des objets que vous n'auriez pas pu avoir autrement, comme les PCB Blueprint et les Assembly Programs. Il y a également des échanges aléatoires de villageois disponibles; ces échanges sont changés aléatoirement chaque jour."
+				""
+				"&5> &nEchange joueur à joueur &r&r"
+				"En cliquant sur le bouton \"Custom Player Trade\" (dans l'onget \"Custom Trades\"), vous pouvez offrir vos propres ressources à l'échange avec d'autres joueurs. Dans l'interface d'échange vous pouvez sélectionner une ressource à vendre sur le côté gauche, et une ressource à acheter sur le côté droit. Vous pouvez sélectionner le montant de la transaction dans les champs textes."
+			]
+			id: "2AC5A3F3AD6051DE"
+			rewards: [
+				{
+					id: "4CFF8BD34F1F322C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "47FE6406D2AD377E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B7C6A2DCAD5556C"
+				item: "pneumaticcraft:amadron_tablet"
+				type: "item"
+			}]
+			title: "Tablette Amadron"
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3598EC582CB9CFC1"]
+			description: [
+				"Pour pouvoir fabriquer des matériaux de niveaus suppérieur, vous aurez besoin d'un &5Assembly System&r; un essemble d'Assembly Machines. Ces machines communiques entres elles lorsqu'elles sont horizontalement adjacentes. Il ne peut exister qu'une seule machine de chaque type (à l'exception de l'Assembly IO Unit, voir plus bas). L'Assembly Line fonctionne intégralement à l'air comprimé, mais vous aurez seulement besoin d'&9allimenter&r en l'&9Assembly Controller&r pour que l'enssemble du système fonctionne."
+				""
+				"L'IO Unit est la connection entre les inventiares et l'Assembly Platform. Ce bras robotique peut s'étendre en diagonale. L'IO Unit peut soit exporter les produits finis, ou importer les objets utilisés pour la frabrication. N'importe quel inventaire peut être utilisé : des coffres vanilla ou des blocs d'inventaire moddés."
+				""
+				"L'&5Assembly Platform&r est une table de fabrication pour les autres Assembly Machines. Elle est utilisée pour maintenir les objets en place pendant le passage d'un foret ou d'un laser. Il est préférable de placer l'Assembly Platform au centre pour que les autres machines puissent y accéder."
+				""
+				"L'&5Assembly Drill&r est l'une des Assembly Machines qui réalise concrètement le travail. Sa tête de foreuse en diamant et capable de percer les matériaux les plus durs. L'Assembly Drill ne peut pas s'étendre en diagonale, et doit donc être placée directement à côté de l'Assembly Platform."
+				""
+				"L'&5Assembly Laser&r est capable de couper les matériaux les plus durs, utiliser pour trancher un objet ou arrondir ses angles. COmme l'Assembly Drill, cette machine ne peut pas s'étendre en diagonale."
+			]
+			id: "256BD2FFBE7EC950"
+			rewards: [
+				{
+					count: 2
+					id: "34B0775A5DDA4C3B"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "405F5CDD2EDAA5C2"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "5391692A7752BB4C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&9Objectif Final du Chapitre 3 complété !&r"
+			tasks: [
+				{
+					id: "0B4519FA18309A4E"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+				{
+					id: "54BB0E11FD652DA9"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "1968B2DDC7BB950F"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "37F1A1901AE38B95"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "60797CEB07441F3E"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+			]
+			title: "&l&6Chapitre 3: Systèmes Pneumatique&r&r"
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00F720B457FE7814"]
+			description: ["Le cerveau de l'Assembly System. Il accèpte des programmes qui définissent comment le Controller doit contrôler les Assembly Machines. Le Controller affiche des informations sur son statut. Ouvrir l'interface permet de voir ce qu'il se passe."]
+			id: "3598EC582CB9CFC1"
+			rewards: [{
+				id: "356F938F962400E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7102F6FF7968700D"
+				item: "pneumaticcraft:assembly_controller"
+				type: "item"
+			}]
+			title: "Contrôleur d'assemblage"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["256BD2FFBE7EC950"]
+			id: "17761223A9BC14AF"
+			rewards: [{
+				id: "1D096AC3462A8309"
+				item: "compactxpbottles:x4experiencebottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25405C6CA684E0BC"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				type: "item"
+			}]
+			title: "Tube Pressurisé avancé"
+			x: 26.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00F720B457FE7814"]
+			description: ["La Compressed Iron Armor est une armure de début de jeu légèrement meilleure par rapport à l'armure en fer; légère meilleure resistance et durabilité, ainsi qu'une resistance partielle à la poussée. Elle peut être réparée via une enclume avec des Compressed Iron Ingots."]
+			id: "22C1BE1B37405FA7"
+			rewards: [{
+				id: "2514D0ECF005896C"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "482C64EFD3D37D38"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10AE3D797B0B739A"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1699EB5144C03B4E"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6994893FD2207E93"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Armure de Fer Compressé"
+			x: 20.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"00F720B457FE7814"
+				"4ECA8387C0B80330"
+			]
+			description: ["Le Programmer est une machine utilisée pour programmer des Drones, utilisant un système de programation visuel où des Puzzle Pieces sont assemblés dans une interface de programmation. Le Programmer n'a pas de besoin de pression pour fonctionner. Le reste de la catégorie Programming donne beaucoup plus d'information sur comment écrire des programmes de Drones."]
+			id: "066F64299D4F3C51"
+			rewards: [{
+				id: "1EDF0D2E780CBF36"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0EE6D343BADC37F2"
+				item: "pneumaticcraft:programmer"
+				type: "item"
+			}]
+			title: "Programmeur"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17761223A9BC14AF"]
+			description: ["L'Aerial Interface est un dispositif puissant qui peut se connecter directement à l'inventaire du joueur. Quand il est suffisemment pressurisé, on peut interragir avec comme n'importe quel autre inventaire. Au lieu d'atterir sur l'Interface, vous serez envoyé directement sur l'inventaire du joueur lié. Vous pouvez utiliser un Logistics Requester Frame sur l'Interface pour garder en permanence 64 torches sur vous, par exemple."]
+			id: "01171D8DA19473EE"
+			rewards: [{
+				id: "15ADF6AF80ACD35A"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "667EA7095E4630B9"
+				item: "pneumaticcraft:aerial_interface"
+				type: "item"
+			}]
+			title: "Interface aerienne"
+			x: 27.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17761223A9BC14AF"]
+			description: ["Un Programmable Controller peut faire des choses assez similaires aux Drones. Un programme peut être écrit dans le Programmer et être sauvegardé dans un Drone ou dans l'API d'un Network. Chacun de ces objets peuvent être placés dans le Programmable Controller. Du moment qu'il y a assez de pression, le Programmable Controller exécutera le programme comme le ferait un Drone."]
+			id: "42C1B62F4B3A747A"
+			rewards: [{
+				id: "3421BFB747473814"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "628D7285E1E6F006"
+				item: "pneumaticcraft:programmable_controller"
+				type: "item"
+			}]
+			title: "Contrôleur programmable"
+			x: 28.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17761223A9BC14AF"]
+			description: ["Le Flux Compressor converti l'énergie de Forge (compatible avec des Redstone Flux et les systèmes d'énergie d'autres mods) en air compressé. Il consomme de base 40 FE/tick, mais peut être amélioré avec des Speed Upgrades. Le Flux Compressor à une capacité de 100.000 FE et accepte des FE 2 fois plus vites qu'il les consomme."]
+			id: "2CDAD96D89AA8045"
+			rewards: [{
+				id: "31AD9642327F7000"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0A64601C0E1BFF7F"
+				item: "pneumaticcraft:flux_compressor"
+				type: "item"
+			}]
+			title: "Compresseur de flux"
+			x: 27.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6FD45EF3A2B1B31F"]
+			description: [
+				"Il y a 4 niveaux de Fluid Tanks, nommé de manière originale : Small Tank, Medium Tank, Large Tank et Hude Tank. Même si les Liquid Hoppers sont une option pour stocker du liquide, ces Tanks offrent beaucoup plus d'espace et ont des fonctionnalités utiles et ne transfèrent pas automatiquement les fluides (mais peuvent quand même le faire avec une Dispenser Upgrade)."
+				""
+				"Les 4 types de Tank peuvent être empilés verticalement pour former une sorte de strcture multi-bloc. Pour ça faites un clic doit avec une wrench sur le Tank; un coup de Wrench sur la moitiée haute d'un Tank essayera de le joindre avec celui juste au dessus et vice versa pour celui en dessous. Une fois les Tanks empilés, n'importe quel fluide (avec une densité > à 0) ira vers le Tank le plus bas de la pile, tant qu'il y aura de l'espace dedans. "
+			]
+			id: "669A8F2B1C318E73"
+			rewards: [{
+				id: "73B3AA5A91D23355"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E74E7200B03AAC7"
+				item: "pneumaticcraft:small_tank"
+				type: "item"
+			}]
+			title: "Petit réservoir"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C788FBAAE9CF49C"]
+			id: "6F134D8658FA01F6"
+			rewards: [{
+				id: "6F829C55F15BEDEF"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63A872C1CF87D6F9"
+				item: "pneumaticcraft:medium_tank"
+				type: "item"
+			}]
+			title: "Réservoir moyen"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["17761223A9BC14AF"]
+			id: "3C0A0421DDEEA487"
+			rewards: [{
+				count: 2
+				id: "0F7976736059CEE2"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05C4B38466D3769F"
+				item: "pneumaticcraft:large_tank"
+				type: "item"
+			}]
+			title: "Grand réservoir de liquides"
+			x: 26.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C0A0421DDEEA487"]
+			id: "678B26E2434DCFFB"
+			rewards: [{
+				id: "5EE8FDD8AB417047"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "59B9A68526539AA8"
+				item: "pneumaticcraft:huge_tank"
+				type: "item"
+			}]
+			title: "Enorme réservoir de liquides"
+			x: 27.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["669A8F2B1C318E73"]
+			description: [
+				"Le &9Liquid Hopper&r permet de transférer des liquides. Comme l'Omnidirectionnal Hopper, son entrée et sa sortie peuvent être orientés dans n'importe quelle direction, et utilise les mêmes règles de rotation et de placement. Vous pouvez y ajouter des &2Speed Upgrades&r pour augmenter la vitesse de tranfert."
+				""
+				"Le Liquid Hopper tentera également de drainer les fluides depuis n'importe quel objet au sol en face de son entrée et de les inssérer dans n'importe quel objet en face de sa sortie, comme par exemple un sceau d'eau ou de lave ou des conteneurs de fluide moddés."
+			]
+			id: "31355329CF220C94"
+			rewards: [{
+				id: "3484477B2C1CD41F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "760D8101651E00CD"
+				item: "pneumaticcraft:liquid_hopper"
+				type: "item"
+			}]
+			title: "Entonnoir à liquide"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FD45EF3A2B1B31F"]
+			description: [
+				"L'&2Omnidirectional Hopper&r fonctionne un peu comme le Hopper vanilla, sauf qu'il peut être orienté dans n'importe quelle direction, pas seulement vers le haut. En plus de ça il peut être &2Amélioré&r, ce qui peut servir à l'accélérer considérablement. Il n'utilise pas d'air et il sera donc très utile au début."
+				""
+				"Lorsque vous placez le Hopper, son entrée vous fera face et sa sortie sera contre le bloc sur lequel il a été placé. Clic-droit sur le Hopper avec une Pneumatic Wrench (d'autres Wrenches pourraient aussi fonctionner) pour faire tourner son entrée. Shift+clic-droit permet de faire tourner sa sortie."
+				""
+				"Si une &9Dispenser Upgrade&r est installée, le hopper éjectera automatiquement les objets dans le monde via sa sortie (si il n'y a pas d'inventaire là)."
+				""
+				"Si une &9Entity Tracker Upgrade&r est installée, le hopper pourra extraire les objets dans l'entitée devant son entrée."
+			]
+			id: "4B1D20C4C391EA08"
+			rewards: [{
+				id: "50A854072D33CD74"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1907F337F3FF411C"
+				item: "pneumaticcraft:omnidirectional_hopper"
+				type: "item"
+			}]
+			title: "Entonnoir multidirectionnel"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["066F64299D4F3C51"]
+			description: ["Les Programming Puzzles, ou Puzzle Pieces, sont des objets physiques utilisés pour programmer des Drones avec un Programmer. Elle sont utilisées lorsqu'un drone est programmé, les mais peuvent être récupérés en reprogrammant le Drone avec un plus petit programme (ou vide). La représentation virutelle des Puzzle Pieces dans l'interface du Programmer est appelée Programming Widgets."]
+			id: "4DA8799B47EA7011"
+			rewards: [{
+				id: "4FC2829144E8FA7B"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23C4B64F62860EDD"
+				item: "pneumaticcraft:programming_puzzle"
+				type: "item"
+			}]
+			title: "Pièce de Puzzle de programmation"
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D555D4717DC4FDF"]
+			description: ["Biodiesel can be produced in a Fluid Mixer with Ethanol and Vegetable Oil. It's just as good a fuel as regular Diesel, but has the advantage of being renewably-produced. Biodiesel can also be used to make Plastic and Lubricant in a Thermopneumatic Processing Plant."]
+			id: "0C4495B8F8420AC3"
+			rewards: [
+				{
+					id: "4E3EFFACB7711854"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "1C972D65A5AA7608"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "&6Immersive Engineering Biodiesel will also work&r"
+			tasks: [{
+				id: "08D57EB5F0CDD324"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:biodiesel_bucket"
+							}
+							{
+								Count: 1b
+								id: "immersiveengineering:biodiesel_bucket"
+							}
+						]
+					}
+				}
+				title: "Biodiesel"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DB5BEED97CF4BA4"]
+			id: "7CDFE3545039DEB4"
+			rewards: [
+				{
+					id: "19D61DE91768C9C9"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "17AA64D53786E440"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "100AE67B8B473D16"
+				item: "pneumaticcraft:diesel_bucket"
+				type: "item"
+			}]
+			title: "Sceau de Gazole"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"13C67521F98B2F2D"
+				"0C4495B8F8420AC3"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Le Molten Plastic est faut à partir de &eLPG&r et de &7Coal&r (charbon), &c&nOU&r&r de Biodiesel et de Charcoal (Charbon de bois) dans une &5Thermopneumatic Processing Plant.&r"
+				""
+				"Le Molten Plastic peut être solidifié simplement en le plaçant dans le monde; il se transformera en Plastic Sheet en environ une demie seconde. C'est automatisable facilement avec un Liquid Hopper avec une Dispenser Upgrade et un Omnidirectional Hopper."
+			]
+			id: "0E61E6DB14B53B82"
+			rewards: [
+				{
+					id: "3A9B44BA1D4B5356"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "162B076952A60688"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Bienvenu dans le monde du plastique"
+			tasks: [{
+				id: "720049CBFE086412"
+				item: "pneumaticcraft:plastic_bucket"
+				type: "item"
+			}]
+			title: "Sceau de plastique liquide"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13C67521F98B2F2D"]
+			description: ["Yeast Culture is required for the production of Ethanol as well as Sourdough."]
+			id: "3007FEE4C9BA8F18"
+			rewards: [
+				{
+					id: "1D8CCB7B1C5CA14F"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "25F2964E4D1F06A2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0A56D33161D43ADB"
+				item: "pneumaticcraft:yeast_culture_bucket"
+				type: "item"
+			}]
+			title: "Sceau de culture de levure"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13C67521F98B2F2D"]
+			description: ["Vegetable Oil can be produced in a Thermopneumatic Processing Plant from various seeds and crops. Seeds tend to be a better source of oil than grown crops. Vegetable Oil is required in the production of Biodiesel."]
+			id: "2F79BCEC3E9DEA5D"
+			rewards: [
+				{
+					id: "724C1D4384B8DDE6"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "7C57F5F4F80773A7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4792F6AD70ED639C"
+				item: "pneumaticcraft:vegetable_oil_bucket"
+				type: "item"
+			}]
+			title: "Sceau d'huile végétale"
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2F79BCEC3E9DEA5D"
+				"6F493DEEBECF7575"
+			]
+			description: ["A Fluid Mixer uses pressure to combine two fluids into a resulting fluid and/or item. Its primary use is in Biodiesel production. The Fluid Mixer will run faster if more pressure is provided (but will also use air faster)."]
+			id: "0D555D4717DC4FDF"
+			rewards: [
+				{
+					id: "185E4ADD68988F95"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "2C83D33F295573D3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "143E550A94FFD2FE"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
+			title: "Mélengeur de liquides"
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2CFA1797EA917494"]
+			description: ["Une Kerosene Lamp est une puissante source d'énergie qui fonctionne au.... kerozene, c'était plutôt évident. Elle est similaire aux sources de lumière à longue distance que vous connaissez peut être déjà, comme la Arcane Lamp de Thaumcraft. Techniquement, la lampe fonctionne avec n'importe quel carburant brulable, mais le Kerosene est beaucoup plus efficace dans cette lampe, plus encore que le LPG."]
+			id: "209F0C134820782D"
+			rewards: [
+				{
+					id: "3B63AD547ADFB63E"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "688E7DA43E831714"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3973B88D6D078406"
+				item: "pneumaticcraft:kerosene_lamp"
+				type: "item"
+			}]
+			title: "Lampe à Kerozene"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3007FEE4C9BA8F18"]
+			description: [
+				"Ethanol can be produced in a Thermopneumatic Processing Plant with Yeast Culture and Sugar. It is one of the constituents of Biodiesel."
+				""
+				"This process is temperature-sensitive: you will need to keep the Thermopneumatic Processing Plant's temperature between 30°C and 60°C. This is very easy in warmer biomes but may take a little effort in cooler areas - one thing to note is that the ambient temperature tend to rise as you dig deeper, so temperate biomes might be suitable if do your processing at a lower Y-level."
+			]
+			id: "6F493DEEBECF7575"
+			rewards: [
+				{
+					id: "2FFDC29235606F45"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "423A907982CED6D1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "14A80E92651192DD"
+				item: "pneumaticcraft:ethanol_bucket"
+				type: "item"
+			}]
+			title: "Sceau d'Ethanol"
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CDFE3545039DEB4"]
+			id: "2CFA1797EA917494"
+			rewards: [{
+				id: "7BC97F5E17F15F30"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E9B8B86880B7642"
+				item: "pneumaticcraft:kerosene_bucket"
+				type: "item"
+			}]
+			title: "Sceau de Kerozene"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2CFA1797EA917494"
+				"13C67521F98B2F2D"
+			]
+			id: "657EF52B1256EE49"
+			rewards: [
+				{
+					id: "0724F433E3D98668"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "541D2AAC80DBE332"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2AD84F8DF80FBF80"
+				item: "pneumaticcraft:gasoline_bucket"
+				type: "item"
+			}]
+			title: "Sceau d'essence"
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["066F64299D4F3C51"]
+			description: ["Avec une Remote vous pouvez créer votre propre interface de contrôle de Drones ou d'Universal Sensors via des manipulations de variables globales. Notez qu'avec les Universal Sensors vous pouvez utiliser la Remote pour créer de la redstone sans fil ! Pour commencer à créer votre interface, shift + clic-droit avec la Remote ouvert l'interface d'édition."]
+			id: "4FDCFAB9C32C7192"
+			rewards: [{
+				id: "79CC298F2555D5DE"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15CD8B9660AA2BB7"
+				item: "pneumaticcraft:remote"
+				type: "item"
+			}]
+			title: "Télécommande"
+			x: 21.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17761223A9BC14AF"]
+			description: ["L'Advanced Liquid Compressor est la version de niveau 2 du Liquide Compressor, avec une pression maximum sans risque de 20 bar. Il peut générer de base jusqu'à 50mL d'air/tick, et peut être amélioré avec des Speed Upgrades. Par contre ce générateur doit être refroidit, car son efficacité baisse lorsque la tempréature monte, jusqu'au point où il ne génère plus rien."]
+			id: "7323F0F2ED3188B4"
+			rewards: [{
+				id: "48BD49864C371E92"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "39FB6D8F6EDDE07E"
+				item: "pneumaticcraft:advanced_liquid_compressor"
+				type: "item"
+			}]
+			title: "Compresseur à liquide avancé "
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C788FBAAE9CF49C"]
+			description: ["Le Regulator Tube Module sert à limiter la pression permise au travers d'un tube. Par défaut, ce module régulera la pression à 4.9 bar (pour les tubes basiques et avancés) sans signal de redstone, et réduisant vers 0 à mesure que ce signal monte vers 15 de puissance. Ce qui signifie qu'un levier juste à côté du Regulator le ferme, bloquant ainsi tout flux d'air."]
+			id: "71411BA63DDB50D2"
+			rewards: [{
+				id: "3FB3A0894F9DDCD5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "474950CE880C7CBF"
+				item: "pneumaticcraft:regulator_tube_module"
+				type: "item"
+			}]
+			title: "Module de régulation"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36038EB0001D8C9C"]
+			description: [
+				"Le Vacuum Trap est une machine utilisée pour piéger les monstres et absorber leur essence dans un Spawner Core, pour en suite le l'utiliser dans un Pressurized Spawner. Pour utiliser le Vacuum Trap vous aurez besoin de faire les choses suivantes :"
+				""
+				"1. Assurez vous que le Vacuum Trap à -0.5 bar de pression, ou moins. Des Volumes Upgrades sont recommandés ici. De plus, si vous avez l'intention de bouger le Vacuum Trap, assurez vous d'utiliser une Wrench, plutôt que de le casser avec une pioche, pour préserver le vide stocké."
+				""
+				"2. Insérez un Spawner Core qui n'est pas plein pour recevoi"
+				""
+				"3. Ouvrez la porte du Vacuum Trap, soit via un shift clic-droit ou en appliquant un signal de redstone."
+				""
+				"Le Vacuum Trap ne capturera jamais : les joueurs, les Drones, les Boss (wither, ender dragon) et les animaux apprivoisés. N'importe quel autre monstres (ou animal) vanilla sera capturé."
+				""
+				"Si le réservoir du Vacuum Trap contient au moins 100mB de Memory Essence, la vitesse  d'absorption sera grandement augmentée; au lieu de contribuer à 1% de l'essence du Spawner Core, un monstre capturé contribura de 2, jusqu'à 4%, et donc au lieu d'avoir besoin de 100 monstres pour remplir un Core, vous aurez besoin de seulement 25 à 50 monstres. 100mB de Memory Essence sont consommés à chaque fois qu'un monstre est capturé."
+			]
+			id: "4B4A4B7D05EAA5A7"
+			rewards: [
+				{
+					id: "427F858D00DE8F5C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "75CDCED974CABFDC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1D4EE0B9752C6451"
+				item: "pneumaticcraft:vacuum_trap"
+				type: "item"
+			}]
+			title: "Piège à vide"
+			x: 26.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["36038EB0001D8C9C"]
+			description: [
+				"Un Pressurized Spawner est un dispositif utilisant de la pression pour faire apparaitre des monstres. Il ingore le niveau de lumière et les joueurs à proximité, et peut être activé / désactivé avec de la redstone. Pour utiliser un Pressurized Spawne, vous aurez besoin d'un Spawner Core contenant de l'essence de monstre capturée et d'au moins 10 bar de pression."
+				""
+				"Lorsqu'un Core contient plusieurs essences de monstres, un monstre aléatoire est choisi. Exemple, si votre core est à 50% zombie, 25% creeper et 25% vide, à chaque tentative de faire apparaitre un montre, vous aurez 50% de chance d'avoir un zombie, 25% d'avoir un creeper et 25% de n'avoir rien. L'air est quand même utilisé, même si aucun monstre n'est apparu, donc les Core partiellement vides sont moins efficaces (mais tout de même, un Core avec 50% de chances d'avoir un monstre rare est mieux que pas de Core du tout)."
+			]
+			id: "0E707F24FDEC529A"
+			rewards: [
+				{
+					id: "459B238CC171F056"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "5A1C65E38BD6519B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0F9D1D34C60C7313"
+				item: "pneumaticcraft:pressurized_spawner"
+				type: "item"
+			}]
+			title: "Spawner pressurisé"
+			x: 26.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19815B8373092CEB"]
+			description: [
+				"Un Spawner Extractor est l'une des deux manière d'obtenir un Spawner Core, dont vous aurez besoin si vous voulez faire un Pressurized Spawner."
+				""
+				"Pour utiliser le Spawner Extractor, placez le sur un spawner vanilla, que vous devrez trouver dans le monde."
+				""
+				"En suite, donnez au Spawner Extractor -0.5 bar de vide ou en dessous et préparez vous à combatre. Il semblerait que les spawners n'aiment pas être extrait, et font apparaitre des monstres à grande vitesse pour se défendre."
+				""
+				"De base l'extraction dure 60 secondes. Cependant, chaque monstre defendant à proximité ralent il'extraction, et si il y a trop de monstre elle sera arrêtée."
+				""
+				"Il doit y avoir au moins un joueur à proximité ou l'extraction s'arrête."
+				""
+				"Si le spawner n'est pas capable de faire apparaitre des défenseurs (par exemple, si le niveau de lumière est trop élevé, ou il n'y a pas de sol), le processus s'arrêtera."
+				""
+				"Une fois l'extraction complète, un Spawner Core est éjecté, et le spawner devient un spawner vide. Ce block peut en suite être ramassé et est utilisé pour fabrique le Pressurized Spawner."
+			]
+			id: "36038EB0001D8C9C"
+			rewards: [
+				{
+					id: "4188DAA172E9C20C"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0C8B69FB58B65F2A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3B08979A0839901B"
+				item: "pneumaticcraft:spawner_extractor"
+				type: "item"
+			}]
+			title: "Extracteur de spawner "
+			x: 25.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ECA8387C0B80330"]
+			description: [
+				"Une Memory Stick est un dispositif permettant d'extraire, ranger et donner de l'expérience à un joueur :"
+				"- Clic-droit : vous enlève un niveau d'xp et le place dans la barrette"
+				"- Shift + clic-droit : vous donne un niveau d'xp à partir de la barrette"
+				"- Clic-gauche: active l'absorption automatique d'xp, dès que vous collecterez une orbe d'xp elle sera automatiquement transférée dans la barrette"
+				""
+				"L'expérience stoquée dans la Memory Stick peut aussi être extraite en liquide de Memory Essence. Pour celà, faites simplement un clic-droit sur n'importe quel Fluid Tank pour transférer l'XP depuis ou vers le Tank (Les Tanks d'autres mods devraient fonctionner sans problème). Clic-droit sur un Tank vide essayera de transférer la Memory Essence depuis la barrette vers le Tank; Clic-droit sur un Tank ayant de la Memory Essence la transferera vers la barrette."
+			]
+			id: "1BEE6F2A0A400DFB"
+			rewards: [{
+				id: "1B9A0AA2E4864F92"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59DF113C0011BDAC"
+				item: "pneumaticcraft:memory_stick"
+				type: "item"
+			}]
+			title: "Barrette mémoire"
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C8C4BD3067374D0"]
+			description: [
+				"Un Harvesting Drone est un Drone spécialisé non programmable qui peut réaliser des tâches de coupe d'abres et de récolte de cultures dans une zone de 17x17x17 centrée sur le bloc sur lequel il a été placé. Le Drone ne ramassera pas les objets récoltés. "
+				""
+				"Comme tout les autres types de Drones, ce drone nécessite de la pression pour fonctionner, et cherchera automatiquement une Charging Station avec une Dispenser Upgrade si il manque d'air."
+				""
+				"Si vous déployez le Dront avec shift + clic-droit contre un inventaire contenant (uniquement) une houe de n'importe quelle type, ce Drone va utiliser automatiquement cette houe pour replanter les cultures, et n'essayera pas de travailler sans en être équipé d'une. Si vous n'avez pas l'intention de remplenter, placez simplement le drone sur n'importe quel autre bloc."
+			]
+			id: "018402DFEFF19BA4"
+			rewards: [
+				{
+					id: "535394D6870488A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50F656542E758F4B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3629E7061851FBDD"
+				item: "pneumaticcraft:harvesting_drone"
+				type: "item"
+			}]
+			title: "Drone de récolte"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C8C4BD3067374D0"]
+			description: [
+				"Un Guard Drone est un drone spécialisé non programmable qui doit être déployé sur un bloc d'inventaire. Il emportera un objet qu'il utilisera comme arme et attaquera tout les monstres à portée."
+				""
+				"Comme tout les autres types de Drones, ce drone nécessite de la pression pour fonctionner, et cherchera automatiquement une Charging Station avec une Dispenser Upgrade si il manque d'air."
+				""
+				"Le Guard Drone ciblera tout les monstres hostile jusqu'à 16 blocs de distance horizontalement par rapport à sa position de déploiement, 8 blocs vers le haut et 5 vers le bas. Les raison pour cette portée plus faible est d'éviter la détection de monstres dans des caves profondes et qu'il se téléporte sur eux, gaspillant de l'air, pour que vous finissiez par vous demander où est passé votre drone."
+				""
+				"Le Guard Drone ne se préocupe pas de ce qui est dans l'inventaire, donc faites attention à mettre une arme utile dedans. Si l'armre se casse et qu'il n'y en a pas d'autre, le drone continuera de se battre désarmé, ce qui n'est pas très efficace."
+				""
+				"Le Drone peut également être équipé avec une Minigun Upgrade, et vous devrez donc dans ce cas lui fournir des Minigun Ammo dans l'inventaire."
+			]
+			id: "661EDB022C5C5D79"
+			rewards: [
+				{
+					id: "75A1206D0B79845E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F2954F0A179070B"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20F83F55579661B9"
+				item: "pneumaticcraft:guard_drone"
+				type: "item"
+			}]
+			title: "Drone gardien"
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C8C4BD3067374D0"]
+			description: [
+				"Un Collector Drone est un type de Drone spécialisé non programmable, qui doit être déployé contre un bloc d'inventaire (ex, un coffre). Il collectra les objets à proximitée et les placera dans cet inventaire."
+				""
+				"Comme tout les autres types de Drones, ce drone nécessite de la pression pour fonctionner, et cherchera automatiquement une Charging Station avec une Dispenser Upgrade si il manque d'air."
+				""
+				"Le Collector Drone à quelques fonctionnalités basiques de filtrage. S'il est déployé contre un bloc d'inventaire, il filtrera tout les objets déjà présent dans cet inventaire. Si il est déployé sur le sol à côté d'un inventaire (ou sur un inventaire vide), il ne filtrera aucun objet. Si vous voulez changer le filtre du drone, utilisez une Wrench et redéployez-le."
+				""
+				"Le Collector Drone à une portée par défaut de 17x17x17 centré sur le bloc sur lequel il a été deployé. Cette portée peut être augmentée en ajoutant jusqu'à 16 Range Upgrades."
+			]
+			id: "63ACD60D1FBDFE79"
+			rewards: [
+				{
+					id: "141C70315EABF123"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3ACAB2553625D3AB"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28E3047F63ADF5EF"
+				item: "pneumaticcraft:collector_drone"
+				type: "item"
+			}]
+			title: "Drone de collecte"
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1EB00AC57E572D88"]
+			description: [
+				"Les lacs de prétrole ont plus de chances d'appraitre profondément sous la surface. De ce fait, l'aide d'outils comme le Seismic Sensor est fortement conseillée."
+				""
+				"Le Crude Oil à 2 utilités : être raffiné en carburants de haute qualitée qui peuvent être utilisés dans des Liquide Compressors, et faire du Plastic et du Lubricant. Le Plastic est utilisé dans plein de recette de PneumaticCraft et le Lubricant est nécessaire pour faire les Speed Upgrades."
+				""
+				"Une fois que vous avez trouvé du Crude Oil, vous devrez l'extraire et le transporter. La manière recommande par PneumaticCraft est d'extraire le pétrole avec un Gas Lift, mais des pompes d'autres mods peuvent également être utilisés. Si vous pompez loin de votre base, une solution de début de partie pour le transporter peut être un simple Small Tank qui peut contenir jusqu'à 32,000mB de liquide et garde son contenu lorsqu'il est cassé (Même le Gas Lift peut être utilisé de cette manière car il conserve également son contenu une fois cassé)."
+			]
+			id: "446C2F8D6B8AD9C5"
+			rewards: [{
+				id: "40D0407B51E83862"
+				item: "minecraft:raw_iron"
+				random_bonus: 4
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "&6Black Gold"
+			tasks: [{
+				id: "03871952064057AD"
+				item: "pneumaticcraft:oil_bucket"
+				type: "item"
+			}]
+			title: "Prétrole brut"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41DBE31C5FAE9B96"]
+			id: "1C2EE2C551205908"
+			rewards: [{
+				id: "5A58B2A703F31807"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26AE160BF00809E7"
+				item: "pneumaticcraft:speed_upgrade"
+				type: "item"
+			}]
+			title: "Amélioration de vitesse"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41DBE31C5FAE9B96"]
+			id: "602DD1C1DCD47817"
+			rewards: [{
+				id: "0FD8761C1B855F5C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60D12E62EE4D65A6"
+				item: "pneumaticcraft:range_upgrade"
+				type: "item"
+			}]
+			title: "Amélioration de portée"
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["41DBE31C5FAE9B96"]
+			id: "2F5AC01C8CC91715"
+			rewards: [{
+				id: "05E2E92CBCC3EA2D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "343675D6D7199D82"
+				item: "pneumaticcraft:inventory_upgrade"
+				type: "item"
+			}]
+			title: "Amélioration d'inventaire"
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41DBE31C5FAE9B96"]
+			id: "0FE12BFB18C404A1"
+			rewards: [{
+				id: "6CEA5B42E9DAAA6A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DAC6FD78BAC07C9"
+				item: "pneumaticcraft:item_life_upgrade"
+				type: "item"
+			}]
+			title: "Amélioration de santé"
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["604E969CA40014D3"]
+			description: [
+				"Ce module puissant est utilisé pour connecter des inventaire au Logistic System, permettant ainsi de contrôler les transfert d'objets et de liquides via les Pressure Tubes. L'inventaire vers lequel le module pointe doit avoir un Logistics Frame. Le Logistics Module n'accèpte pas de Module Expansion Card."
+				""
+				"Deux Logistics Modules connectent des coffres avec un Passive Provider et un Requester Frames."
+				""
+				"Un réseau de Logistics Modules et défini par tout les modules connectés les uns aux autres par des Pressure Tubes; notez que les machines fonctionnant à l'air ne font pas partie de ce réseau. Vous pouvez sélectionner un channel via l'interface ou avec un clic-droit avec n'importe quel colorant; unquiement les Logistics Module de la même couleur peuvent communiquer entre eux, permettant ainsi d'avoir 16 cannaux différents sur un même réseau."
+				""
+				"Les Logistics Modules ont besoin de pression; 3 bar sont nécessaires pour permettre au module de fonctionner. L'air utilisé et une multiplication par la distance, la quantité transporté et une constante. Ce qui veut dire qu'il faut plus d'autre pour transporter un stack complet objets, mais également encore plus si c'est c'est sur une longue distance. L'air est utilisé sur le Logistic Module en réception, puisque l'air circule en direction de ce module."
+			]
+			id: "4840A7917559EAE0"
+			rewards: [{
+				id: "05110AE0647789C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "379435C772316077"
+				item: "pneumaticcraft:logistics_module"
+				type: "item"
+			}]
+			title: "Module Logistique"
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["73BA97DCC05FA0ED"]
+			description: [
+				"Le Logistics System offre une solution originale pour transporter des objets et des liquides et approvisionner les stockages. Les inventaires et les Tanks (fluides) peuvent être marqués avec des Logistic Frames, des éléments attachables qui peuvent contrôler comme les objets et les liquides devraient être déplacés."
+				""
+				"Ces inventiares sont connectés avec des Logisitics Drones ou des Pressure Tombe avec des Logistics Modules équipés. Le Logistics System est grandement inspiré de Factorio, et si vous avez déjà joué à ce jeu, ce concept devrait vous être familier. La différence principale est que ce mod fournis de Frames que vous pouvez attacher à des inventaires existant au lieu d'avoir des coffre spéciaux séparés."
+			]
+			id: "604E969CA40014D3"
+			rewards: [{
+				id: "3663C44E844336E4"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "Le Logistics System est une solution efficace pour déplacer les objets et les liquides, et approvisionner les stockages."
+			tasks: [{
+				id: "7B4A00AAD896376B"
+				item: "pneumaticcraft:logistics_core"
+				type: "item"
+			}]
+			title: "Coeur logistique"
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["256BD2FFBE7EC950"]
+			id: "19815B8373092CEB"
+			rewards: [
+				{
+					id: "6CE498AFC8B2C9B7"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "20EF644BEC0DB294"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7877206D2EDDC1AD"
+				item: "pneumaticcraft:spawner_agitator"
+				type: "item"
+			}]
+			title: "Agitateur de spawner"
+			x: 24.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["00F720B457FE7814"]
+			id: "7A5AA3D300FC6BBB"
+			rewards: [{
+				id: "45AF7B8AF5BD8FC4"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [{
+				id: "394A5A39AF92C8E3"
+				item: "pneumaticcraft:smart_chest"
+				type: "item"
+			}]
+			title: "Coffre intelligent"
+			x: 21.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Pneumatic Craft ajoute un système de gestion de la température. Elle se répend entre les blocs de manière similaire à la vie réelle. Il y a également des similitude avec le fonctionnement de la pression :"
+				"- La chaleur se disperse des objets chauds vers les objets froids."
+				"- Les blocs ne dispersent la chaleur qu'aux blocs adjacents qui supportent le concept de chaleur."
+				""
+				"Plus la différence de température est grande, plus la chaleur de dissipera vite. Les objets ont différentes résistance thermique. Les torches et l'air ont une forte résistance, alors que le Compressed Iron Block à une très faible résistance. La résistance thermique détermine à quelle vitesse la chaleur peut se répendre d'un bloc à un autre."
+				""
+				"Différents objets ont différentes capacités thermique. Plus la capacitée thermique est grande, plus la température va monter lentement. Et de la même façon, la température chuttera plus lentement. En d'autres termes, il faut plus de chaleur pour faire monter la température d'un bloc avec une grande capacitée, mais cela prendra plus de temps pour qu'il perde cette température"
+			]
+			icon: "kubejs:help"
+			id: "58A5DC22FAD9BB2D"
+			rewards: [{
+				id: "54AD61842F317FC0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Certaines machines produisent de la chaleur qui doit être dissipée, et d'autres nécessitent de la chaleur pour fonctionner. De ce fait, vous devrez trouver des moyens pour manipuler la température de ces machines..."
+			tasks: [{
+				id: "11BDE52FEAC6FFF5"
+				title: "Heat"
+				type: "checkmark"
+			}]
+			title: "Chaleur"
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C826C2EB9050012"]
+			description: ["Les machines perdent de la température dans l'air si elles sont exposés; c'est particulièrement visible avec la Refinery, qui à beaucoup de faces exposés, mais peut être aussi vrai avec n'importe quel bloc conducteur thermique, comme le Compressed Iron Block. Pour éviter cette perte, il est nécessaire de s'assurer qu'aucune face n'est exposé à l'air; donc n'importe quel bloc non conducteur fonctionne. Il n'est pas nécessaire que le bloc soit plein, des Trapdoor (trappe en bois) fonctionne parfaitement."]
+			icon: "kubejs:help"
+			id: "17189949011F48E6"
+			rewards: [{
+				id: "177DD95115DD62E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7759770776CB2206"
+				title: "Insulation"
+				type: "checkmark"
+			}]
+			title: "Isolation"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5CB9FC121007AC80"]
+			description: [
+				"Les sources de température statique comme les blocs et les fluides ajoutent ou retirent de la chaleur aux machines lorsqu'elles sont placés à côté. Lorsque trop de température est transférée, ces sources peuvent se transformer en d'autres blocs. Notez que l'extraction/l'ajout de challeur est gérée indépendament du bloc, donc le casser et le replacer n'est pas une solution viable."
+				""
+				"Les blocs et fluides vanilla suivant fonctionne comme des sources de température statiques :"
+				"- Air"
+				"- Ice/Packed Ice/Blue Ice (glace, glace compactée, glace bleue)"
+				"- Snow (neige)"
+				"- Torch (torche)"
+				"- Fire (feu, se dissipera)"
+				"- Magma (bloc de magma, refroidit en roche du nether)"
+				"- Water (eau, peut geler ou s'évaporrer)"
+				"- Lava (lave, refroidit en obsidienne)"
+				"- Campfire (feu de camp, s'étteindra)"
+			]
+			icon: "kubejs:help"
+			id: "7C826C2EB9050012"
+			rewards: [{
+				id: "029A79FAD9564EE5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "680A435F060D6A17"
+				title: "Heat Sources"
+				type: "checkmark"
+			}]
+			title: "Sources de température"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58A5DC22FAD9BB2D"]
+			description: [
+				"Un &1Vortex Tube&r est une source dynamique de température qui converti la pression en &4Chaleur&r et en &9Froid&r. Il est fortement conseillé de placer un Heat Sink sur le côté inutilisé du Vortex Tube pour plus d'efficacité."
+				""
+				"Un &7Heat Sink&r peut être utilisé pour dissiper la chaleur (ou le froid!) du bloc sur lequel il est attaché, dans l'atmosphère."
+			]
+			icon: "pneumaticcraft:vortex_tube"
+			id: "3F277989784191D8"
+			rewards: [{
+				id: "12243B99E967D838"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6CE304C8787F4584"
+					item: "pneumaticcraft:vortex_tube"
+					type: "item"
+				}
+				{
+					id: "116303A677B610D7"
+					item: "pneumaticcraft:heat_sink"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58A5DC22FAD9BB2D"]
+			description: ["Un Heat Frame est un composant pouvant être utiliser pour chaufer (ou refroidir !) des objets dans un inventaire. Notez que les Heat Frames n'absorbent pas directement la chaleur d'une source statique, mais vous pouvez placer un Heat Pipe à côté pour transmettre la chaleur."]
+			id: "08BC54504B0281F0"
+			rewards: [{
+				id: "508406A3CF090A31"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18B7B535A430AF4B"
+				item: "pneumaticcraft:heat_frame"
+				type: "item"
+			}]
+			title: "Structure Thermique"
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FAF542FE665ED95"]
+			description: ["Un Heat Pipe est un conduit isolé fait de Compressed Iron qui peut transmettre la chaleur entre les blocs, sans aucune conduction thermique avec les blocs d'air ou de fluide adjacents. c'est une alternative plus compacte et moins chère au Compressed Iron Blocks pour transmettre la chaleur. Vous pouvez aussi attacher des Heat Sinks directement sur un Heat Pipe."]
+			id: "0A9928B1DD7BBDB2"
+			rewards: [{
+				id: "745FB63B87EE855A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "349448F24C773AFF"
+				item: "pneumaticcraft:heat_pipe"
+				type: "item"
+			}]
+			title: "Conduit thermique"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C826C2EB9050012"]
+			description: ["Comme vous le savez probablement déjà, les machines qui utilisent de la chaleur en perdent dans l'air si on les laisse exposés. Vous pouvez bien entendu les recouvrir avec n'importe quel bloc qui ne conduit pas la chaleur, mais les Thermal Lagging sont exactement prévu pour cette utilisation. Ces plaques ne vous empêcheront pas d'accéder à l'interface de la machine en dessous."]
+			id: "1FAF542FE665ED95"
+			rewards: [{
+				id: "0B0D2E307F70403D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50056A7B32EF77B3"
+				item: "pneumaticcraft:thermal_lagging"
+				type: "item"
+			}]
+			title: "Isolant thermique"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1EB00AC57E572D88"]
+			description: [
+				"L'air compressé est le système d'énergie de Pneumatic Craft, basé sur les mécaniques de pression du monde réel. L'air compressé est créé par un type de machines appelées Compressor, qui peuvent être de différents types. Toutes les machines et outils pressurisables ont une contenance (mesurée en mL), qui est la quantité d'air qu'ils peuvent stocker à une pression atmosphérique standard, c'est à dire 0 bar (Ce mod utilise 0 bar pour représenter la pression atmosphérique standard, aussi appelé Pression Manométrique)"
+				""
+				"L'air passe d'un bloc de pression supérieure vers un bloc de pression inférieure. Laisser des tubes ou des machines déconnecter provoquera une fuite d'air, et donc une perte de pression ! Les fluites d'air provoquent un sifflement et sont visible avec des particules quittant le bloc. La pression essaye de s'équilibrer. Une montée de la pression se fera lorsque de vous connecterez des petites machines avec une autre ayant une très grande capacité (comme la Pressure Chamber)."
+				""
+				"La pression applique une force sur les murs extérieur d'une machine ou d'un tube. Appliquer trop de pression peut provoquer une libération de l'air rapide et incontrôllée, autrement dit une explosion. Le niveau de pression à laquelle les machines explosent est indiquée avec une zone rouge sur la gauge de pression dans leurs interfaces, mais le point exact où la machine explose est impredictible."
+				""
+				"Il est important de savoir que même si de nombreuses machines nécessitent un minimum de pression pour fonctionner, les opérations réalisés par ces machines consomment de l'air, pas de la pression; la pression est une le rapport entre l'air stocké et le volume."
+			]
+			icon: {
+				Count: 1
+				id: "pneumaticcraft:air_canister"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+			id: "5CB9FC121007AC80"
+			rewards: [{
+				id: "3605639CD2FC5A14"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "64A2FA7610C6FA59"
+				title: "Pressure"
+				type: "checkmark"
+			}]
+			title: "La Pression"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C826C2EB9050012"]
+			description: [
+				"Le Thermal Compressor est un compresseur simple qui utilise la différence de température sur ses faces (horizontales) oposés pour compresser de l'air. Plus la différence est grande, plus le compresseur compressera de l'air vite. Note: essayer de faire fonctionner ce compresseur avec un Vortex Tube ne fonctionnera pas; vous perdrez de la pression."
+				""
+				"Il y a principalement 3 situtations où le Thermal Compressor peut être utile :"
+				""
+				"- Pour utiliser la perte en chaleur ou en froid d'un côté d'un Vortex Tube. Normalement vous allez utiliser la chaleur ou le froid d'un côté du Vortex Tube et ventiler l'autre côté avec un Heat Sink. Cependant, le Thermal Compressor offre la possibilité de récupérer une partie de cette énergie perdue pour en faire de l'air pressurisé."
+				""
+				"- Pour utiliser la perte de chaleur d'un compresseur avancé comme le Advanced Air Compressor. Normalement cette chaleur serait rejetée dans l'atmosphère avec des Heat Sinks, mais avec le Thermal Compressor vous pouvez en convertir une partie en pression."
+				""
+				"- Si vous avez un moyen d'obtenir de grandes quantités de substances naturellement froides ou chaudes, par exemple de la lave ou des blocs d'autres mods, vous pourriez les utiliser pour générer un peu de pression. Vous devrez probablement automatiser le placement des sources de température et leur retrait une fois utilisés; les Drones peuvent faire ça, ainsi que beaucoup d'autres mods."
+			]
+			id: "5F4E079E7143C6C2"
+			rewards: [{
+				id: "5DFE83BDF521BBDE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "643936A254670756"
+				item: "pneumaticcraft:thermal_compressor"
+				type: "item"
+			}]
+			title: "Compresseur thermique"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["32737F8BBBCF40C7"]
+			description: [
+				"Les Logistics Frames sont des éléments attachables qui peuvent être placés sur des inventaires ou des Tanks de liquides pour les marquer comme faisant partie d'un Logistics System. Les Frames placés peuvent être configurés via un clic-droit avec un Logistics Configurator, et être retirés via un shift clic-droit avec le Configurator. Les Frames peuvent aussi être configuré depuis la main avec un clic-droit sur l'objet."
+				""
+				"Les propriétés suivantes peuvent être configurés :"
+				""
+				"- Toute les Frame supportent le filtrage pour contrôler quels objets/liquides elles vont fournir ou accepter."
+				""
+				"- L'onget Filter permet de configurer si les filtres doivent comparer le NBT d'un objet ou l'ID du mod, et si un filtre doit être appliqué sous forme de liste blanche (comportement par défaut) ou liste noire"
+				""
+				"- Pour les Requester Frames, l'onglet \"Minimum Order Size\" vous permet de configurer la quantitée minimale d'objets ou de liquide qui doit être transportée à chque fois, utile si vous voulez éviter que vos drôles fassent des allé-retour constants à vide ou presque."
+				""
+				"- Enfin, toutes les Frames peuvent être configurés pour être invisibles au joueur, sauf s'ils tiennent en main un objet de logistique (Une Frame ou le Configurator). Note: les Frames invisibles transmettent les clics au bloc derrière."
+			]
+			id: "12E31FA4DA9E8E0A"
+			tasks: [{
+				id: "770AEB41A614E862"
+				title: "Logistics Frames"
+				type: "checkmark"
+			}]
+			title: "Panneau Logistique"
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["12E31FA4DA9E8E0A"]
+			id: "110B45295F199CF9"
+			rewards: [{
+				id: "627F8222BA3FE6C9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The Active Provider Frame provides items/fluids to Requester Frames, Storage Frames and Default Storage Frames."
+			tasks: [{
+				id: "7C279FCA70A9568A"
+				item: "pneumaticcraft:logistics_frame_active_provider"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["12E31FA4DA9E8E0A"]
+			id: "5063F7D5DCAF0913"
+			rewards: [{
+				id: "3147E480667E722D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Le Passive Provider Frame fournit des objets/liquides aux Requester Frames uniquement."
+			tasks: [{
+				id: "38E17051785ACC74"
+				item: "pneumaticcraft:logistics_frame_passive_provider"
+				type: "item"
+			}]
+			title: "Panneau logistique d'approvisionnement passif"
+			x: 17.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["12E31FA4DA9E8E0A"]
+			id: "7B85D51189FC3579"
+			rewards: [{
+				id: "33A1E6BE321E1F88"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Les Storage Frames peuvent recevoir des objets/liquides d'Active Provider Frames et fournir des resources aux Requester Frames."
+			tasks: [{
+				id: "023B860813CE5D0F"
+				item: "pneumaticcraft:logistics_frame_storage"
+				type: "item"
+			}]
+			title: "Panneau logistique de stockage"
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["12E31FA4DA9E8E0A"]
+			id: "5D644606E55B8208"
+			rewards: [{
+				id: "689CEF5C3642EA56"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Les Default Storage Frames peuvent recevoir des objets/liquides d'Active Provider Frames et fournir des resources aux Requester Frames et aux Storage Frames. Elles ont une prioritée plus basse que les Storage Frames et seront toujours utilisés en premier si possible."
+			tasks: [{
+				id: "5ABB26578CB407F3"
+				item: "pneumaticcraft:logistics_frame_default_storage"
+				type: "item"
+			}]
+			title: "Panneau logistique de stockage par défaut"
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12E31FA4DA9E8E0A"]
+			id: "1241E03AFFAF7C59"
+			rewards: [{
+				id: "205CF981B3751593"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Les Requester Frames peuvent demander des objets/liquides de n'importe quel autre inventaire avec une Frame. Pour ces Frames, utilisez l'interface de configuration pour définir quelle quantité d'objets/liquides doivent être maintenue stoquée."
+			tasks: [{
+				id: "4E2D99D38B6BC750"
+				item: "pneumaticcraft:logistics_frame_requester"
+				type: "item"
+			}]
+			title: "Panneau logistique demandeur"
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3598EC582CB9CFC1"]
+			description: [
+				"Le Assembly Programs doit être inséré dans Assembly Controller pour lui dire quel type d'opération il doit réaliser "
+				""
+				"Ils ne peuvent pas être fabriquer et doivent être échangés; soit via les villageois \"Mechanics\", ou via l'Amadron Tablet."
+			]
+			id: "729F05C20D8E0B64"
+			rewards: [{
+				id: "785AAF225357DFC2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28B696C7DDDB77D3"
+				item: "pneumaticcraft:assembly_program_laser"
+				type: "item"
+			}]
+			title: "Programme d'assemblage : laser"
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3F277989784191D8"
+				"08BC54504B0281F0"
+				"4ECA8387C0B80330"
+			]
+			description: [
+				"Pour que cela fonctionne vous aurez besoin d'une chaine de production de plastique que vous devriez a présent déjà avoir."
+				""
+				"- Mettez le Liquid Plastic dans des sceaux avec une Bottling Machine"
+				"- Transférez les sceaux depuis la Bottling MAchin vers un coffre avec un Heat Frame attaché"
+				"- Attachez un Vortex Tube (sur les côtés avec les points bleus) au coffre avec le Heat Frame"
+				"- Attachez le Heat Sink sur le côté oppsé du Vortex Tube"
+				"- Allimentez avec un peu de pression (au moins 0.3 bar) le Vortex Tube"
+				"{image:litv3:textures/misc/bottling_.png width:200 height:150 align:1}"
+			]
+			icon: "kubejs:help"
+			id: "4EFB40EC9279DCB5"
+			rewards: [{
+				id: "06A2EE69EA939525"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6536018B6E5229C2"
+				type: "checkmark"
+			}]
+			title: "Solidification automatisée du plastique"
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["256BD2FFBE7EC950"]
+			description: ["Ces objets vous permettront de mettre en place un système de stockage numérique basique (Chapitre Stockage Avancé)."]
+			id: "1B715D36C517F53F"
+			rewards: [
+				{
+					id: "367BD4E112D04075"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "0D5CF1C72FA8AB1E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "gear_important"
+			size: 1.5d
+			subtitle: "&2Chapitre Stockage Avancé débloqué&r"
+			tasks: [
+				{
+					id: "5976506923F2AF3D"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "0502FDFF9C37BF7B"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "18110C561E897D37"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			title: "Processeur basique"
+			x: 24.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4ECA8387C0B80330"]
+			description: ["Faire rentrer un peu de cette technologie dans une petite boite pourrait ouvrir la voie vers de nouvelles avancées..."]
+			id: "00000000000011DA"
+			rewards: [{
+				id: "1A4BF54A79FE59B6"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "gear_important"
+			size: 1.5d
+			subtitle: "&2Chapitre \"Industrie Florissante\" débloqué&r"
+			tasks: [{
+				id: "00000000000011DB"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "Machinerie avancée"
+			x: 18.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["73BA97DCC05FA0ED"]
+			description: [""]
+			id: "1832256F77F91F44"
+			rewards: [{
+				id: "06306DF67258E680"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "&oNécessaire pour le chapitre Stockage Avancé (Refined Storage).&r"
+			tasks: [{
+				id: "491A50E1178B1E72"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			title: "Fer enrichi au quartz"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4ECA8387C0B80330"]
+			id: "3F37BA2835F597F4"
+			tasks: [
+				{
+					id: "73C99E7EACB8A2ED"
+					item: "prettypipes:pipe"
+					type: "item"
+				}
+				{
+					id: "21CE45443813F50E"
+					item: "ppfluids:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "1D6EA0D1A7439046"
+					item: "prettypipes:wrench"
+					type: "item"
+				}
+			]
+			title: "Conduits !"
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4ECA8387C0B80330"]
+			id: "145AA4B3E64A9BF6"
+			rewards: [{
+				id: "52280BBFCE38456E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63BF3E15F79DD3CC"
+				item: "pneumaticcraft:jackhammer"
+				type: "item"
+			}]
+			title: "Marteau-piqueur pneumatique"
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			description: ["&4"]
+			icon: "kubejs:caution"
+			id: "4A16DEB33B1EECE5"
+			shape: "circle"
+			size: 0.5d
+			subtitle: "&4pour débloquer cette quête."
+			tasks: [{
+				id: "01CFF5CD486164E9"
+				type: "checkmark"
+			}]
+			title: "&4Un seul pré-requis nécessaire!"
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			description: ["&4"]
+			icon: "kubejs:caution"
+			id: "02EB334CD2AF8186"
+			shape: "circle"
+			size: 0.5d
+			subtitle: "&4pour débloquer cette quête"
+			tasks: [{
+				id: "4B2D82DF3C615C2A"
+				type: "checkmark"
+			}]
+			title: "&4Un seul pré-requis nécessaire!"
+			x: 8.0d
+			y: 0.25d
+		}
+	]
+	title: "3. &cSystèmes pneumatique&r"
+}

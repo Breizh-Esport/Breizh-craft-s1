@@ -1,0 +1,12 @@
+{
+  "type": "ad_astra:compressing",
+  "cookingtime": 20,
+  "energy": 10,
+  "ingredient": {
+    "item": "minecraft:clay_ball"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:brick"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "recipe-template",
+  "tag": "minecraft:logs",
+  "filter": {
+    "include": [ "_log" ],
+    "exclude": [ "stripped_" ]
+  },
+  "recipe": {
+    "crafter": "sawmill_crafting",
+    "inputs": [
+      {
+        "item": "minecraft:acacia_log"
+      }
+    ],
+    "alternate-output": [
+      {
+        "item": "minecraft:acacia_planks",
+		"count": 4
+      }
+    ],
+    "intermediate": "minecraft:air"
+  }
+}

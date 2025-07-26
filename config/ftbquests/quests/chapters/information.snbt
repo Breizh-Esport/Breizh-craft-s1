@@ -1,0 +1,1102 @@
+{
+	autofocus_id: "43828153E1755F19"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	default_quest_size: 2.0d
+	filename: "information"
+	group: ""
+	icon: "kubejs:help"
+	id: "06205F0004E690D7"
+	images: [
+		{
+			alpha: 200
+			height: 42.08695652173913d
+			image: "litv3:textures/misc/info.png"
+			order: -1
+			rotation: 0.0d
+			width: 22.0d
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/arrow_expanded.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 11.5d
+		}
+	]
+	order_index: 1
+	quest_links: [
+		{
+			id: "05491EAFCF7FA4DE"
+			linked_quest: "47E2C8C90A0B7A20"
+			size: 2.0d
+			x: 11.0d
+			y: 25.0d
+		}
+		{
+			id: "40A185A6E98D656B"
+			linked_quest: "70B922895DB76796"
+			size: 2.0d
+			x: 11.0d
+			y: 19.0d
+		}
+		{
+			id: "1CFA262974DC579D"
+			linked_quest: "694FB313B46B2D9C"
+			size: 2.0d
+			x: 11.0d
+			y: 17.0d
+		}
+		{
+			id: "5601A0352705B94F"
+			linked_quest: "59CD1DCD8B422649"
+			size: 2.0d
+			x: 11.0d
+			y: 21.0d
+		}
+		{
+			id: "30B80103B8DAB646"
+			linked_quest: "009F78659E60A2F0"
+			size: 2.0d
+			x: 11.0d
+			y: 23.0d
+		}
+		{
+			id: "2A6C2506166A6706"
+			linked_quest: "6BD1098E89E87274"
+			size: 2.0d
+			x: 11.0d
+			y: 15.0d
+		}
+		{
+			id: "458A297788452FD5"
+			linked_quest: "0000000000000111"
+			size: 2.0d
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			id: "5947CA77437CC00B"
+			linked_quest: "665F96DFC5ED6667"
+			size: 2.0d
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			id: "09BC7265EDB8396C"
+			linked_quest: "00000000000001F0"
+			size: 2.0d
+			x: -1.0d
+			y: 17.0d
+		}
+		{
+			id: "221239EC16EC875E"
+			linked_quest: "0000000000000265"
+			size: 2.0d
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			id: "7F8F48CCC041A7AD"
+			linked_quest: "1DF036ED17B4AC91"
+			size: 2.0d
+			x: -1.0d
+			y: 23.0d
+		}
+		{
+			id: "3CE67F3BFFBE89BC"
+			linked_quest: "79E8DFEEBE8E3BC7"
+			size: 2.0d
+			x: -1.0d
+			y: 25.0d
+		}
+		{
+			id: "308AF350CEE3ADA6"
+			linked_quest: "366AE7509CC7707C"
+			size: 2.0d
+			x: -1.0d
+			y: 27.0d
+		}
+		{
+			id: "676B2687FCC5F2B2"
+			linked_quest: "710272398D8871F8"
+			size: 2.0d
+			x: 11.0d
+			y: 27.0d
+		}
+		{
+			id: "69AF895D254B6522"
+			linked_quest: "4B1D20C4C391EA08"
+			size: 2.0d
+			x: 4.0d
+			y: 23.0d
+		}
+		{
+			id: "12970A5A72D6CB2D"
+			linked_quest: "31355329CF220C94"
+			size: 2.0d
+			x: 6.0d
+			y: 23.0d
+		}
+		{
+			id: "5A7FAAA7828DC32D"
+			linked_quest: "0000000000000236"
+			size: 2.0d
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			id: "4B0B30A61C0A454A"
+			linked_quest: "302F025D35C7E495"
+			size: 2.0d
+			x: -1.0d
+			y: 21.0d
+		}
+		{
+			id: "562E904A792ED084"
+			linked_quest: "668C63E53BD59BFD"
+			size: 2.0d
+			x: 11.0d
+			y: 13.0d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"Bienvenu dans le modpack &6Industrial Village&r !"
+				""
+				"Ceci est votre guide / livre de quête. Ici vous pourez trouver de quoi vous guider dans votre progression avec des récompenses et des explications."
+			]
+			id: "0000000000000117"
+			rewards: [{
+				id: "10AA444D8DA2FF70"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0000000000000118"
+				type: "dimension"
+			}]
+			title: "&9Consultez le livre de quête pour plus d'infos!&r"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"La majorité des quêtes dans ce pack peuvent être réalisés en obtenant l'objet requis dans votre inventaire. Vous receverez automatiquement un message en haut à droite de votre écran lorsque c'est le cas."
+				""
+				"Les quêtes de type \"coche\" (qui sont là généralement pour expliquer des trucs), comme celle-ci, nécessitent simplement de cliquer sur la coche dans la fenêtre des tâches pour la compléter (pour confirmer la lecture :])."
+				""
+				"Des quêtes avec des icones comme celle ci-dessous veulent généralement dire qu'il y a un chapitre dédié pour cette quête."
+				""
+				"{image:kubejs:item/icon_steam width:50 height:50 align:1}"
+				""
+				"Enfin pour récupérer une récompse, cliquez simplement sur celle-ci dans la fenêtre des récompenses, comme si-dessus, où vous pouvez récupérer une torche pour vous éclairer."
+				""
+				"Vous pouvez également cliquer sur le bouton en haut à droite du livre de quête pour obtenir toutes les récompenses qui n'ont pas été récupérés."
+			]
+			icon: "minecraft:writable_book"
+			id: "0000000000000F88"
+			rewards: [{
+				id: "0000000000000F8A"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "&9&oLa progression n'est pas contrainte par les quêtes. Les quêtes sont plus à voir comme un guide.&r&r"
+			tasks: [{
+				icon: "minecraft:writable_book"
+				id: "0000000000000F89"
+				title: "Quest Types"
+				type: "checkmark"
+			}]
+			title: "Types de quêtes et récompenses"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Comment utiliser JEI (Le mod qui vous montre tout les objets du jeu à droite de votre inventaire)"
+				""
+				""
+				"• Passer la souris au dessus d'un objet et appuyer sur \"R\" (pour Recette) montre comment fabriquer cet objet."
+				"• Appuyer sur \"U\" (pour Utilisation) pour les recettes dans lesquelles on peut utiliser cet objet."
+				"• Pour rechercher les objets d'un mod, tapez le nom du mod dans la barre de recherche précédé de \"@\" (ex @notreepunch)."
+				"• Pour sélectionner la barre de recherche sans la souris appuyez sur Ctrl + F."
+				"• Pour mettre en favoris une recette (pour utiliser plus tard, les favoris s'affichent dans un menu à gauche de l'inventaire): Passez la souris au dessus d'un objet et appuyez sur A."
+			]
+			id: "000000000000009B"
+			rewards: [{
+				id: "000000000000035C"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Liste des objets et des recettes en jeu"
+			tasks: [{
+				icon: "itemfilters:not"
+				id: "000000000000009C"
+				title: "Just Enough Items"
+				type: "checkmark"
+			}]
+			title: "Just Enough Items"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Il y a quelques nouvelles mécaniques de gamplay utilisés par ce pack, dont vous trouverez les descriptions en suivant cette quête."
+				"Vous pouvez toujours revenir plus tard pour les lire à nouveau"
+				""
+				"- Rééquilibrage et amélioration du système de sommeil de Minecraft."
+				"- Régénération naturelle revue"
+				"- Spawners plus difficile"
+			]
+			icon: "minecraft:barrier"
+			id: "0000000000001231"
+			tasks: [{
+				id: "0000000000001232"
+				title: "Nouvelles mécaniques"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			icon: "kubejs:skull"
+			id: "5E52B7B63D7E4B22"
+			subtitle: "WIP"
+			tasks: [{
+				id: "33ECF9DFA4320801"
+				title: "Difficult Caves"
+				type: "checkmark"
+			}]
+			title: "Difficult Mobs"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&5&nArbre de compétences passives&r&r"
+				""
+				"Pour commencer, récupérez un peu d'&aexpérience&r pour obtenir votre premier point de compétence."
+				""
+				"Appuyez en suite sur O (touche par défaut, si cela ne marche pas vérifiez vos attributions)."
+				""
+				"Choisissez en suite votre &5classe&r, ce sera votre point de départ dans l'arbre. Prennez le temps d'y réfléchir car &nvous ne pourrez pas changer&r."
+				""
+				"Vous pourrez en suite vous diriger vers d'autres classes si vous penssez que ça vaut le coup."
+			]
+			icon: "kubejs:scaling"
+			id: "71D2F05B3D755273"
+			rewards: [{
+				id: "6338538686736B8E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35A7831C8FB147A3"
+				title: "Arbre de compétences passives"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Vous êtes mort. Pas de chance. Mais n'ayez pas peur, vos affaires ne disparraitront pas."
+				""
+				"Avec le mod Corpse, votre inventaire restera au sol avec le corps de votre personnage à l'endroit de votre mort pour que vous puissiez le récupérer. Un clic droit sur votre corps affiche votre inventaire et vous permet de le récupérer."
+				""
+				"Après une heure votre corps se transforme en squelette. N'ayez crainte, vos affaires sont toujours là."
+			]
+			icon: "kubejs:heart-half"
+			id: "250B7AC1DDF4BEA6"
+			rewards: [{
+				id: "1C2ACAED704EF526"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			subtitle: "Ouille, ça fait mal..... Mais elles sont où mes affaires ?"
+			tasks: [{
+				id: "43CFD73C8201DDF4"
+				title: "Corps"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000F88"]
+			icon: "kubejs:help"
+			id: "759565BD4CB7872D"
+			size: 1.0d
+			subtitle: "Ces quêtes contiennent des informations utiles qui vous aideront lors de votre partie"
+			tasks: [{
+				id: "55399A3A9CF095CE"
+				type: "checkmark"
+			}]
+			title: "Quêtes d'information"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Soyez conscient qu'il peut y avoir quelques problèmes et inconsistances dans les recettes. C'est &oprobablement&r du à des oublis de ma part car c'est difficile de vérifier toutes les interractions entre les items et les blocks."
+				""
+				"Ce pack à été développé lors de mon temps libre et a été amélioré au fil du temps avec les retours des joueurs."
+				""
+				"Si vous trouvez quelque chose d'étrange, je vous prie de le signaler sur github ou discord."
+				""
+				"&2Merci pour votre compréhension et désolé si quelque chose ne se passe pas comme prévu.&r"
+				""
+				"https://github.com/dr3ams/Industrial-Village"
+			]
+			icon: "kubejs:icon_exclamation"
+			id: "2A9DC8C72AD9AED0"
+			shape: "circle"
+			subtitle: "Soyez compréhensifs"
+			tasks: [{
+				id: "5CCB77F4EFDC3569"
+				type: "checkmark"
+			}]
+			title: "Problèmes de recettes et inconsistances"
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			description: ["Ce chapitre montre simplement les options possibles pour transporter des objets et des fluides."]
+			icon: "kubejs:help"
+			id: "43828153E1755F19"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "392BA2DA0ABFAA17"
+				type: "checkmark"
+			}]
+			title: "Quel est le but de ce chapitre ?"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "railcraft:steam_locomotive"
+				tag: { }
+			}
+			id: "4FE58F0B743992A3"
+			tasks: [
+				{
+					id: "3AD8E71C552A7506"
+					item: {
+						Count: 1
+						id: "railcraft:steam_locomotive"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "062A25ADE031411B"
+					item: {
+						Count: 1
+						id: "railcraft:iron_crowbar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			icon: "immersiveengineering:minecart_reinforcedcrate"
+			id: "4F7F6AA4F9D9B705"
+			tasks: [
+				{
+					id: "28B77E0F54A5359D"
+					item: "railcraft:tank_minecart"
+					type: "item"
+				}
+				{
+					id: "0A77F9F76ED68EC4"
+					item: "immersiveengineering:minecart_woodencrate"
+					type: "item"
+				}
+				{
+					id: "10A62168F56548BC"
+					item: "immersiveengineering:minecart_reinforcedcrate"
+					type: "item"
+				}
+				{
+					id: "7C8AFF0C72B13D16"
+					item: "immersiveengineering:minecart_woodenbarrel"
+					type: "item"
+				}
+				{
+					id: "436B45F916CEFC1E"
+					item: "immersiveengineering:minecart_metalbarrel"
+					type: "item"
+				}
+			]
+			title: "Minecarts"
+			x: 4.0d
+			y: 15.0d
+		}
+		{
+			id: "13595964244E4A59"
+			tasks: [{
+				id: "6348DBCCA9903200"
+				item: {
+					Count: 1
+					id: "railcraft:electric_locomotive"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 17.0d
+		}
+		{
+			icon: "railcraft:fluid_unloader"
+			id: "0405F6FBE9A6A7C0"
+			tasks: [
+				{
+					id: "0DA9234B7F689D61"
+					item: "railcraft:fluid_loader"
+					type: "item"
+				}
+				{
+					id: "288898BBABBF5FA9"
+					item: "railcraft:fluid_unloader"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			icon: "railcraft:item_unloader"
+			id: "3A0A70CD001021F8"
+			tasks: [
+				{
+					id: "358A84452589BFA4"
+					item: "railcraft:item_loader"
+					type: "item"
+				}
+				{
+					id: "71B1D934B06F51DD"
+					item: "railcraft:item_unloader"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			description: ["&5Pretty Pipes&r est un mod simple à utiliser et compatible avec tout. Il offre des tuyaux qui peuvent être améliorés via des modules pour réaliser des tâches plus complexes. Chaque module à 3 niveaux, ce qui permet à Pretty Pipes d'être utilisé à la fois au début et en fin de partie."]
+			icon: "prettypipes:pipe"
+			id: "373B809A4F086C24"
+			tasks: [
+				{
+					id: "17BDC479D9A6A4AF"
+					item: "prettypipes:pipe"
+					type: "item"
+				}
+				{
+					id: "49F57509AC9CF39F"
+					item: "prettypipes:low_extraction_module"
+					type: "item"
+				}
+				{
+					id: "43DA59373BFE89A6"
+					item: "prettypipes:low_retrieval_module"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 15.0d
+		}
+		{
+			description: [
+				"&5Pretty Pipes: Fluids&r est un addon à Pretty Pipes qui ajoute des nouveaux types de tuyaux pour transporter des fluides dans un réseau Pretty Pipes"
+				""
+				"Les Fluide Pipes se connectent à n'importe quel bloc qui supporte des fluides, et grâce à un module d'extraction de fluides, il sortira automatiquement les fluides depuis le bloc et essayera de les insérer dans un autre."
+			]
+			icon: "ppfluids:fluid_pipe"
+			id: "5EEB422DA9CF57DF"
+			tasks: [
+				{
+					id: "0A87C0647B6576AC"
+					item: "ppfluids:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "342EAE80FAF87D03"
+					item: "ppfluids:low_fluid_extraction_module"
+					type: "item"
+				}
+				{
+					id: "54474A9A6D1FC88F"
+					item: "ppfluids:low_fluid_retrieval_module"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 17.0d
+		}
+		{
+			icon: "immersiveengineering:fluid_pipe"
+			id: "7767B244176C7E27"
+			tasks: [
+				{
+					id: "2F2E7872AA72F42C"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3E0A4D3A628D4B8D"
+					item: "immersiveengineering:fluid_pump"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 21.0d
+		}
+		{
+			icon: "immersiveengineering:conveyor_basic"
+			id: "2B1319A5E508C08E"
+			shape: "gear"
+			subtitle: "Joueur + Objets + Fluides"
+			tasks: [{
+				id: "683304533BD42377"
+				title: "Transportation"
+				type: "checkmark"
+			}]
+			title: "Solutions de transport"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			icon: "immersiveengineering:watermill"
+			id: "6E64B1B17F1AD1BB"
+			shape: "gear"
+			tasks: [{
+				id: "350E331D2C68A6C1"
+				title: "Solutions de génération d'énergie"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "3BC390AEACCA7408"
+			shape: "gear"
+			subtitle: "Solutions de stockage des objets et des fluides"
+			tasks: [{
+				id: "359880B02E0AA920"
+				title: "Solutions de stockage"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			description: [
+				"&9Refined Storage&r est un mod de stockage de masse qui offre un système de stockage en réseau, permettant de stocker des objets et des fluides dans un système largement extensible."
+				""
+				"Les objets et les fluides peuvent être stockés dans une des nombreuses possbilités de stockage apportés par le mod. N'importe quel conteneur connecté sur le même réseau est accessible depuis une seule et même interface, permettant ainsi d'accéder à des inventaires différents depuis une interface unifiée."
+			]
+			disable_toast: true
+			id: "1775E5F5A02A5AF4"
+			tasks: [{
+				id: "778E60BA016DAC19"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 29.0d
+		}
+		{
+			description: ["Différents objets qui vous aideront lors de votre aventure !"]
+			icon: {
+				Count: 1
+				id: "minecolonies:build_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64F9C670BE4CB4E9"
+			subtitle: "&o&9Rendez-vous dans le chapitre \"Objet utile\" pour découvrir ces objets!&r&r"
+			tasks: [{
+				id: "7E7C8040F11EFFB1"
+				type: "checkmark"
+			}]
+			title: "Objets utile"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			icon: "buildersaddition:bookshelf_oak"
+			id: "0F299FD28AF68E5B"
+			subtitle: "&o&9Rendez-vous dans le chapitre \"Décorations\" pour découvrir ce mod&r&r"
+			tasks: [{
+				id: "0E924BD153C0060F"
+				type: "checkmark"
+			}]
+			title: "Functional Decor"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "33C9B15686901B6F"
+			tasks: [{
+				id: "01FD93D3232600A7"
+				item: "pneumaticcraft:transfer_gadget"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			description: [
+				"Claim un chunk permet de se l'approprier pour soi et son équipe."
+				""
+				"Pour claim un chunk &9ouvrez la carte du monde&r (?) et faites &9clic droit&r sur le chunck que vous voulez claim."
+				""
+				"Dans le menu déroulant sélectionnez '&9Claim Chunk&r'."
+				""
+				"Si vous jouez sur un serveur pour pouvez forcer un chuck à être chargé en cliquant sur un chuck déjà claim et en sélectionnant '&9Forceload selected&r'."
+			]
+			icon: "kubejs:lock"
+			id: "1539FF1BB1B405C9"
+			tasks: [{
+				id: "7422BA6FEAA82318"
+				type: "checkmark"
+			}]
+			title: "Chunk Claiming"
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Pour créer une &2équipe&r, faites"
+				""
+				"&2/ftbteams party create [nom_dequipe]&r"
+				""
+				"Etre dans une équipe permet de compléter les quêtes à plusieurs."
+				"&9&n                                                  &r&9  "
+				"Pour créer une party, faites"
+				""
+				"&3/openpac-parties create&r"
+				""
+				"Les party sont reliés au système de claim des chunks et permettent de partager les permissions avec d'autres joueurs."
+			]
+			icon: "kubejs:star"
+			id: "750C1B65255EB146"
+			tasks: [{
+				id: "5631A0CD11BC7726"
+				title: "Team"
+				type: "checkmark"
+			}]
+			title: "Equipes et party"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Tetra est un mod qui permet la création d'outils modulaires plus avancés que les outils de base."
+				""
+				"Tetra vous permet de faire évoluer vos outils de base de plein de manière différentes pour obtenir des bonus."
+				"Lorsque vous aurez besoin d'outils plus avancés vous deverez explorer pour récupérer des objets de forge dans des donjons construits par une ancienne civilisation des biomes froids."
+			]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					"double/basic_hammer_right_material": "basic_hammer/blackstone"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "16dd392f-c9cd-4e3f-a691-35ca070cc648"
+				}
+			}
+			id: "0E57528AB581F03E"
+			rewards: [{
+				id: "56E1C31A20111211"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "&o&9Rendez-vous dans le chapitre \"Outils modulaire\" pour découvrir ce mod&r&r"
+			tasks: [{
+				id: "10703633DA79069A"
+				title: "Tetra"
+				type: "checkmark"
+			}]
+			title: "Outils modulaire"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"- Dormir 8 fois dans le même lit le marque comme étant votre lit personnel."
+				"- Une fois qu'un lit est marqué vous receverez un nouvel effet, \"Invigorated\" (revigoré), en vous réveillant."
+				"- Invigorated augmente la quantité d'xp donné par les minerais et les monstres pendant une longue periode, ce qui en fait une bonne récompense pour concerver le même lit."
+				"- Assurez vous de ne pas casser votre lit ou cela réinitialisera votre lit personnel."
+				"- Dormir encore plus de fois dans ce lit augmentera son niveau jusqu'à un maximum de 100."
+				"- Réussir à dormir à maintenant un temps de recharge"
+				"- En dormant dans une zone sombre vous avez maintenant une chance de vous faire réveiller par un mob qui aurait pu apparaitre naturellement."
+			]
+			icon: "minecraft:red_bed"
+			id: "57D11F6CD5DDEDC0"
+			tasks: [{
+				id: "1591A63E8A141E40"
+				title: "Sleep"
+				type: "checkmark"
+			}]
+			title: "Changements du sommeil"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&5⭐ Cauldrons (chaudrons)&r"
+				""
+				"- Peuvent contenir n'IMPORTE QUEL liquide"
+				"- Peuvent être utiliser pour mixer des potions et des colorants"
+				"- Peuvent faire bouiller de l'eau ou des potions si une source de chaleur est présente en dessous"
+				"- Un chaudron bouillant peut infliger des dégats"
+				"- Entrer dans un chaudron contenant une potion persistante ou jetable appliquera cette potion"
+				" "
+				"&5⭐ Lecterns (pupitres)&r"
+				""
+				"- Lorsqu'ils contiennent un livre et plume, une nouvelle interface est disponible qui ajoute un bouton Plume et un bouton Encre"
+				"- Le bouton Encre permet de passer en revue les couleurs disponibles"
+				"- Le bouton Plume permet de passer en revue les polices disponibles"
+				"- Ils peuvent maintenant interagir avec les hoppers (entonnoirs) "
+				" "
+				"&5⭐ Lanterns&r"
+				""
+				"- Peuvent être accrochés aux murs. Marche avec n'IMPORTE QUELLE lanterne"
+				""
+				"&5⭐ Hanging Signs (pancartes suspendues)&r"
+				""
+				"- Peuvent contenir n'importe quel objet sur les deux côtés"
+				"- Peuvent aussi afficher des motifs de bannière"
+				""
+				"&5⭐ Carpets (tapis)&r"
+				"- Peuvent être placés sur des dalles"
+				"- Peuvent être placés sur des escaliers"
+				""
+				"&5⭐ Cakes (gateaux)&r"
+				"- Peuvent être empilés. Fonctionne avec n'IMPORTE QUEL gateau."
+				""
+				"&5⭐ Lilypads (nénuphars)&r"
+				""
+				"- Peuvent avoir n'importe quel bloc placé dessus"
+				" "
+				"&5⭐ Mob Skulls (têtes de monstres)&r"
+				""
+				"- Peuvent être empilés. Fonctionne avec n'IMPORTE QUELLE combinaison de tête."
+				"- Peuvent avoir des bougies placés au dessus"
+				"- Les bougies placés dessus peuvent laisser une coulée de cire"
+				""
+				"&5⭐ Banners and Pots (bannières et pots)&r"
+				""
+				"- Peuvent être placés au plafond"
+				""
+				"&5⭐ Tripwire Hook (crochet)&r"
+				"- Peuvent contenir des outils en faisant clic droit dessus"
+			]
+			icon: "supplementaries:cog_block"
+			id: "68E94396D20366E4"
+			tasks: [{
+				id: "125A6F326A10264B"
+				title: "Changements sur des blocs existants"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Il faudra &4changer la touche&r (ou désasigner tout ce qui est attribué au bouton par défaut) pour l'utiliser (&nrecherchez 'toolbelt'&r dans les contrôles)"
+				""
+				"- Contient n'importe quel objet non empilable"
+				"- 2 emplacements de base, améliorable jusqu'à 9 avec des tool pouches dans une enclume."
+				"- Les objets sont affichés sur le joueur -- montrez vos outils à tout instant. (uniquement les 2 premiers emplacements sont affichés)"
+			]
+			id: "061AB51F066E50A2"
+			subtitle: "Changez d'outil rapidement grâce à un menu radial !"
+			tasks: [{
+				id: "50E2E7103B3ACE33"
+				item: {
+					Count: 1
+					id: "toolbelt:belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&n&5Better End Island&r&r"
+				""
+				"Les pilliers d'obsidienne, les passerelles de l'end, la plateform d'apparition et le portail au milieu de l'île ont été redesignés. Egalement, le dragon n'apparait plus dès le départ - il est maintenant invoqué dès qu'un joueur approche du clocher au centre."
+				""
+				"&lPour invoquer le dragon à nouveau&r, les 4 cristaux ne sont plus à placer à côté du portail. A la place vous verrez 4 blocks de bedrock sur le sol à l'intérieur de la tour, un dans chaque aile du bâtiment. Les cristaux peuvent être placés sur ces 4 blocks pour invoquer le dragon à nouveau. Cela étant dit, nous permettons également le positionnement vanilla des cristaux pour éviter de perturber les joueurs qui ne sont pas famillier avec le mod."
+				""
+				"&n&5Nullscape&r&r"
+				""
+				"Améliore globalement la génération de l'End d'une manière qui permet de conserver son identité - &0&oun monde profondément désolé&r&r. Nullscape vous fera vous sentir petit dans le vaste monde de l'End. Vous contre le vide - rien de plus que ça."
+				""
+				"Nullscape augmente la hauteur de l'end à 384 blocks, introduisant un nouveau système de terrain basé sur la science des matériaux. En gros, les différrentes régions de l'End - a très grande échelle - ont différentes propriétés et un \"resenti\" différent. Des terrains porreux comme du fromage, d'autres en formes étranges étirées ou encore des îles rondes empilées, vous trouverez quelque chose de nouveau et d'intéressant peu importe à quel point vous allez loin."
+			]
+			icon: "minecraft:end_crystal"
+			id: "2620A08E1295B3A3"
+			subtitle: "Mods: YUNG's Better End Island, Nullscape"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2D5F4D54C3C6EDF1"
+				type: "dimension"
+			}]
+			title: "Amélioration de l'End "
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Avant tout vous devez fabriquer votre album et tuer des monstres. Les monstres ont une chance de donner un card package (booster) avec une rareté aléatoire. Ouvrir un booster vous donnera 5 cartes qui peuvent être rangées dans l'album."
+				""
+				"&l&2L'album est divisé en 5 catégories :&r&r"
+				""
+				"- Tools (outils)"
+				"- Armor (armures)"
+				"- Mobs (monstres)"
+				"- Nature (nature)"
+				"- Items (objets)"
+				""
+				"&l&2Chaque carte à des paramètres personnalisés :&r&r"
+				"- Numéro -> Identifie l'emplacement de la carte dans l'album"
+				"- Catégorie -> Voir les catégories listées ci-dessus"
+				"- Rareté -> Rareté de la carte (Common=Le pire, Mythical=Le meilleur)"
+				"- Valeur -> Valeur basée sur sa rareté"
+				""
+				"&n&l&5Bonus&r&r&r"
+				""
+				"Une fois que vous atteignez certains paliers de cartes dans votre collection vous obtiendrez des bonus passif tel que &1résistance&r / &crégénération&r / &4vie supplémentaire&r et d'autres."
+				""
+				"Ces paliers sont débloqués en ayant une certaine quantité de points ou en remplissant intégralement une catégorie."
+			]
+			id: "2D02F0E1C3DFBCA5"
+			subtitle: "900 cartes à collectionner avec des raretés variables qui peuvent vous donner des avantages en remplissant votre album."
+			tasks: [{
+				id: "0FD09E3BD337D936"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "collectorsalbum:cards_common"
+					}
+				}
+				title: "Any #collectorsalbum:cards_common"
+				type: "item"
+			}]
+			title: "Attrapez les tous !"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&6Collectibles&r est un mod rajoutant des butins très rares lorsque vous minez certains blocs spécifiques. Si vous complétez un set de collectibles, fabriquez un &5loot bag&r avec et utilisez le comme récompense et vous receverez des objets précieux et de l'xp !"
+				"{image:litv3:textures/misc/q-b-collect.png width:130 height:150 align:1}"
+			]
+			id: "3D5C6BA23589F4BE"
+			rewards: [{
+				id: "524973F22E3C9F37"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "217B2EEDC4F7F4BF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:collectibles"
+					}
+				}
+				title: "Any #forge:collectibles"
+				type: "item"
+			}]
+			title: "Collectibles"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&oNote: Ce tableau ne s'applique qu'à l'Overworld&r"
+				"{image:litv3:textures/misc/q-s-ores.png width:200 height:300 align:1}"
+			]
+			id: "415936A40FF173F7"
+			tasks: [{
+				id: "749EC2620CC0C443"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores"
+					}
+				}
+				title: "Any #forge:ores"
+				type: "item"
+			}]
+			title: "Où sont les minerais ?"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: ["Les bateaux &3Warped&r (biscornus) et &4crimson&r (carmins) peuvent être utilisés sur la lave pour se déplacer sans risque sur les lacs de lave."]
+			id: "550FDDADD5B31119"
+			tasks: [{
+				id: "7BDBA50665448A0F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "fireproofboats:warped_boat"
+							}
+							{
+								Count: 1b
+								id: "fireproofboats:crimson_boat"
+							}
+						]
+					}
+				}
+				title: "Fireproof boats"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 25.0d
+		}
+		{
+			description: [
+				"&4&nGems&r&r"
+				"{image:skilltree:item/gems/citrine_4 width:10 height:10 align:1}"
+				"Vous pouvez trouver des &4gems&r dans n'importe quel minerai."
+				""
+				"Elles peuvent être insérées dans n'importe quel équipement (armes, armures) via une &5smithing table&r (table de forge)."
+				""
+				"{image:litv3:textures/misc/sockets.png width:90 height:40 align:1}"
+				""
+				"Pour retirer une &4gem&r d'un équipement il faut insérer une &9Vacucite gem&r dedans. Cela va &ndétruire&r toutes les gems."
+				""
+				"{image:skilltree:item/gems/vacucite_3 width:10 height:10 align:1}"
+				"Les &9Vacucite&r ont une plus faible chance d'être trouvées."
+				""
+				"Chaque &4gem&r donne différents bonus d'attribut, basé sur le type d'équipement sur lequel elle se trouve."
+			]
+			id: "6B2E9CD69DAF5F4A"
+			rewards: [{
+				id: "240744A3127D54D4"
+				item: {
+					Count: 1
+					id: "skilltree:gem"
+					tag: {
+						type: "skilltree:vacucite_3"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "302BFC0E6FFC7383"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "skilltree:gems"
+					}
+				}
+				title: "Any #skilltree:gems"
+				type: "item"
+			}]
+			title: "Gemmes d'équipement"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"La &bGlobal Skin Library&r télécharge des apparences qui ont sont présente dans la base de donnée d'apparences. Il y a beaucoup d'apparences et de designs pré-faits que vous pouvez rechercher et télécharger."
+				""
+				"La &aSkinning table&r est utilisée pour appliquer les skins téléchargés depuis votre &dSkin library&r."
+			]
+			icon: "armourers_workshop:skin-library-global"
+			id: "7E206FCC29FBB823"
+			rewards: [{
+				id: "5C5875406736542D"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "Appliquez des apparences personnalisés sur n'importe quoi, des équipements aux blocs !"
+			tasks: [
+				{
+					id: "71EF59B81BFEE202"
+					item: "armourers_workshop:skin-library-global"
+					type: "item"
+				}
+				{
+					id: "5A4AC4046F6E04D7"
+					item: "armourers_workshop:skinning-table"
+					type: "item"
+				}
+				{
+					id: "581EB1CF6E58037F"
+					item: "armourers_workshop:skin-library"
+					type: "item"
+				}
+				{
+					id: "14031A836053572A"
+					item: "armourers_workshop:skin-template"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "&n&f⭐ Informations utiles&r&r"
+}
