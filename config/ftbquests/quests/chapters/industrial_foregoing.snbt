@@ -776,7 +776,7 @@
 		}
 		{
 			dependencies: ["78C375FC212E4B95"]
-			description: ["The Material StoneWork Factory can process a item through multiple levels of a process in a single block."]
+			description: ["La Material StoneWork Factory peut transformer un objet, le faisant passer par plusieurs étapes de transformations, le tout dans une seule machine."]
 			id: "00000000000011F9"
 			rewards: [{
 				id: "0C05179594382A10"
@@ -789,6 +789,7 @@
 				item: "industrialforegoing:material_stonework_factory"
 				type: "item"
 			}]
+			title: "Usinage des pierres"
 			x: 10.5d
 			y: 3.5d
 		}
