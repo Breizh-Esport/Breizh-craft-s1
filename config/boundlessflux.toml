@@ -1,0 +1,47 @@
+
+["-- Configs for Boundless Flux --"]
+	#-- MISC -- 
+	#Allows the dragon to spawn multiple eggs. Can disable this if enough mod already handles this feature without confliction.
+	Dragon_Egg_Override = true
+	#Max. blocks vein miner and tree faller are allowed to mine in one instance.
+	Vein_Miner_Faller_Block_Limit = 52
+	#-- NON WEAPON TOOLS --
+	#Default Max Energy the Boundless Tools will have.
+	#Range: 1 ~ 999999999
+	Max_Energy_Tool = 1000000
+	#Energy CAP the Boundless Tools will have. The max energy will not climb above this value.
+	#Range: 1 ~ 999999999
+	Energy_CAP_Tool = 999999999
+	#Percentage of energy consumed on block break. Ex: 0.01 would consume 1% of your tools remaining energy on block break.
+	#Range: 1.0E-5 ~ 1.0
+	Percentage_Energy_Consumed_Block_Break = 0.001
+	#Percentage of CONSUMED energy that will be converted to speed. Ex: 1,000,000 (current stored RF) * 0.001 (consumed energy) * 0.001 (speed conversion) = speed multiplier
+	#Range: 1.0E-5 ~ 1.0
+	Percentage_Energy_Converted_Speed = 0.001
+	#-- SWORDS --
+	#Default Max Energy the Boundless Sword will have.
+	#Range: 1 ~ 999999999
+	Max_Energy_Sword = 1000000
+	#Energy CAP the Boundless Sword will have. The max energy will not climb above this value.
+	#Range: 1 ~ 999999999
+	Energy_CAP_Sword = 999999999
+	#Percentage of energy consumed on hit. Ex: 0.01 would consume 1% of your swords remaining energy on hit.
+	#Range: 1.0E-5 ~ 1.0
+	Percentage_Energy_Consumed_Hit_Sword = 0.01
+	#Percentage of CONSUMED energy that will be converted to damage. Ex: 1,000,000 (current stored RF) * 0.01 (consumed energy) * 0.02 (damage conversion) = damage
+	#Range: 1.0E-5 ~ 1.0
+	Percentage_Energy_Converted_Damage = 0.001
+	#-- BOWS --
+	#Default Max Energy the Boundless Bow will have.
+	#Range: 1 ~ 999999999
+	Max_Energy_Bow = 1000000
+	#Energy CAP the Boundless Sword will have. The max energy will not climb above this value.
+	#Range: 1 ~ 999999999
+	Energy_CAP_Bow = 999999999
+	#Percentage of energy consumed on fire. Ex: 0.01 would consume 1% of your bows remaining energy on fire.
+	#Range: 1.0E-5 ~ 1.0
+	Percentage_Energy_Consumed_Fire_Bow = 0.01
+	#Percentage of CONSUMED energy that will be converted to damage. Ex: 1,000,000 (current stored RF) * 0.01 (consumed energy) * 0.02 (damage conversion) = damage
+	#Range: 1.0E-5 ~ 1.0
+	Percentage_Energy_Converted_Damage_Bow = 0.001
+
