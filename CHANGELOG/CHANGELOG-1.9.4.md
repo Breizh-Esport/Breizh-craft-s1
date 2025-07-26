@@ -1,0 +1,8 @@
+- Ajout du mod Easier Sleeping
+- Ajout du mod Simple shops
+- Ajout du mod Coins JE
+- Mise à jour de Sophisticated Backpacks
+- Mise à jour de JEI
+- Correctifs sur la traduction des quêtes
+- Mise à jour de la configuration kubejs
+- Shaders désactivés par défaut

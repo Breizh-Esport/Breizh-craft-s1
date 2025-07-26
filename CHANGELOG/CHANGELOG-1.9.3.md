@@ -1,0 +1,3 @@
+- Corrections d'erreurs dans la traduction française du livre de quêtes
+- Ajout du mod WaterFrames
+- Mise à jour de mods (Immersive Aircraft, Moonlight Lib)
