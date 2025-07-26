@@ -183,6 +183,8 @@ JEIEvents.hideItems(event => {
 	event.hide('sophisticatedbackpacks:battery_upgrade')
 	event.hide('sophisticatedbackpacks:pump_upgrade')
 	event.hide('sophisticatedbackpacks:advanced_pump_upgrade')
+
+	event.hide('pipez:gas_pipe')
 })
 
 ClientEvents.lang('en_us', event => { event.add("jade.modName.kubejs", "Industrial Village"); });
